@@ -1,0 +1,5372 @@
+{
+  "totalLessons": 22,
+  "totalWords": 519,
+  "lessons": [
+    {
+      "id": 1,
+      "name": "Bài 1",
+      "fileName": "TU VUNG 01.pptx",
+      "wordCount": 10,
+      "words": [
+        {
+          "id": "b01_w01",
+          "word": "paint",
+          "partOfSpeech": "",
+          "pronunciation": "/peɪnt/",
+          "meaning": "Sơn (sơn nhà, sơn tường)",
+          "example": "My friend paints a picture of my children for me.",
+          "exampleVi": "Bạn tôi vẽ cho tôi một bức tranh về các con tôi).",
+          "image": "images/b01_w01.jpg"
+        },
+        {
+          "id": "b01_w02",
+          "word": "water",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈwɔːtər/",
+          "meaning": "Tưới (tưới cây, tưới hoa)",
+          "example": "She is watering a pot of flowers.",
+          "exampleVi": "Cô ấy đang tưới một chậu bông).",
+          "image": "images/b01_w02.png"
+        },
+        {
+          "id": "b01_w03",
+          "word": "turn on",
+          "partOfSpeech": "",
+          "pronunciation": "/tɜːrn/",
+          "meaning": "Bật/mở (bật bóng đèn)",
+          "example": "You should turn on the lights when you enter the room.",
+          "exampleVi": "Bạn nên bật hết đèn lên khi vào phòng",
+          "image": "images/b01_w03.png"
+        },
+        {
+          "id": "b01_w04",
+          "word": "stack",
+          "partOfSpeech": "",
+          "pronunciation": "/stæk/",
+          "meaning": "Chất chồng, chất đống",
+          "example": "The books have been stacked up on the ground.",
+          "exampleVi": "Nhiều cuốn sách đã được xếp chồng trên sàn).",
+          "image": "images/b01_w04.png"
+        },
+        {
+          "id": "b01_w05",
+          "word": "type",
+          "partOfSpeech": "",
+          "pronunciation": "/taɪp/",
+          "meaning": "Đánh máy (bàn phím)",
+          "example": "The secretary is typing a report.",
+          "exampleVi": "Cô thư ký đang đánh máy một bản báo cáo).",
+          "image": "images/b01_w05.png"
+        },
+        {
+          "id": "b01_w06",
+          "word": "fix",
+          "partOfSpeech": "",
+          "pronunciation": "/fɪks/",
+          "meaning": "Sửa (sửa cửa)",
+          "example": "Can you help me to fix my broken window?",
+          "exampleVi": "Bạn có thể giúp tôi sửa cái cửa sổ bị hỏng được không?",
+          "image": "images/b01_w06.jpg"
+        },
+        {
+          "id": "b01_w07",
+          "word": "place",
+          "partOfSpeech": "",
+          "pronunciation": "/pleɪs/",
+          "meaning": "Đặt, để",
+          "example": "Let put the new furniture in the corner of the room.",
+          "exampleVi": "Hãy đặt đồ nội thất mới ở góc phòng đi",
+          "image": "images/b01_w07.png"
+        },
+        {
+          "id": "b01_w08",
+          "word": "push  ><  pull",
+          "partOfSpeech": "",
+          "pronunciation": "/pʊʃ/ /pʊl/",
+          "meaning": "Đẩy >< kéo",
+          "example": "He is pushing a wheelchair.",
+          "exampleVi": "Ông ấy đang đẩy một cái xe lăn",
+          "image": "images/b01_w08.png"
+        },
+        {
+          "id": "b01_w09",
+          "word": "sweep",
+          "partOfSpeech": "",
+          "pronunciation": "/swiːp/",
+          "meaning": "Quét (quét lối đi, quét cầu thang)",
+          "example": "This morning, I helped my mom sweep the floor.",
+          "exampleVi": "Sáng nay tôi đã giúp mẹ quét sàn nhà",
+          "image": "images/b01_w09.png"
+        },
+        {
+          "id": "b01_w10",
+          "word": "wash",
+          "partOfSpeech": "",
+          "pronunciation": "/wɑːʃ/",
+          "meaning": "Giặt, rửa (Rửa chén, giặt đồng phục/ quần áo)",
+          "example": "My brother is washing his uniform.",
+          "exampleVi": "Em trai tôi đang giặt đồng phục",
+          "image": "images/b01_w10.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bài 2",
+      "fileName": "TỪ VỰNG 02.pptx",
+      "wordCount": 36,
+      "words": [
+        {
+          "id": "b02_w01",
+          "word": "fishing",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈfɪʃɪŋ/",
+          "meaning": "câu cá",
+          "example": "Several people were fishing in the river. (Vài người đang câu cá trên sông.)",
+          "exampleVi": "",
+          "image": "images/b02_w01.png"
+        },
+        {
+          "id": "b02_w02",
+          "word": "boarding",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈbɔːrdɪŋ/",
+          "meaning": "lên tàu, xe",
+          "example": "Passengers are waiting to board the plane. (Hành khách đang chờ lên máy bay.)",
+          "exampleVi": "",
+          "image": "images/b02_w02.png"
+        },
+        {
+          "id": "b02_w03",
+          "word": "pick up",
+          "partOfSpeech": "",
+          "pronunciation": "/pɪk/ /ʌp/",
+          "meaning": "nhấc lên, chọn, nhận",
+          "example": "He is picking up a piece of paper. (Anh ấy đang nhặt một mảnh giấy.)",
+          "exampleVi": "",
+          "image": "images/b02_w03.png"
+        },
+        {
+          "id": "b02_w04",
+          "word": "hold",
+          "partOfSpeech": "",
+          "pronunciation": "/həʊld/",
+          "meaning": "cầm, nắm, tổ chức",
+          "example": "They were holding hands. (Họ đang nắm tay nhau.)",
+          "exampleVi": "",
+          "image": "images/b02_w04.png"
+        },
+        {
+          "id": "b02_w05",
+          "word": "rug",
+          "partOfSpeech": "",
+          "pronunciation": "/rʌɡ/",
+          "meaning": "tấm thảm",
+          "example": "He used a rug to decorate his living room.",
+          "exampleVi": "Anh đã sử dụng một tấm thảm để trang trí phòng khách của mình.",
+          "image": "images/b02_w05.png"
+        },
+        {
+          "id": "b02_w06",
+          "word": "climb",
+          "partOfSpeech": "",
+          "pronunciation": "/klaɪm/",
+          "meaning": "leo lên",
+          "example": "You can climb to the top of the mountain",
+          "exampleVi": "Bạn có thể leo lên đỉnh núi.",
+          "image": "images/b02_w06.png"
+        },
+        {
+          "id": "b02_w07",
+          "word": "roll",
+          "partOfSpeech": "",
+          "pronunciation": "/rəʊl/",
+          "meaning": "cuộn lại, lăn xuống",
+          "example": "The ball rolled down the hill.",
+          "exampleVi": "Bóng lăn xuống đồi.",
+          "image": "images/b02_w07.png"
+        },
+        {
+          "id": "b02_w08",
+          "word": "hang",
+          "partOfSpeech": "",
+          "pronunciation": "/hæŋ/",
+          "meaning": "",
+          "example": "A picture is being hung on the wall.",
+          "exampleVi": "Một bức tranh đang được treo trên tường.",
+          "image": "images/b02_w08.png"
+        },
+        {
+          "id": "b02_w09",
+          "word": "tie",
+          "partOfSpeech": "",
+          "pronunciation": "/taɪ/",
+          "meaning": "cột, cà vạt",
+          "example": "I tie back my hair when I'm cooking.",
+          "exampleVi": "Tôi buộc lại tóc khi đang nấu ăn.",
+          "image": "images/b02_w09.png"
+        },
+        {
+          "id": "b02_w10",
+          "word": "plug in",
+          "partOfSpeech": "",
+          "pronunciation": "/plʌɡ/ /ɪn/",
+          "meaning": "cắm điện",
+          "example": "The computer has been plugged in.",
+          "exampleVi": "Máy tính đã được cắm vào.",
+          "image": "images/b02_w10.png"
+        },
+        {
+          "id": "b02_w11",
+          "word": "ladder",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈlædər/",
+          "meaning": "cái thang",
+          "example": "to climb up a ladder",
+          "exampleVi": "leo lên một cái thang",
+          "image": "images/b02_w11.png"
+        },
+        {
+          "id": "b02_w12",
+          "word": "pier",
+          "partOfSpeech": "",
+          "pronunciation": "/pɪr/",
+          "meaning": "bến tàu",
+          "example": "After lunch, the family went for a walk along the pier",
+          "exampleVi": "Sau bữa trưa, cả nhà đi dạo dọc bến tàu.",
+          "image": "images/b02_w12.png"
+        },
+        {
+          "id": "b02_w13",
+          "word": "basket",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈbæskɪt/",
+          "meaning": "cái giỏ, cái rổ",
+          "example": "A shopping basket",
+          "exampleVi": "Một cái giỏ đi chợ",
+          "image": "images/b02_w13.png"
+        },
+        {
+          "id": "b02_w14",
+          "word": "suitcase",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈsuːtkeɪs/",
+          "meaning": "",
+          "example": "He is unpacking a suitcase. (Anh ta đang mở va li)",
+          "exampleVi": "",
+          "image": "images/b02_w14.png"
+        },
+        {
+          "id": "b02_w15",
+          "word": "purse",
+          "partOfSpeech": "",
+          "pronunciation": "/pɜːrs/",
+          "meaning": "túi xách, ví",
+          "example": "She took a coin out of her purse and gave it to the child",
+          "exampleVi": "Cô lấy một đồng xu trong ví và đưa cho đứa trẻ.",
+          "image": "images/b02_w15.png"
+        },
+        {
+          "id": "b02_w16",
+          "word": "wallet",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈwɑːlɪt/",
+          "meaning": "ví",
+          "example": "He carried a photo of his children in his wallet",
+          "exampleVi": "Anh ta mang theo một bức ảnh của các con mình trong ví.",
+          "image": "images/b02_w16.jpg"
+        },
+        {
+          "id": "b02_w17",
+          "word": "fɜːrm/",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈkʌmpəni\t /",
+          "meaning": "",
+          "example": "Company / Firm (n)",
+          "exampleVi": "",
+          "image": "images/b02_w17.jpg"
+        },
+        {
+          "id": "b02_w18",
+          "word": "Hold / Organize",
+          "partOfSpeech": "v",
+          "pronunciation": "/hoʊld/ /ˈɔːrɡənaɪz/",
+          "meaning": "Tổ chức, sắp xếp",
+          "example": "hold/ organize a conference",
+          "exampleVi": "",
+          "image": "images/b02_w18.png"
+        },
+        {
+          "id": "b02_w19",
+          "word": "Seminar / Workshop",
+          "partOfSpeech": "n",
+          "pronunciation": "/'semɪnɑː(r)/ /'wɜːkʃɒp/",
+          "meaning": "Hội thảo",
+          "example": "She was invited to participate in a poetry workshop/ seminar.",
+          "exampleVi": "",
+          "image": "images/b02_w19.png"
+        },
+        {
+          "id": "b02_w20",
+          "word": "Product",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈprɒdʌkt/",
+          "meaning": "Sản phẩm",
+          "example": "Where did you purchase the product?",
+          "exampleVi": "",
+          "image": "images/b02_w20.png"
+        },
+        {
+          "id": "b02_w21",
+          "word": "Employee worker",
+          "partOfSpeech": "n",
+          "pronunciation": "/ staff/",
+          "meaning": "Nhân viên",
+          "example": "The hospital staff cared for me so well.",
+          "exampleVi": "",
+          "image": "images/b02_w21.png"
+        },
+        {
+          "id": "b02_w22",
+          "word": "Event",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɪˈvent/",
+          "meaning": "Sự kiện",
+          "example": "An unfortunate series of events",
+          "exampleVi": "",
+          "image": "images/b02_w22.png"
+        },
+        {
+          "id": "b02_w23",
+          "word": "ˌpɜːrsəˈnel/",
+          "partOfSpeech": "",
+          "pronunciation": "/'hju:mən ri'sɔ:rsiz\t  /",
+          "meaning": "Nhân sự",
+          "example": "Human resources / personnel (n)",
+          "exampleVi": "",
+          "image": "images/b02_w23.png"
+        },
+        {
+          "id": "b02_w24",
+          "word": "Hire recruit",
+          "partOfSpeech": "v",
+          "pronunciation": "/ employ /",
+          "meaning": "Tuyển dụng",
+          "example": "to give somebody a job",
+          "exampleVi": "",
+          "image": "images/b02_w24.png"
+        },
+        {
+          "id": "b02_w25",
+          "word": "Secretary",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈsekrəteri/",
+          "meaning": "Thư ký",
+          "example": "Please contact my secretary to make an appointment.",
+          "exampleVi": "",
+          "image": "images/b02_w25.png"
+        },
+        {
+          "id": "b02_w26",
+          "word": "Receptionist",
+          "partOfSpeech": "n",
+          "pronunciation": "/rɪˈsepʃənɪst/",
+          "meaning": "Lễ tân",
+          "example": "If you want to check in, just meet our receptionist",
+          "exampleVi": "",
+          "image": "images/b02_w26.png"
+        },
+        {
+          "id": "b02_w27",
+          "word": "Enroll in sign up",
+          "partOfSpeech": "v",
+          "pronunciation": "/ register for/",
+          "meaning": "Đăng ký, ghi danh",
+          "example": "You should enroll in this course.",
+          "exampleVi": "",
+          "image": "images/b02_w27.png"
+        },
+        {
+          "id": "b02_w28",
+          "word": "Manual",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈmænjuəl/",
+          "meaning": "Cẩm nang",
+          "example": "The company has now transferred all its manual records onto computer.",
+          "exampleVi": "",
+          "image": "images/b02_w28.png"
+        },
+        {
+          "id": "b02_w29",
+          "word": "Representative",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌreprɪˈzentətɪv/",
+          "meaning": "Người đại diện",
+          "example": "a sales representative",
+          "exampleVi": "",
+          "image": "images/b02_w29.png"
+        },
+        {
+          "id": "b02_w30",
+          "word": "Award (n,v)",
+          "partOfSpeech": "",
+          "pronunciation": "/əˈwɔːrd/",
+          "meaning": "Trao giải , giải thưởng",
+          "example": "the Housing Design Award",
+          "exampleVi": "",
+          "image": "images/b02_w30.png"
+        },
+        {
+          "id": "b02_w31",
+          "word": "Demonstrate",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈdemənstreɪt/",
+          "meaning": "Chứng minh , chứng tỏ",
+          "example": "He always tries to demonstrate his contribution to his company.",
+          "exampleVi": "",
+          "image": "images/b02_w31.png"
+        },
+        {
+          "id": "b02_w32",
+          "word": "Contribute to",
+          "partOfSpeech": "v",
+          "pronunciation": "/kənˈtrɪbjuːt/ /ˈkɒntrɪbjuːt/",
+          "meaning": "Đóng góp",
+          "example": "Would you like to contribute to our collection?",
+          "exampleVi": "",
+          "image": "images/b02_w32.png"
+        },
+        {
+          "id": "b02_w33",
+          "word": "Sales",
+          "partOfSpeech": "n",
+          "pronunciation": "",
+          "meaning": "Doanh số",
+          "example": "My mom is a sales representative.",
+          "exampleVi": "",
+          "image": "images/b02_w33.png"
+        },
+        {
+          "id": "b02_w34",
+          "word": "aʊtˈstændɪŋ/",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪkˈsepʃənl\t /",
+          "meaning": "Nổi bật , nổi trội",
+          "example": "Exceptional/ Outstanding (adj)",
+          "exampleVi": "",
+          "image": "images/b02_w34.png"
+        },
+        {
+          "id": "b02_w35",
+          "word": "Retain",
+          "partOfSpeech": "v",
+          "pronunciation": "/rɪˈteɪn/",
+          "meaning": "Giữ lại",
+          "example": "You have to retain all the materials.",
+          "exampleVi": "",
+          "image": "images/b02_w35.png"
+        },
+        {
+          "id": "b02_w36",
+          "word": "Equipment/ appliance",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɪˈkwɪpmənt/ /əˈplaɪəns/",
+          "meaning": "Thiết bị",
+          "example": "household appliances",
+          "exampleVi": "",
+          "image": "images/b02_w36.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bài 3",
+      "fileName": "TỪ VỰNG 03.pptx",
+      "wordCount": 35,
+      "words": [
+        {
+          "id": "b03_w01",
+          "word": "Temporary",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˈtempəreri/",
+          "meaning": "tạm thời",
+          "example": "To hire temporary workers",
+          "exampleVi": "",
+          "image": "images/b03_w01.png"
+        },
+        {
+          "id": "b03_w02",
+          "word": "Discontinue",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˌdɪskənˈtɪnjuː/",
+          "meaning": "không tiếp tục, đình chỉ,",
+          "example": "The company has discontinued the practice of providing the staff with free lunches.",
+          "exampleVi": "",
+          "image": "images/b03_w02.jpg"
+        },
+        {
+          "id": "b03_w03",
+          "word": "Handle deal with/ resolve",
+          "partOfSpeech": "v",
+          "pronunciation": "/ solve/",
+          "meaning": "giải quyết",
+          "example": "You can't solve anything by just running away.",
+          "exampleVi": "",
+          "image": "images/b03_w03.png"
+        },
+        {
+          "id": "b03_w04",
+          "word": "Reply to answer",
+          "partOfSpeech": "v",
+          "pronunciation": "/ respond to /",
+          "meaning": "phản hồi, hồi âm",
+          "example": "He hasn't replied to any of my text messages.",
+          "exampleVi": "",
+          "image": "images/b03_w04.png"
+        },
+        {
+          "id": "b03_w05",
+          "word": "President",
+          "partOfSpeech": "n",
+          "pronunciation": "/'prezɪdənt/",
+          "meaning": "chủ tịch, tổng thống",
+          "example": "the President of the United States",
+          "exampleVi": "",
+          "image": "images/b03_w05.png"
+        },
+        {
+          "id": "b03_w06",
+          "word": "Partner with (n,v)",
+          "partOfSpeech": "",
+          "pronunciation": "/'pɑ:rtnər/",
+          "meaning": "đối tác/ hợp tác",
+          "example": "The teacher asked the students to choose a partner for the next activity.",
+          "exampleVi": "",
+          "image": "images/b03_w06.png"
+        },
+        {
+          "id": "b03_w07",
+          "word": "Assistant",
+          "partOfSpeech": "n",
+          "pronunciation": "/ə'sɪstənt/",
+          "meaning": "trợ lí",
+          "example": "My assistant will now demonstrate the machine in action.",
+          "exampleVi": "",
+          "image": "images/b03_w07.jpg"
+        },
+        {
+          "id": "b03_w08",
+          "word": "Candidate/ applicant",
+          "partOfSpeech": "n",
+          "pronunciation": "/'kændɪdeɪt\t /",
+          "meaning": "ứng viên",
+          "example": "There were over 500 applicants for the job.",
+          "exampleVi": "",
+          "image": "images/b03_w08.png"
+        },
+        {
+          "id": "b03_w09",
+          "word": "Promote",
+          "partOfSpeech": "v",
+          "pronunciation": "/prəˈmoʊt/",
+          "meaning": "thăng chức, quảng bá, thúc đẩy",
+          "example": "The area is being promoted as a tourist destination.",
+          "exampleVi": "",
+          "image": "images/b03_w09.png"
+        },
+        {
+          "id": "b03_w10",
+          "word": "Distribute to",
+          "partOfSpeech": "v",
+          "pronunciation": "/dɪˈstrɪbjuːt/",
+          "meaning": "phân phát, phân phối",
+          "example": "The newspaper is distributed free.",
+          "exampleVi": "",
+          "image": "images/b03_w10.png"
+        },
+        {
+          "id": "b03_w11",
+          "word": "Brochure",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈbrəʊʃə(r)/ /broʊˈʃʊr/",
+          "meaning": "sách quảng cáo, tập tài liệu",
+          "example": "a travel brochure",
+          "exampleVi": "",
+          "image": "images/b03_w11.png"
+        },
+        {
+          "id": "b03_w12",
+          "word": "Sample",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈsæmpl/",
+          "meaning": "mẫu thử",
+          "example": "a sample survey",
+          "exampleVi": "",
+          "image": "images/b03_w12.png"
+        },
+        {
+          "id": "b03_w13",
+          "word": "Be responsible",
+          "partOfSpeech": "for",
+          "pronunciation": "/bɪ rɪˈspɑːnsəbl fɔːr/",
+          "meaning": "chịu trách nhiệm",
+          "example": "Be in charge of",
+          "exampleVi": "",
+          "image": "images/b03_w13.png"
+        },
+        {
+          "id": "b03_w14",
+          "word": "Be aware of",
+          "partOfSpeech": "adj",
+          "pronunciation": "/əˈweə(r) əv/",
+          "meaning": "nhận biết, biết, nhận thức",
+          "example": "He was well aware of the problem.",
+          "exampleVi": "",
+          "image": "images/b03_w14.png"
+        },
+        {
+          "id": "b03_w15",
+          "word": "Be eligible for st",
+          "partOfSpeech": "adj",
+          "pronunciation": "/bɪ ˈelɪdʒəbl fɔːr/",
+          "meaning": "có khả năng, đủ điều kiện",
+          "example": "Only those over 70 are eligible for the special payment.",
+          "exampleVi": "",
+          "image": "images/b03_w15.png"
+        },
+        {
+          "id": "b03_w16",
+          "word": "Qualify for",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈkwɑːlɪfaɪ/",
+          "meaning": "làm cho đủ khả năng",
+          "example": "They qualified for the World Cup",
+          "exampleVi": "",
+          "image": "images/b03_w16.png"
+        },
+        {
+          "id": "b03_w17",
+          "word": "Inspection",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɪnˈspekʃn/",
+          "meaning": "sự kiểm tra, sự thanh tra",
+          "example": "Regular inspections are carried out at the prison.",
+          "exampleVi": "",
+          "image": "images/b03_w17.jpg"
+        },
+        {
+          "id": "b03_w18",
+          "word": "Advise",
+          "partOfSpeech": "v",
+          "pronunciation": "/ədˈvaɪz/",
+          "meaning": "khuyên bảo, cho lời khuyên",
+          "example": "Doctors advised the patient to have surgery.",
+          "exampleVi": "",
+          "image": "images/b03_w18.png"
+        },
+        {
+          "id": "b03_w19",
+          "word": "Patient (n,a)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈpeɪʃnt/",
+          "meaning": "bệnh nhân/ kiên nhẫn",
+          "example": "She's very patient with young children.",
+          "exampleVi": "",
+          "image": "images/b03_w19.png"
+        },
+        {
+          "id": "b03_w20",
+          "word": "Experience (n,v)",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪkˈspɪriəns/",
+          "meaning": "kinh nghiệm, trải nghiệm",
+          "example": "My lack of practical experience was a disadvantage.",
+          "exampleVi": "",
+          "image": "images/b03_w20.png"
+        },
+        {
+          "id": "b03_w21",
+          "word": "-",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈsɪt/ /bi/ / ˈsiːtɪd/",
+          "meaning": "ngồi",
+          "example": "sit (sitting) / be seated",
+          "exampleVi": "",
+          "image": "images/b03_w21.png"
+        },
+        {
+          "id": "b03_w22",
+          "word": "adjust",
+          "partOfSpeech": "",
+          "pronunciation": "/əˈdʒʌst/",
+          "meaning": "điều chỉnh",
+          "example": "He is adjusting the monitor.",
+          "exampleVi": "",
+          "image": "images/b03_w22.png"
+        },
+        {
+          "id": "b03_w23",
+          "word": "pour",
+          "partOfSpeech": "",
+          "pronunciation": "/pɔːr/",
+          "meaning": "rót, đổ",
+          "example": "The waiter is pouring beverages.",
+          "exampleVi": "",
+          "image": "images/b03_w23.png"
+        },
+        {
+          "id": "b03_w24",
+          "word": "raise",
+          "partOfSpeech": "",
+          "pronunciation": "/reɪz/",
+          "meaning": "giơ tay, nâng lên",
+          "example": "Raise your hand to give your answer.",
+          "exampleVi": "",
+          "image": "images/b03_w24.png"
+        },
+        {
+          "id": "b03_w25",
+          "word": "window blind",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈwɪndəʊ/ /blaɪnd/",
+          "meaning": "rèm cửa sổ, màn che cửa sổ",
+          "example": "The window blind has been pulled shut.",
+          "exampleVi": "",
+          "image": "images/b03_w25.png"
+        },
+        {
+          "id": "b03_w26",
+          "word": "furniture",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈfɜːrnɪtʃər/",
+          "meaning": "nội thất",
+          "example": "The new furniture will arrive tomorrow.",
+          "exampleVi": "",
+          "image": "images/b03_w26.jpg"
+        },
+        {
+          "id": "b03_w27",
+          "word": "statue (mount, set)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈstætʃuː/ /maʊnt/ /set/",
+          "meaning": "bức tượng (dựng/gắn tượng)",
+          "example": "There is a statue set up outside.",
+          "exampleVi": "",
+          "image": "images/b03_w27.png"
+        },
+        {
+          "id": "b03_w28",
+          "word": "seating area, waiting area",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈsɪtɪŋ/ /ˈeriə/ /ˈweɪtɪŋ/ /ˈeriə/",
+          "meaning": "khu vực chỗ ngồi, khu vực chờ",
+          "example": "There are many guests sitting in the waiting area.",
+          "exampleVi": "",
+          "image": "images/b03_w28.png"
+        },
+        {
+          "id": "b03_w29",
+          "word": "occupied/ unoccupied",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈɑːkjupaɪd/ /ˌʌnˈɑːkjupaɪd/",
+          "meaning": "chiếm chỗ, có người >< không có người",
+          "example": "The room has been occupied.",
+          "exampleVi": "",
+          "image": "images/b03_w29.png"
+        },
+        {
+          "id": "b03_w30",
+          "word": "ground",
+          "partOfSpeech": "",
+          "pronunciation": "/ɡraʊnd/",
+          "meaning": "mặt đất",
+          "example": "A pile of books has been set on the ground.",
+          "exampleVi": "",
+          "image": "images/b03_w30.png"
+        },
+        {
+          "id": "b03_w31",
+          "word": "shade",
+          "partOfSpeech": "",
+          "pronunciation": "/ʃeɪd/",
+          "meaning": "bóng râm, che mát",
+          "example": "These plants grow well in sun or shade.",
+          "exampleVi": "",
+          "image": "images/b03_w31.png"
+        },
+        {
+          "id": "b03_w32",
+          "word": "replace/ substitute",
+          "partOfSpeech": "",
+          "pronunciation": "/rɪˈpleɪs/ /ˈsʌbstɪtuːt/",
+          "meaning": "thay thế",
+          "example": "The sofa is too old.",
+          "exampleVi": "",
+          "image": "images/b03_w32.png"
+        },
+        {
+          "id": "b03_w33",
+          "word": "point at",
+          "partOfSpeech": "",
+          "pronunciation": "/pɔɪnt/ /æt/",
+          "meaning": "chỉ vào",
+          "example": "The girl is pointing at something.",
+          "exampleVi": "",
+          "image": "images/b03_w33.png"
+        },
+        {
+          "id": "b03_w34",
+          "word": "sail",
+          "partOfSpeech": "",
+          "pronunciation": "/seɪl/",
+          "meaning": "căng buồm/ cánh buồm",
+          "example": "As the boat moved down the river, the wind began to fill the sails.",
+          "exampleVi": "",
+          "image": "images/b03_w34.png"
+        },
+        {
+          "id": "b03_w35",
+          "word": "lean (on/against)",
+          "partOfSpeech": "",
+          "pronunciation": "/ɒn/ /əˈɡenst/",
+          "meaning": "dựa vào",
+          "example": "lean (over/forward)",
+          "exampleVi": "",
+          "image": "images/b03_w35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bài 4",
+      "fileName": "TỪ VỰNG 04.pptx",
+      "wordCount": 32,
+      "words": [
+        {
+          "id": "b04_w01",
+          "word": "consider",
+          "partOfSpeech": "v",
+          "pronunciation": "/kənˈsɪdər/",
+          "meaning": "xem xét, cân nhắc",
+          "example": "She is considering her options.",
+          "exampleVi": "cô ấy đang cân nhắc các lựa chọn",
+          "image": "images/b04_w01.jpg"
+        },
+        {
+          "id": "b04_w02",
+          "word": "Advisory",
+          "partOfSpeech": "a",
+          "pronunciation": "/ədˈvaɪzəri/",
+          "meaning": "tư vấn, cố vấn",
+          "example": "an advisory service (dịch vụ tư vấn)",
+          "exampleVi": "",
+          "image": "images/b04_w02.jpg"
+        },
+        {
+          "id": "b04_w03",
+          "word": "Call (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/kɔ:l/",
+          "meaning": "gọi điện/ cuộc gọi",
+          "example": "I got a message to call home immediately.",
+          "exampleVi": "Tôi nhận được một tin nhắn",
+          "image": "images/b04_w03.png"
+        },
+        {
+          "id": "b04_w04",
+          "word": "Make an appointment",
+          "partOfSpeech": "",
+          "pronunciation": "/meɪk ən ə'pɔɪntmənt/",
+          "meaning": "đặt lịch hẹn",
+          "example": "She made a doctor's appointment in twenty minutes.",
+          "exampleVi": "Cô ấy hẹn bác sĩ trong vòng hai mươi phút nữa.",
+          "image": "images/b04_w04.png"
+        },
+        {
+          "id": "b04_w05",
+          "word": "Project",
+          "partOfSpeech": "n",
+          "pronunciation": "/'prɑ:dʒekt/",
+          "meaning": "dự án",
+          "example": "We worked on various projects together.",
+          "exampleVi": "Chúng tôi đã làm nhiều dự án cùng nhau.",
+          "image": "images/b04_w05.png"
+        },
+        {
+          "id": "b04_w06",
+          "word": "Contract",
+          "partOfSpeech": "n",
+          "pronunciation": "/'kɑ:ntrækt/",
+          "meaning": "hợp đồng",
+          "example": "All employees have a written contract of employment.",
+          "exampleVi": "Tất cả nhân viên đều có hợp đồng lao động bằng văn bản.",
+          "image": "images/b04_w06.jpg"
+        },
+        {
+          "id": "b04_w07",
+          "word": "Supplier/ provider",
+          "partOfSpeech": "n",
+          "pronunciation": "/sə'plaɪər/ /prə'vaidər/",
+          "meaning": "nhà cung cấp",
+          "example": "We are one of the largest providers of employment in the area.",
+          "exampleVi": "Chúng tôi là một trong những nhà cung cấp việc làm lớn nhất trong khu vực.",
+          "image": "images/b04_w07.jpg"
+        },
+        {
+          "id": "b04_w08",
+          "word": "Conference /convention",
+          "partOfSpeech": "",
+          "pronunciation": "/'kɑ:nfərəns/ /kənˈvenʃn/",
+          "meaning": "hội nghị",
+          "example": "to hold a convention",
+          "exampleVi": "tổ chức một buổi hội nghị",
+          "image": "images/b04_w08.jpg"
+        },
+        {
+          "id": "b04_w09",
+          "word": "Leave a message with",
+          "partOfSpeech": "",
+          "pronunciation": "/li:v ə 'mesɪdʒ wɪθ/",
+          "meaning": "để lại tin nhắn",
+          "example": "You can leave your messages with Mrs. John here.",
+          "exampleVi": "Bạn có thể để lại tin nhắn của bạn cho ông John ở đây.",
+          "image": "images/b04_w09.png"
+        },
+        {
+          "id": "b04_w10",
+          "word": "Real estate",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈrɪəl ɪsteɪt/",
+          "meaning": "bất động sản",
+          "example": "My father sold real estate.",
+          "exampleVi": "Cha tôi bán bất động sản.",
+          "image": "images/b04_w10.jpg"
+        },
+        {
+          "id": "b04_w11",
+          "word": "Price",
+          "partOfSpeech": "n",
+          "pronunciation": "/praɪs/",
+          "meaning": "",
+          "example": "The company has announced that it is cutting prices.",
+          "exampleVi": "Công ty đã thông báo rằng họ đang giảm giá.",
+          "image": "images/b04_w11.png"
+        },
+        {
+          "id": "b04_w12",
+          "word": "Cancel",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈkænsl/",
+          "meaning": "hủy",
+          "example": "All flights have been cancelled because of bad weather.",
+          "exampleVi": "Tất cả các chuyến bay đã bị hủy bỏ vì thời tiết xấu.",
+          "image": "images/b04_w12.png"
+        },
+        {
+          "id": "b04_w13",
+          "word": "Refuse decline",
+          "partOfSpeech": "v",
+          "pronunciation": "/ reject/",
+          "meaning": "từ chối",
+          "example": "The bank has the option of accepting or rejecting this offer.",
+          "exampleVi": "Ngân hàng có quyền lựa chọn chấp nhận",
+          "image": "images/b04_w13.png"
+        },
+        {
+          "id": "b04_w14",
+          "word": "Perform",
+          "partOfSpeech": "v",
+          "pronunciation": "/pərˈfɔːrm/",
+          "meaning": "biểu diễn/ thực hiện, tiến hành",
+          "example": "The play was first performed in 2007.",
+          "exampleVi": "Vở kịch được công diễn lần đầu tiên năm 2007.",
+          "image": "images/b04_w14.png"
+        },
+        {
+          "id": "b04_w15",
+          "word": "Acquire",
+          "partOfSpeech": "v",
+          "pronunciation": "/əˈkwaɪər/",
+          "meaning": "đạt được, giành được, thâu tóm",
+          "example": "How long will it take to acquire the necessary skills?",
+          "exampleVi": "Mất bao lâu để có được các kỹ năng cần thiết?",
+          "image": "images/b04_w15.png"
+        },
+        {
+          "id": "b04_w16",
+          "word": "Technician",
+          "partOfSpeech": "n",
+          "pronunciation": "/tekˈnɪʃn/",
+          "meaning": "kĩ thuật viên",
+          "example": "a computer support technician",
+          "exampleVi": "kỹ thuật viên hỗ trợ máy tính",
+          "image": "images/b04_w16.jpg"
+        },
+        {
+          "id": "b04_w17",
+          "word": "Factory",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈfæktri/",
+          "meaning": "nhà máy, nhà xưởng",
+          "example": "The factory closed down ten years ago.",
+          "exampleVi": "Nhà máy đã đóng cửa cách đây mười năm.",
+          "image": "images/b04_w17.png"
+        },
+        {
+          "id": "b04_w18",
+          "word": "Certificate",
+          "partOfSpeech": "n",
+          "pronunciation": "/sərˈtɪfɪkət/",
+          "meaning": "giấy chứng nhận, văn bằng",
+          "example": "A certificate of completion will be issued to all who complete the course.",
+          "exampleVi": "Chứng chỉ hoàn thành khóa học sẽ được cấp cho tất cả những ai học xong khóa học.",
+          "image": "images/b04_w18.jpg"
+        },
+        {
+          "id": "b04_w19",
+          "word": "Reschedule",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˌri:'skedʒu:l/",
+          "meaning": "đổi lịch trình",
+          "example": "The meeting has been rescheduled for next week.",
+          "exampleVi": "Cuộc họp đã được dời lại vào tuần tới.",
+          "image": "images/b04_w19.png"
+        },
+        {
+          "id": "b04_w20",
+          "word": "adjust",
+          "partOfSpeech": "v",
+          "pronunciation": "/əˈdʒʌst/",
+          "meaning": "điều chỉnh",
+          "example": "This button is for adjusting the volume.",
+          "exampleVi": "Nút này dùng để điều chỉnh âm lượng.",
+          "image": "images/b04_w20.png"
+        },
+        {
+          "id": "b04_w21",
+          "word": "vehicle",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈviːəkl/",
+          "meaning": "phương tiện, xe cộ",
+          "example": "Are you the driver of this vehicle?",
+          "exampleVi": "Bạn có phải là người điều khiển chiếc xe này?",
+          "image": "images/b04_w21.png"
+        },
+        {
+          "id": "b04_w22",
+          "word": "paddle a boat",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈpædl/",
+          "meaning": "chèo (thuyền)",
+          "example": "We paddled the canoe along the coast.",
+          "exampleVi": "Chúng tôi chèo xuồng dọc theo bờ biển.",
+          "image": "images/b04_w22.png"
+        },
+        {
+          "id": "b04_w23",
+          "word": "return",
+          "partOfSpeech": "v",
+          "pronunciation": "/rɪˈtɜːrn/",
+          "meaning": "trả lại, trở lại",
+          "example": "He had recently returned to",
+          "exampleVi": "Gần đây anh ấy đã trở lại đất nước này sau khi sống ở Tây Ban Nha.",
+          "image": "images/b04_w23.png"
+        },
+        {
+          "id": "b04_w24",
+          "word": "material",
+          "partOfSpeech": "n",
+          "pronunciation": "/məˈtɪriəl/",
+          "meaning": "tài liệu, vật liệu, nguyên liệu",
+          "example": "Every item we sell is made out of recycled material.",
+          "exampleVi": "Mọi mặt hàng chúng tôi bán đều được làm từ vật liệu tái chế.",
+          "image": "images/b04_w24.jpg"
+        },
+        {
+          "id": "b04_w25",
+          "word": "cart / trolley",
+          "partOfSpeech": "n",
+          "pronunciation": "/kɑːrt/ /ˈtrɑːli/",
+          "meaning": "xe đẩy",
+          "example": "You can use a shopping cart",
+          "exampleVi": "Bạn có thể dùng xe đẩy ở siêu thị.",
+          "image": "images/b04_w25.png"
+        },
+        {
+          "id": "b04_w26",
+          "word": "place set/ situate",
+          "partOfSpeech": "v",
+          "pronunciation": "/ put/",
+          "meaning": "đặt, để, nằm ở",
+          "example": "Did you put sugar in my coffee?",
+          "exampleVi": "Bạn đã cho đường vào cà phê của tôi hả?",
+          "image": "images/b04_w26.jpg"
+        },
+        {
+          "id": "b04_w27",
+          "word": "march",
+          "partOfSpeech": "v",
+          "pronunciation": "/mɑːrtʃ/",
+          "meaning": "dậm chân, đi đều, diễu hành",
+          "example": "Soldiers were marching up and down outside the government buildings.",
+          "exampleVi": "Những người lính đang diễu hành ngược xuôi bên ngoài các tòa nhà chính phủ.",
+          "image": "images/b04_w27.png"
+        },
+        {
+          "id": "b04_w28",
+          "word": "crowd, crowded (n, adj)",
+          "partOfSpeech": "",
+          "pronunciation": "/kraʊd/ /ˈkraʊdɪd/",
+          "meaning": "đám đông, đông đúc",
+          "example": "Police had to break up the crowd.",
+          "exampleVi": "Cảnh sát đã phải giải vây đám đông.",
+          "image": "images/b04_w28.png"
+        },
+        {
+          "id": "b04_w29",
+          "word": "lounge",
+          "partOfSpeech": "n",
+          "pronunciation": "/laʊndʒ/",
+          "meaning": "sảnh chờ, phòng chờ",
+          "example": "the departure lounge",
+          "exampleVi": "phòng chờ khởi hành",
+          "image": "images/b04_w29.png"
+        },
+        {
+          "id": "b04_w30",
+          "word": "ink cartridge",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɪŋk/ /ˈkɑːrtrɪdʒ/",
+          "meaning": "Khay mực máy in",
+          "example": "They are replacing the ink cartridge for the printer.",
+          "exampleVi": "Họ đang thay mực cho máy in.",
+          "image": "images/b04_w30.jpg"
+        },
+        {
+          "id": "b04_w31",
+          "word": "parade",
+          "partOfSpeech": "n",
+          "pronunciation": "/pəˈreɪd/",
+          "meaning": "cuộc diễu hành,",
+          "example": "They held a parade to mark",
+          "exampleVi": "Họ tổ chức một cuộc diễu hành",
+          "image": "images/b04_w31.jpg"
+        },
+        {
+          "id": "b04_w32",
+          "word": "tap",
+          "partOfSpeech": "n",
+          "pronunciation": "/tæp/",
+          "meaning": "vòi khóa nước",
+          "example": "Turn the tap on/off.",
+          "exampleVi": "Bật/Tắt vòi",
+          "image": "images/b04_w32.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Bài 5",
+      "fileName": "TỪ VỰNG 05.pptx",
+      "wordCount": 6,
+      "words": [
+        {
+          "id": "b05_w01",
+          "word": "Ex: Ms. Kim is in charge of making the travel arrangement.",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈtrævl/ /əˈreɪndʒmənt/",
+          "meaning": "(np) sắp xếp đi lại",
+          "example": "travel arrangement",
+          "exampleVi": "Cô Kim phụ trách việc sắp xếp đi lại.",
+          "image": "images/b05_w01.png"
+        },
+        {
+          "id": "b05_w02",
+          "word": "drawer",
+          "partOfSpeech": "",
+          "pronunciation": "/drɔːr/",
+          "meaning": "(n) ngăn kéo",
+          "example": "the bottom drawer of the desk",
+          "exampleVi": "ngăn dưới cùng của bàn làm việc",
+          "image": "images/b05_w02.png"
+        },
+        {
+          "id": "b05_w03",
+          "word": "reimburse",
+          "partOfSpeech": "",
+          "pronunciation": "/ˌriːɪmˈbɜːrs/",
+          "meaning": "(v) hoàn tiền",
+          "example": "We will reimburse any expenses incurred.",
+          "exampleVi": "Chúng tôi sẽ hoàn trả mọi chi phí phát sinh.",
+          "image": "images/b05_w03.png"
+        },
+        {
+          "id": "b05_w04",
+          "word": "department store",
+          "partOfSpeech": "",
+          "pronunciation": "/dɪˈpɑːrtmənt stɔːr/",
+          "meaning": "(np) cửa hàng bách hóa",
+          "example": "I bought this washing machine in PMP department store.",
+          "exampleVi": "Tôi mua máy giặt này ở cửa hàng bách hóa PMP.",
+          "image": "images/b05_w04.png"
+        },
+        {
+          "id": "b05_w05",
+          "word": "order",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈɔːrdər/",
+          "meaning": "(v) đặt hàng",
+          "example": "You place your order at the front counter.",
+          "exampleVi": "Bạn đặt hàng tại quầy phía trước.",
+          "image": "images/b05_w05.png"
+        },
+        {
+          "id": "b05_w06",
+          "word": "complaint",
+          "partOfSpeech": "",
+          "pronunciation": "/kəmˈpleɪnt/",
+          "meaning": "(n) phàn nàn, khiếu nại",
+          "example": "I'd like to make a complaint about the noise.",
+          "exampleVi": "Tôi muốn khiếu nại về tiếng ồn.",
+          "image": "images/b05_w06.png"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bài 6",
+      "fileName": "TỪ VỰNG 06.pptx",
+      "wordCount": 15,
+      "words": [
+        {
+          "id": "b06_w01",
+          "word": "pass",
+          "partOfSpeech": "",
+          "pronunciation": "/pæs/",
+          "meaning": "(n) giấy thông hành, giấy phép, vé vào cửa",
+          "example": "The official asked to see our passes.",
+          "exampleVi": "Viên chức yêu cầu được xem vé vào cửa của chúng tôi.",
+          "image": "images/b06_w01.jpg"
+        },
+        {
+          "id": "b06_w02",
+          "word": "mile",
+          "partOfSpeech": "",
+          "pronunciation": "/maɪl/",
+          "meaning": "(n) dặm, lý",
+          "example": "He runs 10 miles every morning.",
+          "exampleVi": "Ông ta chạy 10 dặm mỗi buổi sáng.",
+          "image": "images/b06_w02.png"
+        },
+        {
+          "id": "b06_w03",
+          "word": "manufacture",
+          "partOfSpeech": "",
+          "pronunciation": "/ˌmænjuˈfæktʃər/",
+          "meaning": "(v) sản xuất",
+          "example": "This company manufactures the equipment used to make contact lenses.",
+          "exampleVi": "Công ty này sản xuất thiết bị dùng để làm kính áp tròng.",
+          "image": "images/b06_w03.jpg"
+        },
+        {
+          "id": "b06_w04",
+          "word": "discount",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈdɪskaʊnt/",
+          "meaning": "(n) giảm giá",
+          "example": "Do you qualify for a student discount?",
+          "exampleVi": "Bạn có đủ điều kiện để được giảm giá cho sinh viên không?",
+          "image": "images/b06_w04.png"
+        },
+        {
+          "id": "b06_w05",
+          "word": "for sale",
+          "partOfSpeech": "",
+          "pronunciation": "/seɪl/",
+          "meaning": "dành để bán",
+          "example": "This building complex is for sale.",
+          "exampleVi": "Tòa nhà phức hợp này để bán.",
+          "image": "images/b06_w05.jpg"
+        },
+        {
+          "id": "b06_w06",
+          "word": "fund – raising",
+          "partOfSpeech": "",
+          "pronunciation": "/fʌnd/ /ˈreɪzɪŋ/",
+          "meaning": "gây quỹ",
+          "example": "The hospital is planning a major fundraising event for June",
+          "exampleVi": "Bệnh viện đang lên kế hoạch cho một sự kiện gây quỹ lớn vào tháng Sáu.",
+          "image": "images/b06_w06.jpg"
+        },
+        {
+          "id": "b06_w07",
+          "word": "upstairs",
+          "partOfSpeech": "",
+          "pronunciation": "/ˌʌpˈsterz/",
+          "meaning": "trên gác, trên lầu",
+          "example": "The cat belongs to the people who live upstairs.",
+          "exampleVi": "Con mèo thuộc về những người sống trên lầu.",
+          "image": "images/b06_w07.jpg"
+        },
+        {
+          "id": "b06_w08",
+          "word": "banquet",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈbæŋkwɪt/",
+          "meaning": "(n) tiệc lớn, tiệc chiêu đãi",
+          "example": "A state banquet was held in honour of the visiting president.",
+          "exampleVi": "Một bữa tiệc cấp nhà nước đã được tổ chức để vinh danh tổng thống đến thăm.",
+          "image": "images/b06_w08.png"
+        },
+        {
+          "id": "b06_w09",
+          "word": "delay",
+          "partOfSpeech": "",
+          "pronunciation": "/dɪˈleɪ/",
+          "meaning": "(v) trì hoãn, chậm trễ",
+          "example": "Increased congestion and traffic delays are expected.",
+          "exampleVi": "Dự kiến sẽ gia tăng tắc nghẽn và chậm trễ giao thông.",
+          "image": "images/b06_w09.jpg"
+        },
+        {
+          "id": "b06_w10",
+          "word": "look into",
+          "partOfSpeech": "",
+          "pronunciation": "/lʊk ˈɪntuː/",
+          "meaning": "kiểm tra, xem xét",
+          "example": "A working party has been set up to look into the problem.",
+          "exampleVi": "Một nhóm làm việc đã được thiết lập để xem xét vấn đề.",
+          "image": "images/b06_w10.png"
+        },
+        {
+          "id": "b06_w11",
+          "word": "package",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈpækɪdʒ/",
+          "meaning": "(n) kiện hàng",
+          "example": "Check the list of ingredients on the side of the package.",
+          "exampleVi": "Kiểm tra danh sách các thành phần trên mặt bên của gói hàng.",
+          "image": "images/b06_w11.jpg"
+        },
+        {
+          "id": "b06_w12",
+          "word": "shut down",
+          "partOfSpeech": "",
+          "pronunciation": "/ʃʌt/ /daʊn/",
+          "meaning": "tắt, ngừng hoạt động",
+          "example": "The computer system will be shut down over the weekend.",
+          "exampleVi": "Hệ thống máy tính sẽ ngừng hoạt động vào cuối tuần.",
+          "image": "images/b06_w12.jpg"
+        },
+        {
+          "id": "b06_w13",
+          "word": "construction",
+          "partOfSpeech": "",
+          "pronunciation": "/kənˈstrʌkʃn/",
+          "meaning": "(n) việc xây dựng, sự xây dựng",
+          "example": "Construction began this year and will take approximately 18 months.",
+          "exampleVi": "Việc xây dựng bắt đầu trong năm nay và sẽ mất khoảng 18 tháng.",
+          "image": "images/b06_w13.jpg"
+        },
+        {
+          "id": "b06_w14",
+          "word": "instruction",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪnˈstrʌkʃn/",
+          "meaning": "(n) hướng dẫn, chỉ dẫn",
+          "example": "Always read the instructions before you start.",
+          "exampleVi": "Luôn đọc hướng dẫn trước khi bắt đầu.",
+          "image": "images/b06_w14.png"
+        },
+        {
+          "id": "b06_w15",
+          "word": "retailer",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈriːteɪlər/",
+          "meaning": "(n) nhà bán lẻ",
+          "example": "One of the country’s largest food retailers.",
+          "exampleVi": "Một trong những nhà bán lẻ thực phẩm lớn nhất của đất nước",
+          "image": "images/b06_w15.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Bài 7",
+      "fileName": "TỪ VỰNG 07.pptx",
+      "wordCount": 35,
+      "words": [
+        {
+          "id": "b07_w01",
+          "word": "include",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪnˈkluːd/",
+          "meaning": "bao gồm, chứa đựng",
+          "example": "This drink doesn't contain any alcohol.",
+          "exampleVi": "Thức uống này không chứa cồn.",
+          "image": "images/b07_w01.png"
+        },
+        {
+          "id": "b07_w02",
+          "word": "itinerary",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɪˈtɪnəreri/",
+          "meaning": "lịch trình đi lại, hành trình",
+          "example": "Visits to four different countries are included in your itinerary.",
+          "exampleVi": "Các chuyến thăm đến bốn quốc gia khác nhau được bao gồm trong hành trình của bạn.",
+          "image": "images/b07_w02.jpg"
+        },
+        {
+          "id": "b07_w03",
+          "word": "fair (n,a)",
+          "partOfSpeech": "",
+          "pronunciation": "/fer/",
+          "meaning": "hội chợ/",
+          "example": "The punishment was very fair",
+          "exampleVi": "Hình phạt rất công bằng.",
+          "image": "images/b07_w03.jpg"
+        },
+        {
+          "id": "b07_w04",
+          "word": "request",
+          "partOfSpeech": "",
+          "pronunciation": "/rɪ'kwest/",
+          "meaning": "yêu cầu",
+          "example": "Our immediate requirement is extra staff.",
+          "exampleVi": "Yêu cầu trước mắt của chúng ta là thêm nhân viên.",
+          "image": "images/b07_w04.jpg"
+        },
+        {
+          "id": "b07_w05",
+          "word": "sign (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/saɪn/",
+          "meaning": "ký/ biển báo, biển hiệu, thông báo",
+          "example": "The sign read ‘No Fishing’.",
+          "exampleVi": "Biển báo có nội dung",
+          "image": "images/b07_w05.jpg"
+        },
+        {
+          "id": "b07_w06",
+          "word": "fill out a form",
+          "partOfSpeech": "v",
+          "pronunciation": "/fɪl aʊt ə fɔːrm/",
+          "meaning": "điền vào đơn/ biểu mẫu",
+          "example": "You have to fill out the form to enroll in this class.",
+          "exampleVi": "Bạn phải điền vào biểu mẫu để đăng ký vào lớp học này.",
+          "image": "images/b07_w06.jpg"
+        },
+        {
+          "id": "b07_w07",
+          "word": "verify",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈverɪfaɪ/",
+          "meaning": "xác nhận, xác minh",
+          "example": "We have yet to confirm the identities of the victims.",
+          "exampleVi": "Chúng tôi vẫn chưa xác nhận danh tính của các nạn nhân.",
+          "image": "images/b07_w07.png"
+        },
+        {
+          "id": "b07_w08",
+          "word": "practice (n,v)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈpræktɪs/",
+          "meaning": "something that is usually or regularly done, often as a habit, tradition, or custom - thực tiễn, thông lệ, sự thực hành",
+          "example": "With practice you will become more skilled.",
+          "exampleVi": "Nhờ việc thực hành, bạn sẽ trở nên thành thạo hơn.",
+          "image": "images/b07_w08.png"
+        },
+        {
+          "id": "b07_w09",
+          "word": "record (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/rɪˈkɔːrd/",
+          "meaning": "ghi lại, lưu giữ lại",
+          "example": "You should keep a record of your expenses.",
+          "exampleVi": "Bạn giữ lại hồ sơ ghi chép các khoản chi tiêu của mình.",
+          "image": "images/b07_w09.jpg"
+        },
+        {
+          "id": "b07_w10",
+          "word": "invoice",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈɪnvɔɪs/",
+          "meaning": "hóa đơn",
+          "example": "An invoice for £250",
+          "exampleVi": "một hóa đơn £ 250",
+          "image": "images/b07_w10.png"
+        },
+        {
+          "id": "b07_w11",
+          "word": "expense",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪk'spens/",
+          "meaning": "khoản chi phí",
+          "example": "The budget provided for a total expenditure of £27 billion.",
+          "exampleVi": "Ngân sách cung cấp tổng chi phí là 27 tỷ bảng Anh.",
+          "image": "images/b07_w11.jpg"
+        },
+        {
+          "id": "b07_w12",
+          "word": "process (n,v)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈprɑːses/",
+          "meaning": "quy trình xử lý/ xử lý",
+          "example": "We're in the process of selling our house.",
+          "exampleVi": "Chúng tôi đang trong quá trình bán ngôi nhà của mình.",
+          "image": "images/b07_w12.png"
+        },
+        {
+          "id": "b07_w13",
+          "word": "substitute",
+          "partOfSpeech": "",
+          "pronunciation": "/'sʌbstɪtju:t/",
+          "meaning": "thay thế",
+          "example": "Teachers will never be replaced by computers in the classroom.",
+          "exampleVi": "Giáo viên sẽ không bao giờ bị thay thế bởi máy tính trong lớp học.",
+          "image": "images/b07_w13.png"
+        },
+        {
+          "id": "b07_w14",
+          "word": "hand in",
+          "partOfSpeech": "",
+          "pronunciation": "/hænd ɪn/",
+          "meaning": "nộp",
+          "example": "Completed projects must be submitted by 10 March.",
+          "exampleVi": "Các dự án đã hoàn thành phải được nộp trước ngày 10 tháng 3.",
+          "image": "images/b07_w14.jpg"
+        },
+        {
+          "id": "b07_w15",
+          "word": "plan (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/plæn/",
+          "meaning": "lên kế hoạch/ kế hoạch",
+          "example": "Do you have any plans for the summer?",
+          "exampleVi": "Bạn đã có kế hoạch gì cho mùa hè chưa?",
+          "image": "images/b07_w15.png"
+        },
+        {
+          "id": "b07_w16",
+          "word": "rent (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/rent/",
+          "meaning": "thuê mướn/ số tiền thuê",
+          "example": "How much rent do you pay for this place?",
+          "exampleVi": "Bạn trả bao nhiêu tiền thuê cho nơi này?",
+          "image": "images/b07_w16.jpg"
+        },
+        {
+          "id": "b07_w17",
+          "word": "shipping",
+          "partOfSpeech": "",
+          "pronunciation": "/'ʃɪpɪŋ/",
+          "meaning": "việc giao hàng/ vận chuyển",
+          "example": "A shipping company",
+          "exampleVi": "một công ty vận chuyển",
+          "image": "images/b07_w17.png"
+        },
+        {
+          "id": "b07_w18",
+          "word": "insurance",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪn'ʃɔ:rəns/",
+          "meaning": "bảo hiểm",
+          "example": "unemployment insurance",
+          "exampleVi": "bảo hiểm thất nghiệp",
+          "image": "images/b07_w18.jpg"
+        },
+        {
+          "id": "b07_w19",
+          "word": "damage",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈdæmɪdʒ/",
+          "meaning": "hư hại",
+          "example": "The storm didn't do much damage.",
+          "exampleVi": "Cơn bão không gây nhiều thiệt hại.",
+          "image": "images/b07_w19.jpg"
+        },
+        {
+          "id": "b07_w20",
+          "word": "mandatory",
+          "partOfSpeech": "",
+          "pronunciation": "/mæn'deɪtəri/",
+          "meaning": "bắt buộc",
+          "example": "It is mandatory for blood banks to test all donated blood for the virus.",
+          "exampleVi": "Ngân hàng máu bắt buộc phải xét nghiệm tất cả máu được hiến để tìm vi rút.",
+          "image": "images/b07_w20.jpg"
+        },
+        {
+          "id": "b07_w21",
+          "word": "pass",
+          "partOfSpeech": "n",
+          "pronunciation": "/pæs/",
+          "meaning": "giấy thông hành, giấy phép,",
+          "example": "The official asked to see our passes.",
+          "exampleVi": "Viên chức yêu cầu được xem vé vào cửa của chúng tôi.",
+          "image": "images/b07_w21.jpg"
+        },
+        {
+          "id": "b07_w22",
+          "word": "mile",
+          "partOfSpeech": "n",
+          "pronunciation": "/maɪl/",
+          "meaning": "dặm, lý",
+          "example": "He runs 10 miles every morning.",
+          "exampleVi": "Ông ta chạy 10 dặm mỗi buổi sáng.",
+          "image": "images/b07_w22.jpg"
+        },
+        {
+          "id": "b07_w23",
+          "word": "manufacture",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˌmænjuˈfæktʃər/",
+          "meaning": "sản xuất",
+          "example": "This company manufactures",
+          "exampleVi": "Công ty này sản xuất thiết bị dùng để làm kính áp tròng.",
+          "image": "images/b07_w23.jpg"
+        },
+        {
+          "id": "b07_w24",
+          "word": "discount",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈdɪskaʊnt/",
+          "meaning": "giảm giá",
+          "example": "Do you qualify for a student discount?",
+          "exampleVi": "Bạn có đủ điều kiện để được giảm giá cho sinh viên không?",
+          "image": "images/b07_w24.jpg"
+        },
+        {
+          "id": "b07_w25",
+          "word": "for sale",
+          "partOfSpeech": "",
+          "pronunciation": "/seɪl/",
+          "meaning": "dành để bán",
+          "example": "This building complex",
+          "exampleVi": "Tòa nhà phức hợp này để bán.",
+          "image": "images/b07_w25.jpg"
+        },
+        {
+          "id": "b07_w26",
+          "word": "fund – raising",
+          "partOfSpeech": "",
+          "pronunciation": "/fʌnd/ /ˈreɪzɪŋ/",
+          "meaning": "gây quỹ",
+          "example": "The hospital is planning a major fundraising event for June.",
+          "exampleVi": "Bệnh viện đang lên kế hoạch cho một sự kiện gây quỹ lớn vào tháng Sáu.",
+          "image": "images/b07_w26.jpg"
+        },
+        {
+          "id": "b07_w27",
+          "word": "upstairs",
+          "partOfSpeech": "adv",
+          "pronunciation": "/ˌʌpˈsterz/",
+          "meaning": "trên gác, trên lầu",
+          "example": "The cat belongs to the people who live upstairs.",
+          "exampleVi": "Con mèo thuộc về những người sống trên lầu.",
+          "image": "images/b07_w27.jpg"
+        },
+        {
+          "id": "b07_w28",
+          "word": "banquet",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈbæŋkwɪt/",
+          "meaning": "tiệc lớn, tiệc chiêu đãi",
+          "example": "A state banquet was held in honour of the visiting president.",
+          "exampleVi": "Một bữa tiệc cấp nhà nước đã được tổ chức để vinh danh tổng thống đến thăm.",
+          "image": "images/b07_w28.jpg"
+        },
+        {
+          "id": "b07_w29",
+          "word": "delay",
+          "partOfSpeech": "",
+          "pronunciation": "/dɪˈleɪ/",
+          "meaning": "trì hoãn, chậm trễ",
+          "example": "Increased congestion and traffic delays are expected.",
+          "exampleVi": "Dự kiến sẽ gia tăng tắc nghẽn và chậm trễ giao thông.",
+          "image": "images/b07_w29.png"
+        },
+        {
+          "id": "b07_w30",
+          "word": "look into (phrasal verb) = investigate",
+          "partOfSpeech": "",
+          "pronunciation": "/lʊk ˈɪntuː/",
+          "meaning": "kiểm tra, xem xét",
+          "example": "A working party has been set up to look into the problem.",
+          "exampleVi": "Một nhóm làm việc đã được thiết lập để xem xét vấn đề.",
+          "image": "images/b07_w30.png"
+        },
+        {
+          "id": "b07_w31",
+          "word": "package",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈpækɪdʒ/",
+          "meaning": "kiện hàng",
+          "example": "Check the list of ingredients on the side of the package.",
+          "exampleVi": "Kiểm tra danh sách các thành phần trên mặt bên của gói hàng.",
+          "image": "images/b07_w31.png"
+        },
+        {
+          "id": "b07_w32",
+          "word": "shut down",
+          "partOfSpeech": "",
+          "pronunciation": "/ʃʌt/ /daʊn/",
+          "meaning": "tắt, ngừng hoạt động",
+          "example": "The computer system will be shut down over the weekend.",
+          "exampleVi": "Hệ thống máy tính sẽ ngừng hoạt động vào cuối tuần.",
+          "image": "images/b07_w32.jpg"
+        },
+        {
+          "id": "b07_w33",
+          "word": "construction",
+          "partOfSpeech": "",
+          "pronunciation": "/kənˈstrʌkʃn/",
+          "meaning": "việc xây dựng, sự xây dựng",
+          "example": "Construction began this year",
+          "exampleVi": "Việc xây dựng bắt đầu trong năm nay và sẽ mất khoảng 18 tháng.",
+          "image": "images/b07_w33.jpg"
+        },
+        {
+          "id": "b07_w34",
+          "word": "instruction",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪnˈstrʌkʃn/",
+          "meaning": "hướng dẫn, chỉ dẫn",
+          "example": "Always read the instructions before you start.",
+          "exampleVi": "Luôn đọc hướng dẫn trước khi bắt đầu.",
+          "image": "images/b07_w34.jpg"
+        },
+        {
+          "id": "b07_w35",
+          "word": "retailer",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈriːteɪlər/",
+          "meaning": "nhà bán lẻ",
+          "example": "one of the country’s largest food retailers",
+          "exampleVi": "một trong những nhà bán lẻ thực phẩm lớn nhất của đất nước",
+          "image": "images/b07_w35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bài 8",
+      "fileName": "TỪ VỰNG 08.pptx",
+      "wordCount": 15,
+      "words": [
+        {
+          "id": "b08_w01",
+          "word": "warranty",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈwɔːrənti/",
+          "meaning": "bảo hành",
+          "example": "The television comes with a full two-year warranty.",
+          "exampleVi": "",
+          "image": "images/b08_w01.png"
+        },
+        {
+          "id": "b08_w02",
+          "word": "expire",
+          "partOfSpeech": "v",
+          "pronunciation": "/ɪkˈspaɪər/",
+          "meaning": "hết hạn",
+          "example": "When does your driving licence expire?",
+          "exampleVi": "",
+          "image": "images/b08_w02.png"
+        },
+        {
+          "id": "b08_w03",
+          "word": "beneath",
+          "partOfSpeech": "prep",
+          "pronunciation": "/bɪˈniːθ/",
+          "meaning": "bên dưới",
+          "example": "They found the body buried beneath a pile of leaves.",
+          "exampleVi": "",
+          "image": "images/b08_w03.png"
+        },
+        {
+          "id": "b08_w04",
+          "word": "session",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈseʃn/",
+          "meaning": "buổi, phiên, kỳ, khóa…",
+          "example": "The course is made up of 12 two-hour sessions",
+          "exampleVi": "",
+          "image": "images/b08_w04.png"
+        },
+        {
+          "id": "b08_w05",
+          "word": "sold out",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˌsəʊld ˈaʊt/",
+          "meaning": "bán hết",
+          "example": "The tickets for this movie have been sold out.",
+          "exampleVi": "",
+          "image": "images/b08_w05.png"
+        },
+        {
+          "id": "b08_w06",
+          "word": "complete/ finish",
+          "partOfSpeech": "v",
+          "pronunciation": "/kəmˈpliːt/ /ˈfɪnɪʃ/",
+          "meaning": "hoàn thành, hoàn tất",
+          "example": "She finished law school last year.",
+          "exampleVi": "",
+          "image": "images/b08_w06.png"
+        },
+        {
+          "id": "b08_w07",
+          "word": "classical literature",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈklæsɪkl/ /ˈlɪtrətʃə(r)/",
+          "meaning": "văn học cổ điển",
+          "example": "My major is classical literature.",
+          "exampleVi": "",
+          "image": "images/b08_w07.jpg"
+        },
+        {
+          "id": "b08_w08",
+          "word": "concert",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈkɑːnsərt/ /ˈkɒnsət/",
+          "meaning": "buổi hòa nhạc",
+          "example": "to attend/go to a concert",
+          "exampleVi": "",
+          "image": "images/b08_w08.png"
+        },
+        {
+          "id": "b08_w09",
+          "word": "videoconferencing",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈvɪdiəʊ kɑːnfərənsɪŋ/",
+          "meaning": "hội nghị trực tuyến",
+          "example": "We are going to hold a videoconference with our partner this afternoon.",
+          "exampleVi": "",
+          "image": "images/b08_w09.png"
+        },
+        {
+          "id": "b08_w10",
+          "word": "memo",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈmeməʊ/",
+          "meaning": "thông báo",
+          "example": "to send a memo",
+          "exampleVi": "",
+          "image": "images/b08_w10.png"
+        },
+        {
+          "id": "b08_w11",
+          "word": "suitcase",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈsuːtkeɪs/",
+          "meaning": "",
+          "example": "The man is holding a suitcase.",
+          "exampleVi": "",
+          "image": "images/b08_w11.png"
+        },
+        {
+          "id": "b08_w12",
+          "word": "stack",
+          "partOfSpeech": "v",
+          "pronunciation": "/stæk/",
+          "meaning": "xếp chồng lên nhau/",
+          "example": "A stack of books.",
+          "exampleVi": "",
+          "image": "images/b08_w12.png"
+        },
+        {
+          "id": "b08_w13",
+          "word": "seat SO",
+          "partOfSpeech": "v",
+          "pronunciation": "/siːt/",
+          "meaning": "đủ chỗ ngồi cho số lượng người nhất định/ xếp chỗ cho ai đó",
+          "example": "She was wondering where to seat her guests.",
+          "exampleVi": "",
+          "image": "images/b08_w13.png"
+        },
+        {
+          "id": "b08_w14",
+          "word": "tire/ tyre",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈtaɪər/",
+          "meaning": "lốp xe",
+          "example": "to pump up a tire",
+          "exampleVi": "",
+          "image": "images/b08_w14.png"
+        },
+        {
+          "id": "b08_w15",
+          "word": "surprise (v, n)",
+          "partOfSpeech": "",
+          "pronunciation": "/sərˈpraɪz/",
+          "meaning": "ngạc nhiên, bất ngờ",
+          "example": "It wouldn't surprise me if they got married soon.",
+          "exampleVi": "",
+          "image": "images/b08_w15.png"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Bài 9",
+      "fileName": "TỪ VỰNG 09.pptx",
+      "wordCount": 15,
+      "words": [
+        {
+          "id": "b09_w01",
+          "word": "additional",
+          "partOfSpeech": "adj",
+          "pronunciation": "/əˈdɪʃənl/",
+          "meaning": "bổ sung, thêm vào",
+          "example": "He provided additional information about this incident",
+          "exampleVi": "Ông đã cung cấp thêm thông tin về vụ việc này.",
+          "image": "images/b09_w01.jpg"
+        },
+        {
+          "id": "b09_w02",
+          "word": "battery",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈbætəri/",
+          "meaning": "",
+          "example": "The battery is flat (Pin yếu)",
+          "exampleVi": "",
+          "image": "images/b09_w02.jpg"
+        },
+        {
+          "id": "b09_w03",
+          "word": "charge",
+          "partOfSpeech": "",
+          "pronunciation": "/tʃɑːrdʒ/",
+          "meaning": "(n) phí, tiền phí",
+          "example": "admission charges",
+          "exampleVi": "phí nhập học",
+          "image": "images/b09_w03.jpg"
+        },
+        {
+          "id": "b09_w04",
+          "word": "subscription",
+          "partOfSpeech": "n",
+          "pronunciation": "/səbˈskrɪpʃn/",
+          "meaning": "sự đăng ký",
+          "example": "Subscriptions are due annually by the end of January.",
+          "exampleVi": "Việc đăng ký sẽ đến hạn vào cuối tháng Giêng hằng năm.",
+          "image": "images/b09_w04.jpg"
+        },
+        {
+          "id": "b09_w05",
+          "word": "effective",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ɪˈfektɪv/",
+          "meaning": "có hiệu quả",
+          "example": "I admire the effective use of colour in her paintings.",
+          "exampleVi": "Tôi ngưỡng mộ cách sử dụng màu sắc hiệu quả trong tranh của cô ấy.",
+          "image": "images/b09_w05.png"
+        },
+        {
+          "id": "b09_w06",
+          "word": "request (n,v)",
+          "partOfSpeech": "",
+          "pronunciation": "/rɪˈkwest/",
+          "meaning": "yêu cầu",
+          "example": "They made a request for further aid.",
+          "exampleVi": "Họ đã yêu cầu viện trợ thêm.",
+          "image": "images/b09_w06.jpg"
+        },
+        {
+          "id": "b09_w07",
+          "word": "low",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ləʊ/",
+          "meaning": "Thấp",
+          "example": "a low range of hills (một dãy đồi thấp)",
+          "exampleVi": "",
+          "image": "images/b09_w07.jpg"
+        },
+        {
+          "id": "b09_w08",
+          "word": "technical support",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈteknɪkl/ /səˈpɔːrt/",
+          "meaning": "hỗ trợ kỹ thuật",
+          "example": "If you need technical support, call me.",
+          "exampleVi": "Nếu bạn cần hỗ trợ kỹ thuật, hãy gọi tôi.",
+          "image": "images/b09_w08.jpg"
+        },
+        {
+          "id": "b09_w09",
+          "word": "medicine",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈmedɪsn/",
+          "meaning": "Thuốc",
+          "example": "Did you take your medicine?",
+          "exampleVi": "Bạn đã uống thuốc chưa?",
+          "image": "images/b09_w09.jpg"
+        },
+        {
+          "id": "b09_w10",
+          "word": "electronics",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɪˌlekˈtrɑːnɪks/",
+          "meaning": "đồ điện tử",
+          "example": "the electronics industry (ngành công nghiệp điện tử)",
+          "exampleVi": "",
+          "image": "images/b09_w10.jpg"
+        },
+        {
+          "id": "b09_w11",
+          "word": "replacement",
+          "partOfSpeech": "n",
+          "pronunciation": "/rɪˈpleɪsmənt/",
+          "meaning": "sự thay thế, vật thay thế",
+          "example": "the replacement of worn car parts (việc thay thế các bộ phận ô tô bị mòn)",
+          "exampleVi": "",
+          "image": "images/b09_w11.png"
+        },
+        {
+          "id": "b09_w12",
+          "word": "follow",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈfɑːləʊ/ /ˈfɒləʊ/",
+          "meaning": "đi theo, theo dõi, ngay sau",
+          "example": "I think we're being followed.",
+          "exampleVi": "Tôi nghĩ chúng tôi đang bị theo dõi.",
+          "image": "images/b09_w12.png"
+        },
+        {
+          "id": "b09_w13",
+          "word": "department",
+          "partOfSpeech": "n",
+          "pronunciation": "/dɪˈpɑːrtmənt/",
+          "meaning": "phòng, ban, bộ phận, khoa",
+          "example": "He later served as head of the art history department.",
+          "exampleVi": "Sau đó ông giữ chức vụ trưởng khoa lịch sử nghệ thuật.",
+          "image": "images/b09_w13.png"
+        },
+        {
+          "id": "b09_w14",
+          "word": "visitor",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈvɪzɪtər/",
+          "meaning": "du khách",
+          "example": "We've got visitors coming this weekend",
+          "exampleVi": "Chúng tôi có khách vào cuối tuần này.",
+          "image": "images/b09_w14.jpg"
+        },
+        {
+          "id": "b09_w15",
+          "word": "fact",
+          "partOfSpeech": "n",
+          "pronunciation": "/fækt/",
+          "meaning": "sự thật",
+          "example": "Isn't it a fact that the firm is losing money?",
+          "exampleVi": "Có phải sự thật là công ty đang thua lỗ không?",
+          "image": "images/b09_w15.png"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Bài 10",
+      "fileName": "TU VUNG 10.pptx",
+      "wordCount": 27,
+      "words": [
+        {
+          "id": "b10_w01",
+          "word": "facility",
+          "partOfSpeech": "n",
+          "pronunciation": "/fəˈsɪləti/",
+          "meaning": "tiện nghi, cơ sở vật chất",
+          "example": "There are not enough facilities for families with young children.",
+          "exampleVi": "",
+          "image": "images/b10_w01.png"
+        },
+        {
+          "id": "b10_w02",
+          "word": "coordinator",
+          "partOfSpeech": "n",
+          "pronunciation": "/kəʊˈɔːrdɪneɪtər/",
+          "meaning": "Nhân viên điều phối",
+          "example": "The campaign needs an effective coordinator.",
+          "exampleVi": "",
+          "image": "images/b10_w02.png"
+        },
+        {
+          "id": "b10_w03",
+          "word": "exceed",
+          "partOfSpeech": "v",
+          "pronunciation": "/ɪkˈsiːd/",
+          "meaning": "vượt quá",
+          "example": "The price will not exceed £100.",
+          "exampleVi": "",
+          "image": "images/b10_w03.png"
+        },
+        {
+          "id": "b10_w04",
+          "word": "interrupt",
+          "partOfSpeech": "v",
+          "pronunciation": "/,ɪntə'rʌpt/",
+          "meaning": "gián đoạn",
+          "example": "Sorry to interrupt, but there's someone to see you.",
+          "exampleVi": "",
+          "image": "images/b10_w04.png"
+        },
+        {
+          "id": "b10_w05",
+          "word": "increase rise / grow",
+          "partOfSpeech": "",
+          "pronunciation": "/ go up /",
+          "meaning": "Tăng lên",
+          "example": "Sales are growing fast.",
+          "exampleVi": "",
+          "image": "images/b10_w05.png"
+        },
+        {
+          "id": "b10_w06",
+          "word": "additional / extra",
+          "partOfSpeech": "adj",
+          "pronunciation": "/əˈdɪʃənl/ /ˈekstrə/",
+          "meaning": "thêm vào, bổ sung vào",
+          "example": "Take extra care on the roads this evening.",
+          "exampleVi": "",
+          "image": "images/b10_w06.png"
+        },
+        {
+          "id": "b10_w07",
+          "word": "Expansion plan",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪkˈspænʃn plæn/",
+          "meaning": "kế hoạch mở rộng",
+          "example": "ABC Inc. has enough fund for their expansion plan into India.",
+          "exampleVi": "",
+          "image": "images/b10_w07.png"
+        },
+        {
+          "id": "b10_w08",
+          "word": "revise",
+          "partOfSpeech": "v",
+          "pronunciation": "/rɪˈvaɪz/",
+          "meaning": "sửa lại, xét lại",
+          "example": "They should create a revised marketing plan.",
+          "exampleVi": "",
+          "image": "images/b10_w08.png"
+        },
+        {
+          "id": "b10_w09",
+          "word": "renovate/ remodel",
+          "partOfSpeech": "v",
+          "pronunciation": "/'renəveɪt/ /ˌriːˈmɑːdl/",
+          "meaning": "sửa chữa lại, tân trang lại",
+          "example": "The interior of the building has been completely remodelled.",
+          "exampleVi": "",
+          "image": "images/b10_w09.png"
+        },
+        {
+          "id": "b10_w10",
+          "word": "capacity",
+          "partOfSpeech": "n",
+          "pronunciation": "/kəˈpæsəti/",
+          "meaning": "khả năng, sức chứa",
+          "example": "The theatre has a seating capacity of 2000.",
+          "exampleVi": "",
+          "image": "images/b10_w10.png"
+        },
+        {
+          "id": "b10_w11",
+          "word": "in preparation for",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪn,prepə'reɪʃn fər/",
+          "meaning": "Để chuẩn bị cho",
+          "example": "The team has been training hard in preparation for the big game.",
+          "exampleVi": "",
+          "image": "images/b10_w11.png"
+        },
+        {
+          "id": "b10_w12",
+          "word": "shelter (n/v)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈʃeltər/",
+          "meaning": "chỗ ở, cung cấp chỗ trú ngụ (chỗ ở)",
+          "example": "Human beings need food, clothing and shelter.",
+          "exampleVi": "",
+          "image": "images/b10_w12.png"
+        },
+        {
+          "id": "b10_w13",
+          "word": "regulation",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌreɡjuˈleɪʃn/",
+          "meaning": "điều lệ, quy định",
+          "example": "fire regulations",
+          "exampleVi": "",
+          "image": "images/b10_w13.png"
+        },
+        {
+          "id": "b10_w14",
+          "word": "guarantee = insure",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˌɡærənˈtiː/",
+          "meaning": "đảm bảo, bảo hiểm",
+          "example": "We guarantee to deliver your goods within a week.",
+          "exampleVi": "",
+          "image": "images/b10_w14.png"
+        },
+        {
+          "id": "b10_w15",
+          "word": "register",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈredʒɪstər/",
+          "meaning": "đăng ký",
+          "example": "You can also register online.",
+          "exampleVi": "",
+          "image": "images/b10_w15.png"
+        },
+        {
+          "id": "b10_w16",
+          "word": "expedited",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˈekspədaɪtid/",
+          "meaning": "nhanh, tốc hành (giao hàng)",
+          "example": "You are eligible for expedited shipping for $3.",
+          "exampleVi": "",
+          "image": "images/b10_w16.png"
+        },
+        {
+          "id": "b10_w17",
+          "word": "terminate",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈtɜːrmɪneɪt/",
+          "meaning": "chấm dứt",
+          "example": "Your contract of employment terminates in December.",
+          "exampleVi": "",
+          "image": "images/b10_w17.png"
+        },
+        {
+          "id": "b10_w18",
+          "word": "upgrade",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈʌpɡreɪd/",
+          "meaning": "nâng cấp",
+          "example": "Users can easily upgrade to the new version.",
+          "exampleVi": "",
+          "image": "images/b10_w18.png"
+        },
+        {
+          "id": "b10_w19",
+          "word": "accommodation",
+          "partOfSpeech": "n",
+          "pronunciation": "/əˌkɑːməˈdeɪʃn/",
+          "meaning": "chỗ ở",
+          "example": "Hotel accommodation is included in the price of your holiday.",
+          "exampleVi": "",
+          "image": "images/b10_w19.png"
+        },
+        {
+          "id": "b10_w20",
+          "word": "vary",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈværi/",
+          "meaning": "làm cho khác nhau,",
+          "example": "Class size varies greatly.",
+          "exampleVi": "",
+          "image": "images/b10_w20.png"
+        },
+        {
+          "id": "b10_w21",
+          "word": "solicit",
+          "partOfSpeech": "v",
+          "pronunciation": "/səˈlɪsɪt/",
+          "meaning": "kêu gọi (quyên góp)",
+          "example": "They were planning to solicit funds from a number of organizations.",
+          "exampleVi": "",
+          "image": "images/b10_w21.jpg"
+        },
+        {
+          "id": "b10_w22",
+          "word": "PRACTICE",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "",
+          "example": "",
+          "exampleVi": "",
+          "image": null
+        },
+        {
+          "id": "b10_w23",
+          "word": "Ms. Tomoe has already been to Helix Labs ……, but this will be her first time seeing their testing facilities.",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "",
+          "example": "",
+          "exampleVi": "",
+          "image": null
+        },
+        {
+          "id": "b10_w24",
+          "word": "Signs must be posted in the elevators that their maximum capacity may not ……… 1,600 pounds, or 727 kilograms.",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "",
+          "example": "D.\tinterrupt",
+          "exampleVi": "",
+          "image": null
+        },
+        {
+          "id": "b10_w25",
+          "word": "Renovations this summer will increase Larchmere Concert Hall’s seating ………… by 80 seats.",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "",
+          "example": "A.\tschedule",
+          "exampleVi": "",
+          "image": null
+        },
+        {
+          "id": "b10_w26",
+          "word": "The recruitment advertising meeting that was scheduled for tomorrow has been ………. until next week.",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "",
+          "example": "A.\tprepared",
+          "exampleVi": "",
+          "image": null
+        },
+        {
+          "id": "b10_w27",
+          "word": "Accommodation costs and living ……..… will vary, depending on individual requirements and work locations.",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "",
+          "example": "D.\texpenses",
+          "exampleVi": "",
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Bài 11",
+      "fileName": "TU VUNG 11.pptx",
+      "wordCount": 14,
+      "words": [
+        {
+          "id": "b11_w01",
+          "word": "satisfaction",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌsætɪsˈfækʃn/",
+          "meaning": "sự thỏa mãn, sự hài lòng",
+          "example": "She looked back on her career with great satisfaction",
+          "exampleVi": "Cô ấy nhìn lại sự nghiệp của mình với sự hài lòng.",
+          "image": "images/b11_w01.jpg"
+        },
+        {
+          "id": "b11_w02",
+          "word": "tank",
+          "partOfSpeech": "n",
+          "pronunciation": "/tæŋk/",
+          "meaning": "thùng, bể chứa, bình",
+          "example": "I filled the petrol tank before I set off on my journey",
+          "exampleVi": "Tôi đổ đầy bình xăng trước khi lên đường.",
+          "image": "images/b11_w02.jpg"
+        },
+        {
+          "id": "b11_w03",
+          "word": "corner",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈkɔːrnər/",
+          "meaning": "Góc",
+          "example": "I hit my knee on the corner of the table.",
+          "exampleVi": "Tôi đập đầu gối vào góc bàn.",
+          "image": "images/b11_w03.png"
+        },
+        {
+          "id": "b11_w04",
+          "word": "display",
+          "partOfSpeech": "n",
+          "pronunciation": "/dɪˈspleɪ/",
+          "meaning": "màn hình, sự trưng bày",
+          "example": "a display stand",
+          "exampleVi": "một quầy trưng bày",
+          "image": "images/b11_w04.jpg"
+        },
+        {
+          "id": "b11_w05",
+          "word": "luncheon",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈlʌntʃən/",
+          "meaning": "tiệc trưa",
+          "example": "Luncheon will be served at one, Madam.",
+          "exampleVi": "Bữa trưa sẽ được phục vụ lúc 1h, thưa bà.",
+          "image": "images/b11_w05.jpg"
+        },
+        {
+          "id": "b11_w06",
+          "word": "client",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈklaɪənt/",
+          "meaning": "khách hàng",
+          "example": "marketing strategies to target potential customers",
+          "exampleVi": "chiến lược tiếp thị để nhắm mục tiêu khách hàng tiềm năng",
+          "image": "images/b11_w06.png"
+        },
+        {
+          "id": "b11_w07",
+          "word": "stair",
+          "partOfSpeech": "n",
+          "pronunciation": "/ster/",
+          "meaning": "cầu thang",
+          "example": "He climbed the stairs to his bedroom. (Anh ấy lên cầu thang vào phòng ngủ của mình.)",
+          "exampleVi": "",
+          "image": "images/b11_w07.jpg"
+        },
+        {
+          "id": "b11_w08",
+          "word": "nutritionist",
+          "partOfSpeech": "n",
+          "pronunciation": "/nuˈtrɪʃənɪst/",
+          "meaning": "chuyên gia dinh dưỡng",
+          "example": "My mom used to work as a nutritionist. (Mẹ tôi từng là chuyên gia dinh dưỡng.)",
+          "exampleVi": "",
+          "image": "images/b11_w08.png"
+        },
+        {
+          "id": "b11_w09",
+          "word": "appointment",
+          "partOfSpeech": "n",
+          "pronunciation": "/əˈpɔɪntmənt/",
+          "meaning": "cuộc hẹn",
+          "example": "I've got a dental appointment at 3 o'clock.",
+          "exampleVi": "Tôi có một cuộc hẹn nha khoa lúc 3 giờ.",
+          "image": "images/b11_w09.jpg"
+        },
+        {
+          "id": "b11_w10",
+          "word": "project",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈprɑːdʒekt/",
+          "meaning": "dự án",
+          "example": "About 300 schools are involved in the project. (Khoảng 300 trường học tham gia vào dự án.)",
+          "exampleVi": "",
+          "image": "images/b11_w10.png"
+        },
+        {
+          "id": "b11_w11",
+          "word": "cause (n/v)",
+          "partOfSpeech": "",
+          "pronunciation": "/kɔːz/",
+          "meaning": "nguyên nhân/ gây ra",
+          "example": "Unemployment is a major cause of poverty.",
+          "exampleVi": "Thất nghiệp là nguyên nhân chính gây ra đói nghèo.",
+          "image": "images/b11_w11.jpg"
+        },
+        {
+          "id": "b11_w12",
+          "word": "different",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˈdɪfrənt/",
+          "meaning": "khác nhau, khác với",
+          "example": "He's different than the rest",
+          "exampleVi": "Anh ấy khác với những người còn lại.",
+          "image": "images/b11_w12.jpg"
+        },
+        {
+          "id": "b11_w13",
+          "word": "fitness center",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈfɪtnəs sentər/",
+          "meaning": "trung tâm thể hình",
+          "example": "The hotel has a fitness center with a sauna.",
+          "exampleVi": "Khách sạn có trung tâm thể dục với phòng xông hơi khô.",
+          "image": "images/b11_w13.jpg"
+        },
+        {
+          "id": "b11_w14",
+          "word": "item",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈaɪtəm/",
+          "meaning": "vật, món hàng",
+          "example": "There are plenty of vegetarian items on the menu.",
+          "exampleVi": "Có rất nhiều món chay trong thực đơn.",
+          "image": "images/b11_w14.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Bài 13",
+      "fileName": "TU VUNG 13.pptx",
+      "wordCount": 15,
+      "words": [
+        {
+          "id": "b13_w01",
+          "word": "cash",
+          "partOfSpeech": "n",
+          "pronunciation": "/kæʃ/",
+          "meaning": "tiền mặt",
+          "example": "a cash payment",
+          "exampleVi": "",
+          "image": "images/b13_w01.png"
+        },
+        {
+          "id": "b13_w02",
+          "word": "recyclable",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˌriːˈsaɪkləbl/",
+          "meaning": "có thể tái chế",
+          "example": "Glass products are completely recyclable.",
+          "exampleVi": "",
+          "image": "images/b13_w02.png"
+        },
+        {
+          "id": "b13_w03",
+          "word": "drawer",
+          "partOfSpeech": "n",
+          "pronunciation": "/drɔːr/",
+          "meaning": "ngăn kéo",
+          "example": "in the bottom drawer of the desk",
+          "exampleVi": "",
+          "image": "images/b13_w03.png"
+        },
+        {
+          "id": "b13_w04",
+          "word": "lecture",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈlektʃər/",
+          "meaning": "bài giảng, bài diễn thuyết",
+          "example": "to deliver/ give a lecture",
+          "exampleVi": "",
+          "image": "images/b13_w04.png"
+        },
+        {
+          "id": "b13_w05",
+          "word": "tenant",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈtenənt/",
+          "meaning": "người thuê (nhà, đất)",
+          "example": "The decoration was done by a previous tenant.",
+          "exampleVi": "",
+          "image": "images/b13_w05.png"
+        },
+        {
+          "id": "b13_w06",
+          "word": "advertise",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈædvərtaɪz/",
+          "meaning": "quảng cáo",
+          "example": "to advertise a product",
+          "exampleVi": "",
+          "image": "images/b13_w06.png"
+        },
+        {
+          "id": "b13_w07",
+          "word": "architect",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈɑːrkɪtekt/",
+          "meaning": "kiến trúc sư",
+          "example": "The house was designed by architect Louis.",
+          "exampleVi": "",
+          "image": "images/b13_w07.png"
+        },
+        {
+          "id": "b13_w08",
+          "word": "approve",
+          "partOfSpeech": "v",
+          "pronunciation": "/əˈpruːv/",
+          "meaning": "chấp nhận, tán thành",
+          "example": "Do you approve of my idea?",
+          "exampleVi": "",
+          "image": "images/b13_w08.png"
+        },
+        {
+          "id": "b13_w09",
+          "word": "packet",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈpækɪt/",
+          "meaning": "gói, túi…",
+          "example": "a packet of biscuits",
+          "exampleVi": "",
+          "image": "images/b13_w09.png"
+        },
+        {
+          "id": "b13_w10",
+          "word": "vacation",
+          "partOfSpeech": "n",
+          "pronunciation": "/veɪˈkeɪʃn/ /vəˈkeɪʃn/",
+          "meaning": "kì nghỉ",
+          "example": "They're on vacation in Hawaii right now.",
+          "exampleVi": "",
+          "image": "images/b13_w10.png"
+        },
+        {
+          "id": "b13_w11",
+          "word": "intern",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɪnˈtɜːrn/",
+          "meaning": "thực tập sinh",
+          "example": "a summer intern at a law firm",
+          "exampleVi": "",
+          "image": "images/b13_w11.png"
+        },
+        {
+          "id": "b13_w12",
+          "word": "announce",
+          "partOfSpeech": "n",
+          "pronunciation": "/əˈnaʊns/",
+          "meaning": "thông báo",
+          "example": "Has our flight been announced yet?",
+          "exampleVi": "",
+          "image": "images/b13_w12.png"
+        },
+        {
+          "id": "b13_w13",
+          "word": "polish (n/v)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈpɑːlɪʃ/ /ˈpɒlɪʃ/",
+          "meaning": "đánh bóng",
+          "example": "He polished his glasses with a handkerchief.",
+          "exampleVi": "",
+          "image": "images/b13_w13.png"
+        },
+        {
+          "id": "b13_w14",
+          "word": "dock",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈpɑːlɪʃ/ /ˈpɒlɪʃ/",
+          "meaning": "bến, phà",
+          "example": "The ship was in dock.",
+          "exampleVi": "",
+          "image": "images/b13_w14.png"
+        },
+        {
+          "id": "b13_w15",
+          "word": "vegetarian",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌvedʒəˈteriən/",
+          "meaning": "người ăn chay",
+          "example": "They are strict vegetarians",
+          "exampleVi": "",
+          "image": "images/b13_w15.png"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Bài 14",
+      "fileName": "TU VUNG 14.pptx",
+      "wordCount": 15,
+      "words": [
+        {
+          "id": "b14_w01",
+          "word": "charge",
+          "partOfSpeech": "v",
+          "pronunciation": "/tʃɑːrdʒ/",
+          "meaning": "Tính phí",
+          "example": "The restaurant charges £40 for the set menu",
+          "exampleVi": "Nhà hàng tính phí 40 bảng cho thực đơn lập sẵn.",
+          "image": "images/b14_w01.png"
+        },
+        {
+          "id": "b14_w02",
+          "word": "require",
+          "partOfSpeech": "v",
+          "pronunciation": "/rɪˈkwaɪər/",
+          "meaning": "Yêu cầu, đòi hỏi",
+          "example": "These pets require a lot of care and attention",
+          "exampleVi": "Những vật nuôi này đòi hỏi rất nhiều sự chăm sóc và quan tâm.",
+          "image": "images/b14_w02.png"
+        },
+        {
+          "id": "b14_w03",
+          "word": "inform",
+          "partOfSpeech": "v",
+          "pronunciation": "/ɪnˈfɔːrm/",
+          "meaning": "Thông báo",
+          "example": "He went to inform them of his decision",
+          "exampleVi": "Anh đến để thông báo cho họ về quyết định của mình.",
+          "image": "images/b14_w03.png"
+        },
+        {
+          "id": "b14_w04",
+          "word": "waive",
+          "partOfSpeech": "v",
+          "pronunciation": "/weɪv/",
+          "meaning": "Từ bỏ, khước từ, miễn, hủy",
+          "example": "We have decided to waive the tuition fees in your case",
+          "exampleVi": "Chúng tôi đã quyết định miễn học phí trong trường hợp của bạn.",
+          "image": "images/b14_w04.png"
+        },
+        {
+          "id": "b14_w05",
+          "word": "be aware of",
+          "partOfSpeech": "adj",
+          "pronunciation": "/əˈwer/",
+          "meaning": "Nhận thức, biết rằng",
+          "example": "He was well aware of the problem",
+          "exampleVi": "Anh ấy đã nhận thức rõ vấn đề.",
+          "image": "images/b14_w05.png"
+        },
+        {
+          "id": "b14_w06",
+          "word": "shuttle",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈʃʌtl/",
+          "meaning": "Trung chuyển, đưa đón",
+          "example": "There is shuttle bus service between airport and the hotel",
+          "exampleVi": "Có dịch vụ xe đưa đón giữa sân bay và khách sạn.",
+          "image": "images/b14_w06.jpg"
+        },
+        {
+          "id": "b14_w07",
+          "word": "eager to",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˈiːɡər/",
+          "meaning": "Háo hức",
+          "example": "Everyone in the class seemed eager to learn",
+          "exampleVi": "Mọi người trong lớp có vẻ háo hức học hỏi.",
+          "image": "images/b14_w07.jpg"
+        },
+        {
+          "id": "b14_w08",
+          "word": "manufacture",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˌmænjuˈfæktʃər/",
+          "meaning": "Sản xuất",
+          "example": "to manufacture goods (sản xuất hàng hóa)",
+          "exampleVi": "",
+          "image": "images/b14_w08.jpg"
+        },
+        {
+          "id": "b14_w09",
+          "word": "currently",
+          "partOfSpeech": "adv",
+          "pronunciation": "/ˈkɜːrəntli/",
+          "meaning": "Hiện tại",
+          "example": "This matter is currently being discussed",
+          "exampleVi": "Vấn đề này hiện đang được thảo luận.",
+          "image": "images/b14_w09.png"
+        },
+        {
+          "id": "b14_w10",
+          "word": "expand",
+          "partOfSpeech": "v",
+          "pronunciation": "/ɪkˈspænd/",
+          "meaning": "Mở rộng, tăng lên",
+          "example": "Student numbers are expanding rapidly. (Số lượng sinh viên đang tăng lên nhanh chóng.)",
+          "exampleVi": "",
+          "image": "images/b14_w10.jpg"
+        },
+        {
+          "id": "b14_w11",
+          "word": "overseas (adj, adv)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˌəʊvərˈsiːz/",
+          "meaning": "Ngoài nước, ở nước ngoài",
+          "example": "The firm is expanding into overseas markets",
+          "exampleVi": "Công ty đang mở rộng ra thị trường nước ngoài.",
+          "image": "images/b14_w11.jpg"
+        },
+        {
+          "id": "b14_w12",
+          "word": "caterer",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈkeɪtərər/",
+          "meaning": "Nhà cung cấp lương thực, thực phẩm",
+          "example": "We should contact ABC caterer to discuss the party soon.",
+          "exampleVi": "Chúng ta nên sớm  liên hệ với nhà cung cấp thực phẩm ABC để thảo luận về bữa tiệc.",
+          "image": "images/b14_w12.jpg"
+        },
+        {
+          "id": "b14_w13",
+          "word": "shareholders’ meeting",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈʃerhəʊldər/ /ˈmiːtɪŋ/",
+          "meaning": "Cuộc họp cổ đông, đại hội cổ đông",
+          "example": "This matter will be discussed in the next shareholders’ meeting",
+          "exampleVi": "Vấn đề này sẽ được thảo luận trong đại hội cổ đông tới.",
+          "image": "images/b14_w13.jpg"
+        },
+        {
+          "id": "b14_w14",
+          "word": "tight budget",
+          "partOfSpeech": "n",
+          "pronunciation": "/taɪt/ /ˈbʌdʒɪt/",
+          "meaning": "Ngân sách eo hẹp",
+          "example": "We decorated the house on a tight budget",
+          "exampleVi": "Chúng tôi trang trí ngôi nhà với kinh phí eo hẹp.",
+          "image": "images/b14_w14.jpg"
+        },
+        {
+          "id": "b14_w15",
+          "word": "lean toward",
+          "partOfSpeech": "v",
+          "pronunciation": "/liːn/ /tɔːrdz/",
+          "meaning": "Dựa về phía, chồm tới, nghiêng về phía",
+          "example": "She is leaning toward the display",
+          "exampleVi": "Cô ấy đang nghiêng về phía màn hình.",
+          "image": "images/b14_w15.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Bài 15",
+      "fileName": "TỪ VỰNG BÀI 15.pptx",
+      "wordCount": 12,
+      "words": [
+        {
+          "id": "b15_w01",
+          "word": "complex",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈkɑːmpleks/ /ˈkɒmpleks/",
+          "meaning": "Phức tạp, phức hợp",
+          "example": "an apartment complex (một khu chung cư)",
+          "exampleVi": "",
+          "image": "images/b15_w01.jpg"
+        },
+        {
+          "id": "b15_w02",
+          "word": "complicated",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˈkɑːmplɪkeɪtɪd/",
+          "meaning": "Phức tạp",
+          "example": "a complicated issue",
+          "exampleVi": "một vấn đề phức tạp",
+          "image": "images/b15_w02.jpg"
+        },
+        {
+          "id": "b15_w03",
+          "word": "supply",
+          "partOfSpeech": "n",
+          "pronunciation": "/səˈplaɪ/",
+          "meaning": "Hàng cung cấp",
+          "example": "We ordered a month's",
+          "exampleVi": "Chúng tôi đã đặt hàng cung cấp dầu trong một tháng.",
+          "image": "images/b15_w03.jpg"
+        },
+        {
+          "id": "b15_w04",
+          "word": "appointment",
+          "partOfSpeech": "n",
+          "pronunciation": "/əˈpɔɪntmənt/",
+          "meaning": "Cuộc hẹn",
+          "example": "Do you have an appointment?",
+          "exampleVi": "Bạn có hẹn không?",
+          "image": "images/b15_w04.jpg"
+        },
+        {
+          "id": "b15_w05",
+          "word": "unfortunately",
+          "partOfSpeech": "adv",
+          "pronunciation": "/ʌnˈfɔːrtʃənətli/",
+          "meaning": "Thật không may, thật tiếc",
+          "example": "I can't make it, unfortunately.",
+          "exampleVi": "Tôi không thể làm việc đó, rất tiếc.",
+          "image": "images/b15_w05.jpg"
+        },
+        {
+          "id": "b15_w06",
+          "word": "salmon",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈsæmən/",
+          "meaning": "Cá hồi",
+          "example": "smoked salmon",
+          "exampleVi": "cá hồi xông khói",
+          "image": "images/b15_w06.jpg"
+        },
+        {
+          "id": "b15_w07",
+          "word": "statistic",
+          "partOfSpeech": "n",
+          "pronunciation": "/stəˈtɪstɪk/",
+          "meaning": "Số liệu thống kê",
+          "example": "According to official statistics, the disease killed over 500 people.",
+          "exampleVi": "Theo thống kê chính thức, căn bệnh này đã giết chết hơn 500 người.",
+          "image": "images/b15_w07.jpg"
+        },
+        {
+          "id": "b15_w08",
+          "word": "sales performance",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈseɪlz/ /pərˈfɔːrməns/",
+          "meaning": "Hiệu suất bán hàng",
+          "example": "Her sales performance this year increased by 2%.",
+          "exampleVi": "Hiệu suất bán hàng năm nay của cô ấy tăng 2%.",
+          "image": "images/b15_w08.jpg"
+        },
+        {
+          "id": "b15_w09",
+          "word": "sales figure",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈseɪlz/ /ˈfɪɡjər/",
+          "meaning": "Doanh số bán hàng",
+          "example": "If you get high sales figues, you will be promoted.",
+          "exampleVi": "Nếu bạn đạt được doanh số bán hàng cao, bạn sẽ được thăng chức.",
+          "image": "images/b15_w09.png"
+        },
+        {
+          "id": "b15_w10",
+          "word": "high-end",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˌhaɪ ˈend/",
+          "meaning": "Cao cấp",
+          "example": "She loves buying high-end clothes.",
+          "exampleVi": "Cô ấy thích mua quần áo cao cấp.",
+          "image": "images/b15_w10.jpg"
+        },
+        {
+          "id": "b15_w11",
+          "word": "car dealer",
+          "partOfSpeech": "n",
+          "pronunciation": "/kɑːr/ /ˈdiːlər/",
+          "meaning": "Đại lý xe ô tô",
+          "example": "I applied for this car dealer.",
+          "exampleVi": "Tôi đã nộp đơn xin việc ở đại lý xe hơi này.",
+          "image": "images/b15_w11.jpg"
+        },
+        {
+          "id": "b15_w12",
+          "word": "effective",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ɪˈfektɪv/",
+          "meaning": "Có hiệu quả",
+          "example": "The system has proved less effective than hoped.",
+          "exampleVi": "Hệ thống đã tỏ ra kém hiệu quả hơn hy vọng.",
+          "image": "images/b15_w12.png"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Bài 16",
+      "fileName": "TỪ VỰNG BÀI 16.pptx",
+      "wordCount": 15,
+      "words": [
+        {
+          "id": "b16_w01",
+          "word": "& NGHE PART 3",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "TỪ VỰNG",
+          "example": "",
+          "exampleVi": "",
+          "image": "images/b16_w01.jpg"
+        },
+        {
+          "id": "b16_w02",
+          "word": "purchase (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈpɜːrtʃəs/",
+          "meaning": "Mua/ sự mua, món hàng được mua",
+          "example": "to purchase a property (mua một tài sản) - to make a purchase (mua hàng)",
+          "exampleVi": "",
+          "image": "images/b16_w02.png"
+        },
+        {
+          "id": "b16_w03",
+          "word": "valid",
+          "partOfSpeech": "a",
+          "pronunciation": "/ˈvælɪd/",
+          "meaning": "Có hiệu lực, hợp lệ",
+          "example": "Do you have a valid passport?",
+          "exampleVi": "Bạn có hộ chiếu còn hợp lệ không?",
+          "image": "images/b16_w03.png"
+        },
+        {
+          "id": "b16_w04",
+          "word": "admission",
+          "partOfSpeech": "n",
+          "pronunciation": "/ədˈmɪʃn/",
+          "meaning": "sự nhận vào, sự cho phép vào cổng",
+          "example": "the university admission policy (chính sách tuyển sinh đại học)/ chính sách nhập học",
+          "exampleVi": "",
+          "image": "images/b16_w04.png"
+        },
+        {
+          "id": "b16_w05",
+          "word": "membership card",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈmembərʃɪp kɑːrd/",
+          "meaning": "Thẻ sinh viên",
+          "example": "You can fill out this form to get a membership card.",
+          "exampleVi": "Bạn có thể điền vào biểu mẫu này để nhận thẻ thành viên.",
+          "image": "images/b16_w05.png"
+        },
+        {
+          "id": "b16_w06",
+          "word": "immediately",
+          "partOfSpeech": "adv",
+          "pronunciation": "/ɪˈmiːdiətli/",
+          "meaning": "Ngay lập tức",
+          "example": "They arrived promptly at two o'clock",
+          "exampleVi": "Họ đến ngay lúc hai giờ.",
+          "image": "images/b16_w06.png"
+        },
+        {
+          "id": "b16_w07",
+          "word": "allow / permit SO to Vo",
+          "partOfSpeech": "",
+          "pronunciation": "/əˈlaʊ/ /pərˈmɪt/",
+          "meaning": "Cho phép ai làm gì",
+          "example": "Visitors are not permitted to take photographs.",
+          "exampleVi": "Du khách không được phép chụp ảnh.",
+          "image": "images/b16_w07.png"
+        },
+        {
+          "id": "b16_w08",
+          "word": "implement",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈɪmplɪment/",
+          "meaning": "Tiến hành, thực hiện",
+          "example": "A new work programme for young people will be implemented.",
+          "exampleVi": "Một chương trình làm việc mới cho thanh niên sẽ được thực hiện.",
+          "image": "images/b16_w08.png"
+        },
+        {
+          "id": "b16_w09",
+          "word": "install",
+          "partOfSpeech": "v",
+          "pronunciation": "/ɪn'stɔ:l/",
+          "meaning": "Lắp đặt",
+          "example": "Make sure the equipment is properly installed.",
+          "exampleVi": "Đảm bảo thiết bị được lắp đặt đúng cách.",
+          "image": "images/b16_w09.png"
+        },
+        {
+          "id": "b16_w10",
+          "word": "determine",
+          "partOfSpeech": "v",
+          "pronunciation": "/dɪˈtɜːrmɪn/",
+          "meaning": "Xác định",
+          "example": "Try to determine the extent of the problem.",
+          "exampleVi": "Cố gắng xác định mức độ của vấn đề.",
+          "image": "images/b16_w10.png"
+        },
+        {
+          "id": "b16_w11",
+          "word": "refund (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/rɪˈfʌnd/ /ˈriːfʌnd/",
+          "meaning": "Hoàn tiền",
+          "example": "Your money will be refunded in full.",
+          "exampleVi": "Tiền của bạn sẽ được hoàn trả đầy đủ.",
+          "image": "images/b16_w11.png"
+        },
+        {
+          "id": "b16_w12",
+          "word": "At the current speed of production, Supreme Tech is not able to manufacture ……….. products to meet the demands of our purchase orders.",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "II. LUYỆN TẬP PART 5",
+          "example": "",
+          "exampleVi": "",
+          "image": null
+        },
+        {
+          "id": "b16_w13",
+          "word": "……………. all the provisions of the merger are fully implemented, the two companies will expand their partnership to provide an even higher level of quality.",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "",
+          "example": "",
+          "exampleVi": "",
+          "image": null
+        },
+        {
+          "id": "b16_w14",
+          "word": "The warranty attached to the product you purchased will be valid for two years from the date of……….",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "",
+          "example": "B. admission",
+          "exampleVi": "",
+          "image": null
+        },
+        {
+          "id": "b16_w15",
+          "word": "This shoe is more beautiful than that.",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "Chiếc giày này đẹp hơn chiếc kia.",
+          "example": "I drive more carefully than she does.",
+          "exampleVi": "",
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Bài 17",
+      "fileName": "TỪ VỰNG BAI 17.pptx",
+      "wordCount": 24,
+      "words": [
+        {
+          "id": "b17_w01",
+          "word": "order (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈɔːrdər/",
+          "meaning": "đặt hàng/ đơn hàng",
+          "example": "The waiter came to take their orders.",
+          "exampleVi": "Người phục vụ đến nhận đơn đặt hàng của họ.",
+          "image": "images/b17_w01.png"
+        },
+        {
+          "id": "b17_w02",
+          "word": "complain",
+          "partOfSpeech": "v",
+          "pronunciation": "/kəmˈpleɪn/",
+          "meaning": "phàn nàn, khiếu nại",
+          "example": "I'm going to complain to the manager about this.",
+          "exampleVi": "Tôi sẽ khiếu nại với người quản lý về điều này.",
+          "image": "images/b17_w02.jpg"
+        },
+        {
+          "id": "b17_w03",
+          "word": "maintenance",
+          "partOfSpeech": "n",
+          "pronunciation": "/'meɪntənəns/",
+          "meaning": "việc bảo trì/ bảo dưỡng",
+          "example": "car maintenance",
+          "exampleVi": "bảo dưỡng ô tô",
+          "image": "images/b17_w03.jpg"
+        },
+        {
+          "id": "b17_w04",
+          "word": "application",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌæplɪˈkeɪʃn/",
+          "meaning": "đơn đăng ký",
+          "example": "We have received applications from more than 3 000 students.",
+          "exampleVi": "Chúng tôi đã nhận được đơn đăng ký của hơn 3000 sinh viên.",
+          "image": "images/b17_w04.jpg"
+        },
+        {
+          "id": "b17_w05",
+          "word": "recognize",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈrekəɡnaɪz/",
+          "meaning": "công nhận, nhận ra",
+          "example": "I recognized the voice immediately.",
+          "exampleVi": "Tôi nhận ra giọng nói",
+          "image": "images/b17_w05.png"
+        },
+        {
+          "id": "b17_w06",
+          "word": "benefit (n,v)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈbenɪfɪt/",
+          "meaning": "lợi ích/ làm cho có lợi",
+          "example": "Freedom of information brings",
+          "exampleVi": "Tự do thông tin mang lại lợi ích to lớn.",
+          "image": "images/b17_w06.jpg"
+        },
+        {
+          "id": "b17_w07",
+          "word": "dedication",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌdedɪˈkeɪʃn/",
+          "meaning": "the willingness to give a lot of time and energy to something because it is important - sự cống hiến",
+          "example": "I really admire Gina for her dedication to her family.",
+          "exampleVi": "Tôi thực sự ngưỡng mộ Gina vì sự cống hiến của cô ấy cho gia đình.",
+          "image": "images/b17_w07.png"
+        },
+        {
+          "id": "b17_w08",
+          "word": "technical support",
+          "partOfSpeech": "",
+          "pronunciation": "/'teknɪkl/ /sə'pɔ:rt/",
+          "meaning": "sự hỗ trợ kĩ thuật",
+          "example": "For technical support, click on one of the links below.",
+          "exampleVi": "Để được hỗ trợ kỹ thuật, hãy nhấp vào một trong các liên kết bên dưới.",
+          "image": "images/b17_w08.jpg"
+        },
+        {
+          "id": "b17_w09",
+          "word": "mention",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈmenʃn/",
+          "meaning": "đề cập",
+          "example": "Sorry, I won't mention it again.",
+          "exampleVi": "Xin lỗi, tôi sẽ không đề cập lại.",
+          "image": "images/b17_w09.jpg"
+        },
+        {
+          "id": "b17_w10",
+          "word": "subscribe",
+          "partOfSpeech": "v",
+          "pronunciation": "/səbˈskraɪb/",
+          "meaning": "đăng kí/theo dõi",
+          "example": "Which journals does the library subscribe to?",
+          "exampleVi": "Thư viện đăng ký tạp chí nào?",
+          "image": "images/b17_w10.jpg"
+        },
+        {
+          "id": "b17_w11",
+          "word": "advertisement",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌædvərˈtaɪzmənt/",
+          "meaning": "Quảng cáo",
+          "example": "an online advertisement",
+          "exampleVi": "một quảng cáo trực tuyến",
+          "image": "images/b17_w11.jpg"
+        },
+        {
+          "id": "b17_w12",
+          "word": "receptionist",
+          "partOfSpeech": "n",
+          "pronunciation": "/rɪˈsepʃənɪst/",
+          "meaning": "Tiếp tân, lễ tân",
+          "example": "Our receptionists will help you to check in.",
+          "exampleVi": "Nhân viên lễ tân của chúng tôi sẽ giúp bạn làm thủ tục.",
+          "image": "images/b17_w12.jpg"
+        },
+        {
+          "id": "b17_w13",
+          "word": "available",
+          "partOfSpeech": "adj",
+          "pronunciation": "/əˈveɪləbl/",
+          "meaning": "able to be bought or used - có sẵn",
+          "example": "Further details are available on request.",
+          "exampleVi": "Thông tin chi tiết có sẵn theo yêu cầu.",
+          "image": "images/b17_w13.jpg"
+        },
+        {
+          "id": "b17_w14",
+          "word": "job fair",
+          "partOfSpeech": "n",
+          "pronunciation": "/dʒɑːb/ /fer/",
+          "meaning": "Ngày hội việc làm",
+          "example": "This itinerary includes a book signing and a job fair.",
+          "exampleVi": "Hành trình này bao gồm ký tặng sách và ngày hội việc làm.",
+          "image": "images/b17_w14.jpg"
+        },
+        {
+          "id": "b17_w15",
+          "word": "estimate",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈes.tɪ.meɪt/",
+          "meaning": "ước tính",
+          "example": "Police estimate the crowd",
+          "exampleVi": "Cảnh sát ước tính đám đông là 30.000 người",
+          "image": "images/b17_w15.jpg"
+        },
+        {
+          "id": "b17_w16",
+          "word": "accounting",
+          "partOfSpeech": "n",
+          "pronunciation": "/əˈkaʊntɪŋ/",
+          "meaning": "Kế toán",
+          "example": "a career in accounting",
+          "exampleVi": "nghề kế toán",
+          "image": "images/b17_w16.jpg"
+        },
+        {
+          "id": "b17_w17",
+          "word": "notice (nˈnəʊtɪs/",
+          "partOfSpeech": "",
+          "pronunciation": "/v) /",
+          "meaning": "Thông báo/ bảng thông báo",
+          "example": "There was a notice on the board saying the class had been cancelled.",
+          "exampleVi": "Có một thông báo trên bảng nói rằng lớp học đã bị hủy bỏ.",
+          "image": "images/b17_w17.jpg"
+        },
+        {
+          "id": "b17_w18",
+          "word": "handout",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈhændaʊt/",
+          "meaning": "Tài liệu phát tay, handout",
+          "example": "Handout is a document that is given to students in class.",
+          "exampleVi": "Handout là một tài liệu được phát cho học sinh trong lớp.",
+          "image": "images/b17_w18.jpg"
+        },
+        {
+          "id": "b17_w19",
+          "word": "out of order",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈɔːrdər/",
+          "meaning": "Hư, hỏng, bị lỗi",
+          "example": "This machine is out of order and needs to be fixed.",
+          "exampleVi": "Máy này đã bị lỗi và cần được sửa.",
+          "image": "images/b17_w19.jpg"
+        },
+        {
+          "id": "b17_w20",
+          "word": "equipment",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɪˈkwɪpmənt/",
+          "meaning": "Thiết bị",
+          "example": "a useful piece of equipment for the kitchen",
+          "exampleVi": "một thiết bị hữu ích cho nhà bếp",
+          "image": "images/b17_w20.jpg"
+        },
+        {
+          "id": "b17_w21",
+          "word": "rest (n, v)",
+          "partOfSpeech": "",
+          "pronunciation": "/rest/",
+          "meaning": "Phần còn lại, nghỉ ngơi",
+          "example": "The doctor told me to rest.",
+          "exampleVi": "Bác sĩ bảo tôi phải nghỉ ngơi.",
+          "image": "images/b17_w21.jpg"
+        },
+        {
+          "id": "b17_w22",
+          "word": "colleague",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈkɑːliːɡ/",
+          "meaning": "Đồng nghiệp",
+          "example": "We were friends and colleagues for more than 20 years.",
+          "exampleVi": "Chúng tôi là bạn và đồng nghiệp trong hơn 20 năm.",
+          "image": "images/b17_w22.jpg"
+        },
+        {
+          "id": "b17_w23",
+          "word": "smoothly",
+          "partOfSpeech": "adv",
+          "pronunciation": "/ˈsmuːðli/",
+          "meaning": "- Mềm mại, trôi chảy, trơn tru",
+          "example": "easily and without interruption or difficulty",
+          "exampleVi": "Động cơ hoạt động trơn tru.",
+          "image": "images/b17_w23.png"
+        },
+        {
+          "id": "b17_w24",
+          "word": "availability",
+          "partOfSpeech": "n",
+          "pronunciation": "/əˌveɪləˈbɪləti/",
+          "meaning": "the fact that something can be bought, used, or reached, or how much it can be - sự sẵn có, sự sẵn sàng",
+          "example": "the availability of cheap flights",
+          "exampleVi": "sự sẵn có của các chuyến bay giá rẻ",
+          "image": "images/b17_w24.png"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Bài 18",
+      "fileName": "TỪ VỰNG BÀI 18.pptx",
+      "wordCount": 23,
+      "words": [
+        {
+          "id": "b18_w01",
+          "word": "Subscription",
+          "partOfSpeech": "n",
+          "pronunciation": "/səb'skrɪpʃn/",
+          "meaning": "Sự đăng kí/theo dõi",
+          "example": "To renew a subscription",
+          "exampleVi": "",
+          "image": "images/b18_w01.png"
+        },
+        {
+          "id": "b18_w02",
+          "word": "Renew",
+          "partOfSpeech": "v",
+          "pronunciation": "/rɪ'nju:/",
+          "meaning": "Gia hạn",
+          "example": "To renew a licence",
+          "exampleVi": "",
+          "image": "images/b18_w02.png"
+        },
+        {
+          "id": "b18_w03",
+          "word": "Expire",
+          "partOfSpeech": "v",
+          "pronunciation": "/ɪk'spaɪər/",
+          "meaning": "Hết hạn",
+          "example": "Our lease on the house expires next month",
+          "exampleVi": "",
+          "image": "images/b18_w03.png"
+        },
+        {
+          "id": "b18_w04",
+          "word": "Undergo",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˌʌndərˈɡoʊ/",
+          "meaning": "Trải qua",
+          "example": "My mother underwent major surgery last year",
+          "exampleVi": "",
+          "image": "images/b18_w04.png"
+        },
+        {
+          "id": "b18_w05",
+          "word": "Meet need / meet requirement",
+          "partOfSpeech": "v",
+          "pronunciation": "/miːt n iːd/ /miːt/ /rɪˈkwaɪərmənt/",
+          "meaning": "Đáp ứng nhu cầu",
+          "example": "A software solution to meet your requirements",
+          "exampleVi": "",
+          "image": "images/b18_w05.png"
+        },
+        {
+          "id": "b18_w06",
+          "word": "Substantial significant",
+          "partOfSpeech": "a",
+          "pronunciation": "/ considerable/",
+          "meaning": "To lớn, đáng kể",
+          "example": "The project wasted a considerable amount of time and money",
+          "exampleVi": "",
+          "image": "images/b18_w06.png"
+        },
+        {
+          "id": "b18_w07",
+          "word": "Destination",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌdestɪˈneɪʃn/",
+          "meaning": "điểm đến, địa điểm",
+          "example": "Popular tourist destinations",
+          "exampleVi": "",
+          "image": "images/b18_w07.png"
+        },
+        {
+          "id": "b18_w08",
+          "word": "Identification",
+          "partOfSpeech": "n",
+          "pronunciation": "/aɪˌdentɪfɪˈkeɪʃn/",
+          "meaning": "Sự xác minh danh tính",
+          "example": "Each product has a number for easy identification",
+          "exampleVi": "chứng minh nhân dân..",
+          "image": "images/b18_w08.png"
+        },
+        {
+          "id": "b18_w09",
+          "word": "Sensitive",
+          "partOfSpeech": "a",
+          "pronunciation": "/ˈsensətɪv/",
+          "meaning": "nhạy cảm",
+          "example": "She is very sensitive to other people's feelings",
+          "exampleVi": "",
+          "image": "images/b18_w09.png"
+        },
+        {
+          "id": "b18_w10",
+          "word": "Assembly",
+          "partOfSpeech": "n",
+          "pronunciation": "/əˈsembli/",
+          "meaning": "Sự lắp ráp",
+          "example": "A car assembly plant",
+          "exampleVi": "",
+          "image": "images/b18_w10.png"
+        },
+        {
+          "id": "b18_w11",
+          "word": "Technician",
+          "partOfSpeech": "n",
+          "pronunciation": "/tekˈnɪʃn/",
+          "meaning": "Kỹ thuật viên",
+          "example": "A computer support technician",
+          "exampleVi": "",
+          "image": "images/b18_w11.png"
+        },
+        {
+          "id": "b18_w12",
+          "word": "Warranty",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈwɔːrənti/",
+          "meaning": "Bảo hành",
+          "example": "Is the car still under warranty?",
+          "exampleVi": "",
+          "image": "images/b18_w12.jpg"
+        },
+        {
+          "id": "b18_w13",
+          "word": "Award ceremony",
+          "partOfSpeech": "n",
+          "pronunciation": "/əˈwɔːrd/ /ˈserəməʊni/",
+          "meaning": "Buổi lễ trao giải",
+          "example": "More than 1,000 people attended the award ceremony",
+          "exampleVi": "",
+          "image": "images/b18_w13.png"
+        },
+        {
+          "id": "b18_w14",
+          "word": "Impressive",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ɪmˈpresɪv/",
+          "meaning": "Ấn tượng",
+          "example": "An impressive performance",
+          "exampleVi": "",
+          "image": "images/b18_w14.png"
+        },
+        {
+          "id": "b18_w15",
+          "word": "Sales numbers/ sales figures",
+          "partOfSpeech": "n",
+          "pronunciation": "/seɪlz ˈnʌmbər/ /ˈfɪɡjərz/",
+          "meaning": "Số liệu bán hàng",
+          "example": "This year’s sales figures is quite good",
+          "exampleVi": "",
+          "image": "images/b18_w15.png"
+        },
+        {
+          "id": "b18_w16",
+          "word": "Tournament",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈtʊrnəmənt/",
+          "meaning": "Giải đấu",
+          "example": "A tennis tournament",
+          "exampleVi": "",
+          "image": "images/b18_w16.png"
+        },
+        {
+          "id": "b18_w17",
+          "word": "Inspection",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɪnˈspekʃn/",
+          "meaning": "Sự kiểm tra",
+          "example": "Regular inspections are carried out at the prison",
+          "exampleVi": "",
+          "image": "images/b18_w17.jpg"
+        },
+        {
+          "id": "b18_w18",
+          "word": "Storage",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈstɔːrɪdʒ/",
+          "meaning": "Kho, sự lưu trữ",
+          "example": "Food storage facilities",
+          "exampleVi": "",
+          "image": "images/b18_w18.png"
+        },
+        {
+          "id": "b18_w19",
+          "word": "Shipment",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈʃɪpmənt/",
+          "meaning": "Chuyến hàng, lô hàng, sự xuất xưởng",
+          "example": "The goods are ready for shipment",
+          "exampleVi": "",
+          "image": "images/b18_w19.png"
+        },
+        {
+          "id": "b18_w20",
+          "word": "Put away",
+          "partOfSpeech": "v",
+          "pronunciation": "/pʊt/ /əˈweɪ/",
+          "meaning": "Cất đi",
+          "example": "I'm just going to put the car away",
+          "exampleVi": "",
+          "image": "images/b18_w20.jpg"
+        },
+        {
+          "id": "b18_w21",
+          "word": "Relief",
+          "partOfSpeech": "n",
+          "pronunciation": "/rɪˈliːf/",
+          "meaning": "Nhẹ nhõm",
+          "example": "It was a relief to be able to talk to someone about it",
+          "exampleVi": "",
+          "image": "images/b18_w21.png"
+        },
+        {
+          "id": "b18_w22",
+          "word": "Organizer",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈɔːrɡənaɪzər/",
+          "meaning": "Ban tổ chức",
+          "example": "An event organizer",
+          "exampleVi": "",
+          "image": "images/b18_w22.png"
+        },
+        {
+          "id": "b18_w23",
+          "word": "Reception",
+          "partOfSpeech": "n",
+          "pronunciation": "/rɪˈsepʃn/",
+          "meaning": "Tiếp tân, lễ tân",
+          "example": "Please report to reception on arrival",
+          "exampleVi": "",
+          "image": "images/b18_w23.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Bài 20",
+      "fileName": "TỪ VỰNG BÀI 20.pptx",
+      "wordCount": 35,
+      "words": [
+        {
+          "id": "b20_w01",
+          "word": "courteous",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈkɜːrtiəs/",
+          "meaning": "lịch sự",
+          "example": "Please be polite to our guests.",
+          "exampleVi": "Hãy lịch sự với khách của chúng tôi.",
+          "image": "images/b20_w01.jpg"
+        },
+        {
+          "id": "b20_w02",
+          "word": "competitive",
+          "partOfSpeech": "a",
+          "pronunciation": "/kəmˈpetətɪv/",
+          "meaning": "cạnh tranh",
+          "example": "a competitive market",
+          "exampleVi": "thị trường cạnh tranh",
+          "image": "images/b20_w02.jpg"
+        },
+        {
+          "id": "b20_w03",
+          "word": "source",
+          "partOfSpeech": "n",
+          "pronunciation": "/sɔːrs/",
+          "meaning": "nguồn, nguồn gốc",
+          "example": "renewable energy sources (nguồn năng lượng tái sinh)",
+          "exampleVi": "",
+          "image": "images/b20_w03.png"
+        },
+        {
+          "id": "b20_w04",
+          "word": "predict/",
+          "partOfSpeech": "",
+          "pronunciation": "/prɪˈdɪkt/",
+          "meaning": "dự đoán, dự báo, lường trước",
+          "example": "We don't anticipate any major problems.",
+          "exampleVi": "Chúng tôi không lường trước được bất kỳ vấn đề lớn nào.",
+          "image": "images/b20_w04.jpg"
+        },
+        {
+          "id": "b20_w05",
+          "word": "accurate",
+          "partOfSpeech": "a",
+          "pronunciation": "/ˈækjərət/",
+          "meaning": "chính xác",
+          "example": "an accurate estimate",
+          "exampleVi": "một sự ước tính chính xác",
+          "image": "images/b20_w05.jpg"
+        },
+        {
+          "id": "b20_w06",
+          "word": "reliable",
+          "partOfSpeech": "adj",
+          "pronunciation": "/rɪˈlaɪəbl/",
+          "meaning": "đáng tin cậy",
+          "example": "a reliable friend",
+          "exampleVi": "một người bạn đáng tin cậy",
+          "image": "images/b20_w06.png"
+        },
+        {
+          "id": "b20_w07",
+          "word": "affordable",
+          "partOfSpeech": "adj",
+          "pronunciation": "/əˈfɔːrdəbl/",
+          "meaning": "có thể chi trả được, phải chăng",
+          "example": "This model is relatively affordable at just $85.",
+          "exampleVi": "Mẫu này tương đối phải chăng, chỉ 85 đô",
+          "image": "images/b20_w07.png"
+        },
+        {
+          "id": "b20_w08",
+          "word": "result in",
+          "partOfSpeech": "",
+          "pronunciation": "/rɪˈzʌlt/ /ɪn/",
+          "meaning": "dẫn đến, dẫn ra",
+          "example": "Which door leads to the yard?",
+          "exampleVi": "Cửa nào dẫn ra sân?",
+          "image": "images/b20_w08.png"
+        },
+        {
+          "id": "b20_w09",
+          "word": "expect",
+          "partOfSpeech": "v",
+          "pronunciation": "/ɪkˈspekt/",
+          "meaning": "mong đợi, trông chờ, kỳ vọng",
+          "example": "The company is expecting record sales this year.",
+          "exampleVi": "Công ty đang kỳ vọng doanh thu kỷ lục trong năm nay.",
+          "image": "images/b20_w09.jpg"
+        },
+        {
+          "id": "b20_w10",
+          "word": "at all times",
+          "partOfSpeech": "",
+          "pronunciation": "/æt ɔːl taɪmz/",
+          "meaning": "mọi lúc",
+          "example": "She is willing to help people at all times.",
+          "exampleVi": "Cô ấy sẵn sàng giúp đỡ mọi người mọi lúc.",
+          "image": "images/b20_w10.png"
+        },
+        {
+          "id": "b20_w11",
+          "word": "pursue",
+          "partOfSpeech": "v",
+          "pronunciation": "/pərˈsuː/",
+          "meaning": "theo đuổi, thực hiện đến cùng",
+          "example": "She wishes to pursue a medical career.",
+          "exampleVi": "Cô mong muốn theo đuổi nghề y.",
+          "image": "images/b20_w11.jpg"
+        },
+        {
+          "id": "b20_w12",
+          "word": "intend to",
+          "partOfSpeech": "v",
+          "pronunciation": "/ɪnˈtend/",
+          "meaning": "dự định",
+          "example": "I never intended to",
+          "exampleVi": "Tôi không bao giờ có ý định làm tổn thương bạn.",
+          "image": "images/b20_w12.jpg"
+        },
+        {
+          "id": "b20_w13",
+          "word": "introduce",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˌɪntrəˈduːs/",
+          "meaning": "giới thiệu",
+          "example": "Allow me to introduce",
+          "exampleVi": "Hãy cho phép tôi giới thiệu mẹ tôi nhé.",
+          "image": "images/b20_w13.jpg"
+        },
+        {
+          "id": "b20_w14",
+          "word": "financial",
+          "partOfSpeech": "adj",
+          "pronunciation": "/faɪˈnænʃl/ /fəˈnænʃl/",
+          "meaning": "thuộc về tài chính",
+          "example": "The world's major",
+          "exampleVi": "thị trường tài chính lớn trên thế giới",
+          "image": "images/b20_w14.jpg"
+        },
+        {
+          "id": "b20_w15",
+          "word": "market share",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌmɑːkɪt ˈʃeə(r)/",
+          "meaning": "thị phần",
+          "example": "They claim to have a 40 percent worldwide market share.",
+          "exampleVi": "Họ tuyên bố có 40% thị phần trên toàn thế giới.",
+          "image": "images/b20_w15.jpg"
+        },
+        {
+          "id": "b20_w16",
+          "word": "influence (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈɪnfluəns/",
+          "meaning": "tác động, ảnh hưởng",
+          "example": "Those friends are a bad influence on her.",
+          "exampleVi": "Những người bạn đó là ảnh hưởng xấu đối với cô ấy.",
+          "image": "images/b20_w16.jpg"
+        },
+        {
+          "id": "b20_w17",
+          "word": "comply with",
+          "partOfSpeech": "",
+          "pronunciation": "/kəmˈplaɪ wɪθ/",
+          "meaning": "tuân theo, nghe lời",
+          "example": "He had always obeyed his parents without question.",
+          "exampleVi": "Anh luôn vâng lời cha mẹ mà không thắc mắc.",
+          "image": "images/b20_w17.jpg"
+        },
+        {
+          "id": "b20_w18",
+          "word": "review (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/rɪˈvjuː/",
+          "meaning": "phê bình/ nhận xét/ đánh giá",
+          "example": "an online review of the restaurant",
+          "exampleVi": "đánh giá trực tuyến về nhà hàng",
+          "image": "images/b20_w18.jpg"
+        },
+        {
+          "id": "b20_w19",
+          "word": "manufacture (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˌmænjuˈfæktʃər/",
+          "meaning": "sản xuất, sáng chế, tạo ra",
+          "example": "a news story manufactured",
+          "exampleVi": "tin tức được viết bởi 1 nhà báo",
+          "image": "images/b20_w19.jpg"
+        },
+        {
+          "id": "b20_w20",
+          "word": "consult with",
+          "partOfSpeech": "v",
+          "pronunciation": "/kənˈsʌlt wɪθ/",
+          "meaning": "tham vấn, tham khảo",
+          "example": "Consult with your physician about possible treatments.",
+          "exampleVi": "Hãy tham khảo ý kiến bác sĩ về các phương pháp điều trị",
+          "image": "images/b20_w20.png"
+        },
+        {
+          "id": "b20_w21",
+          "word": "retire",
+          "partOfSpeech": "v",
+          "pronunciation": "/rɪˈtaɪər/",
+          "meaning": "Về hưu",
+          "example": "The company's official retiring age is 65.",
+          "exampleVi": "Tuổi nghỉ hưu chính thức của công ty là 65.",
+          "image": "images/b20_w21.jpg"
+        },
+        {
+          "id": "b20_w22",
+          "word": "coordinate",
+          "partOfSpeech": "v",
+          "pronunciation": "/kəʊˈɔːrdɪneɪt/",
+          "meaning": "Điều phối, phối hợp",
+          "example": "We need to develop a coordinated approach to the problem.",
+          "exampleVi": "Chúng ta cần phát triển một phương pháp phối hợp để giải quyết vấn đề.",
+          "image": "images/b20_w22.jpg"
+        },
+        {
+          "id": "b20_w23",
+          "word": "on one’s way",
+          "partOfSpeech": "",
+          "pronunciation": "/weɪ/",
+          "meaning": "Trên đường đến nơi nào đó",
+          "example": "I’m on my way to the art exhibit.",
+          "exampleVi": "Tôi đang trên đường đến",
+          "image": "images/b20_w23.jpg"
+        },
+        {
+          "id": "b20_w24",
+          "word": "itinerary",
+          "partOfSpeech": "n",
+          "pronunciation": "/aɪˈtɪnəreri/",
+          "meaning": "Lịch trình",
+          "example": "He drew up a detailed itinerary",
+          "exampleVi": "Anh ấy đã soạn ra một lịch trình chi tiết.",
+          "image": "images/b20_w24.png"
+        },
+        {
+          "id": "b20_w25",
+          "word": "pharmacy",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈfɑːrməsi/",
+          "meaning": "Dược phẩm, hiệu thuốc",
+          "example": "The cream is available at pharmacies without a prescription.",
+          "exampleVi": "Kem có bán tại các hiệu thuốc mà không cần toa bác sĩ.",
+          "image": "images/b20_w25.jpg"
+        },
+        {
+          "id": "b20_w26",
+          "word": "medication",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌmedɪˈkeɪʃn/",
+          "meaning": "Sự bốc thuốc/ đơn thuốc/ dược phẩm",
+          "example": "Are you currently taking any medication?",
+          "exampleVi": "Hiện bạn có đang dùng thuốc không?",
+          "image": "images/b20_w26.jpg"
+        },
+        {
+          "id": "b20_w27",
+          "word": "hold",
+          "partOfSpeech": "v",
+          "pronunciation": "/həʊld/",
+          "meaning": "Tổ chức",
+          "example": "The next conference will be held in Ohio.",
+          "exampleVi": "Hội nghị tiếp theo sẽ được tổ chức tại Ohio.",
+          "image": "images/b20_w27.png"
+        },
+        {
+          "id": "b20_w28",
+          "word": "authorized",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˈɔːθəraɪzd/",
+          "meaning": "Được ủy quyền",
+          "example": "I bought my car from an authorized dealer.",
+          "exampleVi": "Tôi đã mua xe từ một đại lý ủy quyền.",
+          "image": "images/b20_w28.png"
+        },
+        {
+          "id": "b20_w29",
+          "word": "head",
+          "partOfSpeech": "n",
+          "pronunciation": "/hed/",
+          "meaning": "Trưởng (người đứng đầu)",
+          "example": "She resigned as head of department.",
+          "exampleVi": "Cô từ chức trưởng phòng.",
+          "image": "images/b20_w29.jpg"
+        },
+        {
+          "id": "b20_w30",
+          "word": "expect",
+          "partOfSpeech": "v",
+          "pronunciation": "/ɪkˈspekt/",
+          "meaning": "Mong đợi",
+          "example": "Don't expect sympathy from me!",
+          "exampleVi": "Đừng mong đợi sự thông cảm từ tôi!",
+          "image": "images/b20_w30.jpg"
+        },
+        {
+          "id": "b20_w31",
+          "word": "monument",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈmɑːnjumənt/",
+          "meaning": "Đài kỷ niệm, di tích",
+          "example": "an ancient monument",
+          "exampleVi": "một di tích cổ đại",
+          "image": "images/b20_w31.jpg"
+        },
+        {
+          "id": "b20_w32",
+          "word": "relocate",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˌriːˈləʊkeɪt/",
+          "meaning": "Di dời",
+          "example": "Our offices are to be relocated to Newcastle.",
+          "exampleVi": "Văn phòng của chúng tôi sẽ được chuyển đến Newcastle.",
+          "image": "images/b20_w32.jpg"
+        },
+        {
+          "id": "b20_w33",
+          "word": "estate agency",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɪˈsteɪt/ /ˈeɪdʒənsi/",
+          "meaning": "Công ty nhà đất/ đại lý bất động sản",
+          "example": "He is working in an estate agency nearby.",
+          "exampleVi": "Anh ấy đang làm việc trong một công ty bất động sản gần đây",
+          "image": "images/b20_w33.jpg"
+        },
+        {
+          "id": "b20_w34",
+          "word": "spacious",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˈspeɪʃəs/",
+          "meaning": "Rộng rãi",
+          "example": "The hotel rooms are spacious and comfortable.",
+          "exampleVi": "Các phòng của khách sạn rộng rãi và thoải mái.",
+          "image": "images/b20_w34.jpg"
+        },
+        {
+          "id": "b20_w35",
+          "word": "prescription",
+          "partOfSpeech": "n",
+          "pronunciation": "/prɪˈskrɪpʃn/",
+          "meaning": "Toa thuốc",
+          "example": "The doctor gave me a",
+          "exampleVi": "Bác sĩ cho tôi đơn thuốc kháng sinh.",
+          "image": "images/b20_w35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Bài 21",
+      "fileName": "TỪ VỰNG BÀI 21.pptx",
+      "wordCount": 35,
+      "words": [
+        {
+          "id": "b21_w01",
+          "word": "remeasure",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈmeʒər/",
+          "meaning": "Đo đạc lại/ tính lại",
+          "example": "A ship's speed is measured in knots.",
+          "exampleVi": "Tốc độ của một con tàu được tính bằng hải lý.",
+          "image": "images/b21_w01.jpg"
+        },
+        {
+          "id": "b21_w02",
+          "word": "doorway",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈdɔːrweɪ/",
+          "meaning": "Ô cửa, ngưỡng cửa",
+          "example": "She stood in the doorway for a moment before going in.",
+          "exampleVi": "Cô ấy đứng ở ngưỡng cửa một lúc trước khi đi vào.",
+          "image": "images/b21_w02.jpg"
+        },
+        {
+          "id": "b21_w03",
+          "word": "assemble",
+          "partOfSpeech": "v",
+          "pronunciation": "/əˈsembl/",
+          "meaning": "Lắp ráp",
+          "example": "The shelves are easy to assemble.",
+          "exampleVi": "Các kệ rất dễ lắp ráp.",
+          "image": "images/b21_w03.jpg"
+        },
+        {
+          "id": "b21_w04",
+          "word": "temporary",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˈtempəreri/ /ˈtemprəri/",
+          "meaning": "Tạm thời, thời vụ",
+          "example": "to hire temporary workers (thuê công nhân thời vụ)",
+          "exampleVi": "",
+          "image": "images/b21_w04.jpg"
+        },
+        {
+          "id": "b21_w05",
+          "word": "catalogue",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈkætəlɔːɡ/",
+          "meaning": "Lập danh mục",
+          "example": "New books are catalogued on an electronic database.",
+          "exampleVi": "Sách mới được lập danh mục trên cơ sở dữ liệu điện tử.",
+          "image": "images/b21_w05.jpg"
+        },
+        {
+          "id": "b21_w06",
+          "word": "architectural",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˌɑːrkɪˈtektʃərəl/",
+          "meaning": "(thuộc) kiến trúc",
+          "example": "architectural features",
+          "exampleVi": "đặc điểm kiến trúc",
+          "image": "images/b21_w06.jpg"
+        },
+        {
+          "id": "b21_w07",
+          "word": "brainstorm (n,v)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈbreɪnstɔːrm/",
+          "meaning": "Vận dụng trí não (làm gì)",
+          "example": "Brainstorm as many ideas as possible.",
+          "exampleVi": "Động não càng nhiều ý tưởng càng tốt.",
+          "image": "images/b21_w07.jpg"
+        },
+        {
+          "id": "b21_w08",
+          "word": "sort",
+          "partOfSpeech": "n",
+          "pronunciation": "/sɔːrt/",
+          "meaning": "Thứ, loại, hạng",
+          "example": "This sort of problem is quite common.",
+          "exampleVi": "Loại vấn đề này khá phổ biến.",
+          "image": "images/b21_w08.jpg"
+        },
+        {
+          "id": "b21_w09",
+          "word": "separate",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˈseprət/",
+          "meaning": "Riêng rẽ, riêng biệt",
+          "example": "They have begun to sleep in separate rooms.",
+          "exampleVi": "Họ đã bắt đầu ngủ trong các phòng riêng biệt.",
+          "image": "images/b21_w09.jpg"
+        },
+        {
+          "id": "b21_w10",
+          "word": "exchange",
+          "partOfSpeech": "v",
+          "pronunciation": "/ɪksˈtʃeɪndʒ/",
+          "meaning": "Đổi",
+          "example": "I need to exchange this for a larger size.",
+          "exampleVi": "Tôi cần đổi cái này để lấy kích thước lớn hơn).",
+          "image": "images/b21_w10.jpg"
+        },
+        {
+          "id": "b21_w11",
+          "word": "purchase",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈpɜːrtʃəs/",
+          "meaning": "",
+          "example": "Please ensure that you purchase your ticket in advance.",
+          "exampleVi": "Vui lòng đảm bảo rằng bạn đã mua vé trước.",
+          "image": "images/b21_w11.jpg"
+        },
+        {
+          "id": "b21_w12",
+          "word": "recommend",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˌrekəˈmend/",
+          "meaning": "Giới thiệu, tiến cử",
+          "example": "I recommend the book to all my students.",
+          "exampleVi": "Tôi giới thiệu cuốn sách cho tất cả học sinh của mình.",
+          "image": "images/b21_w12.jpg"
+        },
+        {
+          "id": "b21_w13",
+          "word": "reduce",
+          "partOfSpeech": "v",
+          "pronunciation": "/rɪˈduːs/",
+          "meaning": "Làm giảm",
+          "example": "Costs have been reduced by 20% over the past year.",
+          "exampleVi": "Chi phí đã giảm 20% trong năm qua.",
+          "image": "images/b21_w13.png"
+        },
+        {
+          "id": "b21_w14",
+          "word": "carpenter",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈkɑːrpəntər/",
+          "meaning": "Thợ mộc",
+          "example": "A master carpenter was in charge of teaching the apprentices.",
+          "exampleVi": "Một thợ mộc giỏi chịu trách nhiệm dạy những người học việc.",
+          "image": "images/b21_w14.jpg"
+        },
+        {
+          "id": "b21_w15",
+          "word": "instruction manual",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɪnˈstrʌkʃn/ /ˈmænjuəl/",
+          "meaning": "Cẩm nang hướng dẫn",
+          "example": "Please read the instruction manual carefully before assembling the shelf.",
+          "exampleVi": "Vui lòng đọc kỹ hướng dẫn sử dụng trước khi lắp ráp kệ.",
+          "image": "images/b21_w15.png"
+        },
+        {
+          "id": "b21_w16",
+          "word": "summary / abstract",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈsʌməri/ /ˈæbstrækt/",
+          "meaning": "Bản tóm tắt",
+          "example": "The following is a summary of our conclusions.",
+          "exampleVi": "Sau đây là tóm tắt kết luận của chúng tôi.",
+          "image": "images/b21_w16.png"
+        },
+        {
+          "id": "b21_w17",
+          "word": "respectively",
+          "partOfSpeech": "adv",
+          "pronunciation": "/rɪˈspektɪvli /",
+          "meaning": "Theo thứ tự tương ứng, lần lượt",
+          "example": "Julie & Mark, aged 17 and 19 respectively.",
+          "exampleVi": "Julie và Mark, lần lượt 17 tuổi và 19 tuổi",
+          "image": "images/b21_w17.png"
+        },
+        {
+          "id": "b21_w18",
+          "word": "punctual",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˈpʌŋktʃuəl/",
+          "meaning": "Đúng giờ",
+          "example": "She has been reliable and punctual.",
+          "exampleVi": "Cô ấy đáng tin cậy và đúng giờ.",
+          "image": "images/b21_w18.png"
+        },
+        {
+          "id": "b21_w19",
+          "word": "mutually",
+          "partOfSpeech": "adv",
+          "pronunciation": "/ˈmjuːtʃuəli/",
+          "meaning": "Qua lại, lẫn nhau",
+          "example": "a mutually beneficial relationship",
+          "exampleVi": "mối quan hệ đôi bên cùng có lợi",
+          "image": "images/b21_w19.png"
+        },
+        {
+          "id": "b21_w20",
+          "word": "avoid + V-ing",
+          "partOfSpeech": "v",
+          "pronunciation": "/əˈvɔɪd/",
+          "meaning": "Tránh",
+          "example": "They built a wall to avoid soil being washed away.",
+          "exampleVi": "Họ xây một bức tường để tránh đất bị rửa trôi.",
+          "image": "images/b21_w20.png"
+        },
+        {
+          "id": "b21_w21",
+          "word": "potential (a,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/pəˈtenʃl/",
+          "meaning": "tiềm năng, tiềm ẩn, tiềm tang",
+          "example": "potential risks",
+          "exampleVi": "rủi ro tiềm ẩn",
+          "image": "images/b21_w21.png"
+        },
+        {
+          "id": "b21_w22",
+          "word": "guarantee",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˌɡærənˈtiː/",
+          "meaning": "Đảm bảo",
+          "example": "She's perfectly safe, I can assure you.",
+          "exampleVi": "Cô ấy hoàn toàn an toàn, tôi có thể đảm bảo với bạn.",
+          "image": "images/b21_w22.png"
+        },
+        {
+          "id": "b21_w23",
+          "word": "consume",
+          "partOfSpeech": "v",
+          "pronunciation": "/kənˈsuːm/",
+          "meaning": "Tiêu thụ",
+          "example": "Before he died, he had consumed a large quantity of alcohol.",
+          "exampleVi": "Trước khi chết, anh ta đã uống một lượng lớn rượu.",
+          "image": "images/b21_w23.png"
+        },
+        {
+          "id": "b21_w24",
+          "word": "transit (n,v)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈtrænzɪt/",
+          "meaning": "quá cảnh, liên vận",
+          "example": "The cost includes transit.",
+          "exampleVi": "Chi phí đã bao gồm quá cảnh.",
+          "image": "images/b21_w24.png"
+        },
+        {
+          "id": "b21_w25",
+          "word": "issue",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈɪʃuː/",
+          "meaning": "phát hành, phát ra, cấp",
+          "example": "to issue a licence.",
+          "exampleVi": "cấp giấy phép",
+          "image": "images/b21_w25.png"
+        },
+        {
+          "id": "b21_w26",
+          "word": "résumé",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈrezəmeɪ/",
+          "meaning": "Hồ sơ, lý lịch",
+          "example": "I've read your résumé. Very impressive.",
+          "exampleVi": "Tôi đã đọc lý lịch của bạn. Rất ấn tượng.",
+          "image": "images/b21_w26.png"
+        },
+        {
+          "id": "b21_w27",
+          "word": "resume",
+          "partOfSpeech": "v",
+          "pronunciation": "/rɪˈzuːm/",
+          "meaning": "hồi phục lại, bắt đầu lại",
+          "example": "to resume negotiations",
+          "exampleVi": "tiếp tục đàm phán",
+          "image": "images/b21_w27.png"
+        },
+        {
+          "id": "b21_w28",
+          "word": "treatment",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈtriːtmənt/",
+          "meaning": "sự điều trị/ sự đối xử",
+          "example": "She has been undergoing cancer treatment.",
+          "exampleVi": "Cô ấy đã và đang điều trị ung thư.",
+          "image": "images/b21_w28.png"
+        },
+        {
+          "id": "b21_w29",
+          "word": "goal",
+          "partOfSpeech": "n",
+          "pronunciation": "/ɡoʊl/",
+          "meaning": "Mục đích, mục tiêu",
+          "example": "the government's policy objectives",
+          "exampleVi": "các mục tiêu chính sách của chính phủ",
+          "image": "images/b21_w29.png"
+        },
+        {
+          "id": "b21_w30",
+          "word": "respect (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/rɪˈspekt/",
+          "meaning": "Tôn trọng, kính trọng",
+          "example": "I respect Jack's opinion on most subjects.",
+          "exampleVi": "Tôi tôn trọng ý kiến của Jack về hầu hết các chủ đề.",
+          "image": "images/b21_w30.png"
+        },
+        {
+          "id": "b21_w31",
+          "word": "file",
+          "partOfSpeech": "n",
+          "pronunciation": "/faɪl/",
+          "meaning": "Tài liệu, văn bản",
+          "example": "This is an important legal document.",
+          "exampleVi": "Đây là một văn bản pháp lý quan trọng.",
+          "image": "images/b21_w31.png"
+        },
+        {
+          "id": "b21_w32",
+          "word": "stage",
+          "partOfSpeech": "n",
+          "pronunciation": "/steɪdʒ/",
+          "meaning": "giai đoạn/ sân khấu",
+          "example": "The product is at the design stage.",
+          "exampleVi": "Sản phẩm đang ở giai đoạn thiết kế.",
+          "image": "images/b21_w32.png"
+        },
+        {
+          "id": "b21_w33",
+          "word": "compile",
+          "partOfSpeech": "v",
+          "pronunciation": "/kəmˈpaɪl/",
+          "meaning": "soạn thảo, biên soạn",
+          "example": "We are trying to compile a list of suitable people for the job.",
+          "exampleVi": "Chúng tôi đang cố gắng biên soạn một danh sách những người phù hợp cho công việc.",
+          "image": "images/b21_w33.png"
+        },
+        {
+          "id": "b21_w34",
+          "word": "detail (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/dɪˈteɪl/ /ˈdiːteɪl/",
+          "meaning": "trình bày chi tiết/ thông tin chi tiết",
+          "example": "Can you send me your contact details?",
+          "exampleVi": "Bạn có thể gửi cho tôi thông tin liên lạc của bạn được không?",
+          "image": "images/b21_w34.png"
+        },
+        {
+          "id": "b21_w35",
+          "word": "operation",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌɑːpəˈreɪʃn/",
+          "meaning": "sự hoạt động, vận hành, hoạt động",
+          "example": "The firm is looking to expand its operations overseas.",
+          "exampleVi": "Công ty đang tìm cách mở rộng hoạt động ra nước ngoài.",
+          "image": "images/b21_w35.png"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Bài 22",
+      "fileName": "TỪ VỰNG BÀI 22.pptx",
+      "wordCount": 35,
+      "words": [
+        {
+          "id": "b22_w01",
+          "word": "decrease",
+          "partOfSpeech": "",
+          "pronunciation": "/dɪˈkriːs/",
+          "meaning": "giảm, làm giảm",
+          "example": "Her health began to decline.",
+          "exampleVi": "Sức khỏe của cô bắt đầu giảm sút.",
+          "image": "images/b22_w01.jpg"
+        },
+        {
+          "id": "b22_w02",
+          "word": "reject",
+          "partOfSpeech": "v",
+          "pronunciation": "/rɪˈdʒekt/",
+          "meaning": "từ chối",
+          "example": "The proposal was firmly rejected.",
+          "exampleVi": "Đề xuất đã bị từ chối một cách kiên quyết.",
+          "image": "images/b22_w02.jpg"
+        },
+        {
+          "id": "b22_w03",
+          "word": "obtain A from B",
+          "partOfSpeech": "v",
+          "pronunciation": "/əbˈteɪn/",
+          "meaning": "đạt được A từ B",
+          "example": "to obtain information",
+          "exampleVi": "để có được thông tin",
+          "image": "images/b22_w03.png"
+        },
+        {
+          "id": "b22_w04",
+          "word": "achievement accomplishment",
+          "partOfSpeech": "",
+          "pronunciation": "/əˈtʃiːvmənt/ /əˈkɑːmplɪʃmənt/",
+          "meaning": "thành tựu, thành tích",
+          "example": "an outstanding achievement",
+          "exampleVi": "một thành tích xuất sắc",
+          "image": "images/b22_w04.jpg"
+        },
+        {
+          "id": "b22_w05",
+          "word": "reasonable",
+          "partOfSpeech": "a",
+          "pronunciation": "/ˈriːznəbl/",
+          "meaning": "vừa phải, phải chăng, hợp lý",
+          "example": "You must submit your claim within a reasonable time.",
+          "exampleVi": "Bạn phải gửi yêu cầu của bạn trong một thời gian hợp lý.",
+          "image": "images/b22_w05.jpg"
+        },
+        {
+          "id": "b22_w06",
+          "word": "maintain",
+          "partOfSpeech": "v",
+          "pronunciation": "/meɪnˈteɪn/",
+          "meaning": "duy trì",
+          "example": "The two countries have always maintained close relations.",
+          "exampleVi": "Hai nước luôn duy trì mối quan hệ thân thiết.",
+          "image": "images/b22_w06.png"
+        },
+        {
+          "id": "b22_w07",
+          "word": "demand (n,v)",
+          "partOfSpeech": "",
+          "pronunciation": "/dɪˈmænd/",
+          "meaning": "nhu cầu, yêu cầu",
+          "example": "a demand for higher pay",
+          "exampleVi": "yêu cầu trả lương cao hơn",
+          "image": "images/b22_w07.jpg"
+        },
+        {
+          "id": "b22_w08",
+          "word": "remove",
+          "partOfSpeech": "v",
+          "pronunciation": "/rɪˈmuːv/",
+          "meaning": "bỏ, từ bỏ, loại bỏ, dọn, cất dọn",
+          "example": "Remove the pan from the heat and continue to stir the sauce.",
+          "exampleVi": "Lấy chảo ra khỏi bếp và tiếp tục khuấy nước sốt.",
+          "image": "images/b22_w08.png"
+        },
+        {
+          "id": "b22_w09",
+          "word": "entire",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪnˈtaɪər/",
+          "meaning": "toàn bộ, mọi thứ",
+          "example": "Let's forget the whole thing.",
+          "exampleVi": "Hãy quên tất cả mọi thứ.",
+          "image": "images/b22_w09.png"
+        },
+        {
+          "id": "b22_w10",
+          "word": "advantage",
+          "partOfSpeech": "n",
+          "pronunciation": "/ədˈvæntɪdʒ/",
+          "meaning": "lợi thế",
+          "example": "She had the advantage of a good education.",
+          "exampleVi": "Cô có một lợi thế là một nền giáo dục tốt.",
+          "image": "images/b22_w10.png"
+        },
+        {
+          "id": "b22_w11",
+          "word": "create",
+          "partOfSpeech": "",
+          "pronunciation": "/kriˈeɪt/",
+          "meaning": "tạo ra",
+          "example": "The wind turbines are used to generate electricity.",
+          "exampleVi": "Các tuabin gió được sử dụng để tạo ra điện.",
+          "image": "images/b22_w11.jpg"
+        },
+        {
+          "id": "b22_w12",
+          "word": "alert (a,v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/əˈlɜːrt /",
+          "meaning": "cảnh giác/ cảnh báo/ sự báo động, sự cảnh giác",
+          "example": "When you’re driving, you must stay alert.",
+          "exampleVi": "Khi lái xe, bạn phải luôn cảnh giác.",
+          "image": "images/b22_w12.jpg"
+        },
+        {
+          "id": "b22_w13",
+          "word": "attract",
+          "partOfSpeech": "v",
+          "pronunciation": "/əˈtrækt/",
+          "meaning": "thu hút",
+          "example": "I had always been attracted by the idea of working abroad.",
+          "exampleVi": "Tôi luôn bị thu hút bởi ý tưởng làm việc ở nước ngoài.",
+          "image": "images/b22_w13.jpg"
+        },
+        {
+          "id": "b22_w14",
+          "word": "switch",
+          "partOfSpeech": "v",
+          "pronunciation": "/swɪtʃ/",
+          "meaning": "chuyển đổi",
+          "example": "Press these two keys to switch between documents on screen.",
+          "exampleVi": "Nhấn hai phím này để chuyển đổi giữa các tài liệu trên màn hình.",
+          "image": "images/b22_w14.gif"
+        },
+        {
+          "id": "b22_w15",
+          "word": "purpose",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈpɜːrpəs/",
+          "meaning": "mục đích",
+          "example": "Our campaign's main purpose is to raise money.",
+          "exampleVi": "Mục đích chính của chiến dịch của chúng tôi là gây quỹ.",
+          "image": "images/b22_w15.jpg"
+        },
+        {
+          "id": "b22_w16",
+          "word": "encounter",
+          "partOfSpeech": "v",
+          "pronunciation": "/ɪnˈkaʊntər/",
+          "meaning": "gặp phải, bắt gặp",
+          "example": "We encountered a number of difficulties in the first week.",
+          "exampleVi": "Chúng tôi gặp phải một số khó khăn trong tuần đầu tiên.",
+          "image": "images/b22_w16.png"
+        },
+        {
+          "id": "b22_w17",
+          "word": "acquire",
+          "partOfSpeech": "v",
+          "pronunciation": "/əˈkwaɪər/",
+          "meaning": "đạt được, giành được",
+          "example": "She acquired a knowledge of English.",
+          "exampleVi": "Cô ấy đã có được một kiến thức tiếng Anh.",
+          "image": "images/b22_w17.jpg"
+        },
+        {
+          "id": "b22_w18",
+          "word": "transfer",
+          "partOfSpeech": "v",
+          "pronunciation": "/trænsˈfɜːr/",
+          "meaning": "chuyển, dời, thuyên chuyển",
+          "example": "The film studio is transferring to Hollywood.",
+          "exampleVi": "Xưởng phim sẽ chuyển đến Hollywood.",
+          "image": "images/b22_w18.jpg"
+        },
+        {
+          "id": "b22_w19",
+          "word": "reputation",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌrepjuˈteɪʃn/",
+          "meaning": "danh tiếng",
+          "example": "He has the reputation of being",
+          "exampleVi": "Anh ấy nổi tiếng là một người",
+          "image": "images/b22_w19.jpg"
+        },
+        {
+          "id": "b22_w20",
+          "word": "customer satisfaction",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈkʌstəmər ˌsætɪsˈfækʃn/",
+          "meaning": "sự hài lòng của khách hàng",
+          "example": "a customer satisfaction survey",
+          "exampleVi": "một cuộc khảo sát sự hài lòng của khách hàng",
+          "image": "images/b22_w20.jpg"
+        },
+        {
+          "id": "b22_w21",
+          "word": "furnishings",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈfɜːrnɪʃɪŋz/",
+          "meaning": "đồ đạc, đồ nội thất",
+          "example": "The wallpaper should match",
+          "exampleVi": "Giấy dán tường phải phù hợp với đồ nội thất.",
+          "image": "images/b22_w21.jpg"
+        },
+        {
+          "id": "b22_w22",
+          "word": "run into a problem",
+          "partOfSpeech": "v",
+          "pronunciation": "/rʌn ˈɪntu ə ˈprɑːbləm/",
+          "meaning": "gặp vấn đề",
+          "example": "I had ran into a financial problem since I forgot the wallet when travelling abroad.",
+          "exampleVi": "Tôi đã gặp phải vấn đề tài chính vì tôi để quên ví khi đi du lịch nước ngoài.",
+          "image": "images/b22_w22.jpg"
+        },
+        {
+          "id": "b22_w23",
+          "word": "out of stock",
+          "partOfSpeech": "",
+          "pronunciation": "/aʊt əv stɑːk/ /stɒk/",
+          "meaning": "hết hàng",
+          "example": "You will be notified by email if any part of your order is out of stock.",
+          "exampleVi": "Bạn sẽ được thông báo qua email nếu bất kỳ phần nào trong đơn của bạn hết hàng.",
+          "image": "images/b22_w23.jpg"
+        },
+        {
+          "id": "b22_w24",
+          "word": "manufacturer",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌmænjuˈfæktʃərər/",
+          "meaning": "nhà sản xuất",
+          "example": "Always follow the manufacturer's instructions.",
+          "exampleVi": "Luôn làm theo hướng dẫn của",
+          "image": "images/b22_w24.png"
+        },
+        {
+          "id": "b22_w25",
+          "word": "contact",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈkɑːntækt/",
+          "meaning": "liên lạc",
+          "example": "You can reach me at this number.",
+          "exampleVi": "Bạn có thể liên hệ với tôi theo số này.",
+          "image": "images/b22_w25.jpg"
+        },
+        {
+          "id": "b22_w26",
+          "word": "consider + Ving",
+          "partOfSpeech": "v",
+          "pronunciation": "/kənˈsɪdər/",
+          "meaning": "cân nhắc,xem xét",
+          "example": "I'd like some time to consider.",
+          "exampleVi": "Tôi muốn một chút thời gian để xem xét.",
+          "image": "images/b22_w26.jpg"
+        },
+        {
+          "id": "b22_w27",
+          "word": "purchase",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈpɜːrtʃəs/",
+          "meaning": "",
+          "example": "We recently purchased a home just outside Las Vegas.",
+          "exampleVi": "Gần đây chúng tôi đã mua một ngôi nhà ngay bên ngoài Las Vegas.",
+          "image": "images/b22_w27.jpg"
+        },
+        {
+          "id": "b22_w28",
+          "word": "instead",
+          "partOfSpeech": "adv",
+          "pronunciation": "/ɪnˈsted/",
+          "meaning": "thay thế",
+          "example": "Lee was ill so I went instead.",
+          "exampleVi": "Lee bị ốm nên tôi đi thay.",
+          "image": "images/b22_w28.png"
+        },
+        {
+          "id": "b22_w29",
+          "word": "price range",
+          "partOfSpeech": "n",
+          "pronunciation": "/praɪs/ /reɪndʒ/",
+          "meaning": "phạm vi giá",
+          "example": "On the website you can browse our products by price range.",
+          "exampleVi": "Trên trang web, bạn có thể xem các sản phẩm của chúng tôi theo phạm vi giá cả.",
+          "image": "images/b22_w29.png"
+        },
+        {
+          "id": "b22_w30",
+          "word": "verify",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈverɪfaɪ/",
+          "meaning": "xác nhận",
+          "example": "The authorities refused to confirm any details.",
+          "exampleVi": "Các nhà chức trách từ chối xác nhận bất kỳ chi tiết nào.",
+          "image": "images/b22_w30.png"
+        },
+        {
+          "id": "b22_w31",
+          "word": "Mayor",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈmeɪər/",
+          "meaning": "thị trưởng",
+          "example": "the Mayor of New York",
+          "exampleVi": "Thị trưởng New York",
+          "image": "images/b22_w31.jpg"
+        },
+        {
+          "id": "b22_w32",
+          "word": "press conference",
+          "partOfSpeech": "n",
+          "pronunciation": "/pres/ /ˈkɑːnfərəns/",
+          "meaning": "họp báo",
+          "example": "They held a press conference yesterday to announce a new product.",
+          "exampleVi": "Họ tổ chức một cuộc họp báo vào ngày hôm qua để công bố một sản phẩm mới.",
+          "image": "images/b22_w32.jpg"
+        },
+        {
+          "id": "b22_w33",
+          "word": "detour",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈdiːtʊr/",
+          "meaning": "đường vòng",
+          "example": "We had to make a detour around the flooded fields.",
+          "exampleVi": "Chúng tôi phải đi đường vòng quanh những cánh đồng ngập nước.",
+          "image": "images/b22_w33.jpg"
+        },
+        {
+          "id": "b22_w34",
+          "word": "be aware",
+          "partOfSpeech": "adj",
+          "pronunciation": "/əˈwer/",
+          "meaning": "nhận biết, biết",
+          "example": "We're just making the public aware of the issue.",
+          "exampleVi": "Chúng tôi chỉ làm cho công chúng biết về vấn đề.",
+          "image": "images/b22_w34.jpg"
+        },
+        {
+          "id": "b22_w35",
+          "word": "descriptions of these new jobs -",
+          "partOfSpeech": "",
+          "pronunciation": "/dɪˈskrɪpʃn/ /dʒɑːbz/",
+          "meaning": "mô tả về những công việc mới , thông tin về việc làm",
+          "example": "information about job openings",
+          "exampleVi": "Bạn có thể cho tôi mô tả của những công việc mới này không?",
+          "image": "images/b22_w35.png"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Bài 23",
+      "fileName": "TỪ VỰNG BÀI 23.pptx",
+      "wordCount": 35,
+      "words": [
+        {
+          "id": "b23_w01",
+          "word": "Discount/ rebate",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈdɪskaʊnt/ /ˈriːbeɪt/",
+          "meaning": "Giảm giá",
+          "example": "She's claiming a 100% tax rebate",
+          "exampleVi": "",
+          "image": "images/b23_w01.png"
+        },
+        {
+          "id": "b23_w02",
+          "word": "Special offer / promotional offer",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈspeʃl ˈɑːfər/ /prəˈmoʊʃnl ˈɑːfər /",
+          "meaning": "khuyến mãi đặc biệt, chương trình ưu đãi",
+          "example": "ABC Bakery is giving a promotional offer for the first customers",
+          "exampleVi": "",
+          "image": "images/b23_w02.png"
+        },
+        {
+          "id": "b23_w03",
+          "word": "Rarely",
+          "partOfSpeech": "adv",
+          "pronunciation": "/ˈreəli/",
+          "meaning": "hiếm khi, hầu như không",
+          "example": "The term is rarely used today",
+          "exampleVi": "",
+          "image": "images/b23_w03.png"
+        },
+        {
+          "id": "b23_w04",
+          "word": "Caution (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈkɔːʃn/",
+          "meaning": "cảnh báo/ lời cảnh báo, sự thận trọng",
+          "example": "Statistics should be treated with caution",
+          "exampleVi": "",
+          "image": "images/b23_w04.png"
+        },
+        {
+          "id": "b23_w05",
+          "word": "Unattended",
+          "partOfSpeech": "a",
+          "pronunciation": "/ˌʌnəˈtendɪd/",
+          "meaning": "Không chú ý đến, bỏ mặc",
+          "example": "Never leave young children unattended",
+          "exampleVi": "",
+          "image": "images/b23_w05.png"
+        },
+        {
+          "id": "b23_w06",
+          "word": "Efficient",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ɪˈfɪʃnt/",
+          "meaning": "hiệu quả",
+          "example": "efficient heating equipment",
+          "exampleVi": "",
+          "image": "images/b23_w06.png"
+        },
+        {
+          "id": "b23_w07",
+          "word": "Survey",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈsɜːrveɪ/",
+          "meaning": "cuộc khảo sát",
+          "example": "Another national survey conducted last year found the same result",
+          "exampleVi": "",
+          "image": "images/b23_w07.png"
+        },
+        {
+          "id": "b23_w08",
+          "word": "Item",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈaɪtəm/",
+          "meaning": "Món hàng, món đồ",
+          "example": "Can I pay for each item separately?",
+          "exampleVi": "",
+          "image": "images/b23_w08.png"
+        },
+        {
+          "id": "b23_w09",
+          "word": "Merchandise cargo",
+          "partOfSpeech": "n",
+          "pronunciation": "/ goods/",
+          "meaning": "Hàng hóa",
+          "example": "increases in the prices of goods",
+          "exampleVi": "",
+          "image": "images/b23_w09.png"
+        },
+        {
+          "id": "b23_w10",
+          "word": "Defective/ malfunctioning",
+          "partOfSpeech": "a",
+          "pronunciation": "/dɪˈfektɪv/ /ˌmælˈfʌŋkʃnɪŋ/",
+          "meaning": "bị lỗi",
+          "example": "If the goods are defective you should get a full refund",
+          "exampleVi": "",
+          "image": "images/b23_w10.png"
+        },
+        {
+          "id": "b23_w11",
+          "word": "Policy",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈpɑːləsi/",
+          "meaning": "Chính sách",
+          "example": "economic policy",
+          "exampleVi": "",
+          "image": "images/b23_w11.png"
+        },
+        {
+          "id": "b23_w12",
+          "word": "Income",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈɪnkʌm/",
+          "meaning": "Thu nhập",
+          "example": "Average household income fell slightly",
+          "exampleVi": "",
+          "image": "images/b23_w12.jpg"
+        },
+        {
+          "id": "b23_w13",
+          "word": "Take place occur",
+          "partOfSpeech": "v",
+          "pronunciation": "/ happen/",
+          "meaning": "diễn ra",
+          "example": "When exactly did the incident occur?",
+          "exampleVi": "",
+          "image": "images/b23_w13.png"
+        },
+        {
+          "id": "b23_w14",
+          "word": "Throughout",
+          "partOfSpeech": "prep",
+          "pronunciation": "/θruːˈaʊt/",
+          "meaning": "Trong suốt, suốt/ở khắp nơi",
+          "example": "The museum is open daily throughout the year",
+          "exampleVi": "",
+          "image": "images/b23_w14.png"
+        },
+        {
+          "id": "b23_w15",
+          "word": "Apartment",
+          "partOfSpeech": "n",
+          "pronunciation": "/əˈpɑːrtmənt/",
+          "meaning": "Căn hộ",
+          "example": "I lived on the ground floor of an apartment block",
+          "exampleVi": "",
+          "image": "images/b23_w15.png"
+        },
+        {
+          "id": "b23_w16",
+          "word": "Estimate (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈestɪmeɪt/ /ˈestɪmət/",
+          "meaning": "Ước lượng, ước tính",
+          "example": "We'll send you an estimate for the repairs",
+          "exampleVi": "",
+          "image": "images/b23_w16.png"
+        },
+        {
+          "id": "b23_w17",
+          "word": "Lease (v,n)",
+          "partOfSpeech": "",
+          "pronunciation": "/liːs/",
+          "meaning": "Thuê/hợp đồng cho thuê",
+          "example": "The lease expires next year",
+          "exampleVi": "",
+          "image": "images/b23_w17.png"
+        },
+        {
+          "id": "b23_w18",
+          "word": "Forward (adv, v)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈfɔːrwərd/",
+          "meaning": "Về phía trước/chuyển tiếp",
+          "example": "She leaned forward and kissed him on the cheek",
+          "exampleVi": "",
+          "image": "images/b23_w18.png"
+        },
+        {
+          "id": "b23_w19",
+          "word": "Complicated",
+          "partOfSpeech": "a",
+          "pronunciation": "/ˈkɑːmplɪkeɪtɪd/",
+          "meaning": "Phức tạp",
+          "example": "The instructions look very complicated",
+          "exampleVi": "",
+          "image": "images/b23_w19.png"
+        },
+        {
+          "id": "b23_w20",
+          "word": "Consecutive",
+          "partOfSpeech": "adj",
+          "pronunciation": "/kənˈsekjətɪv/",
+          "meaning": "Liên tiếp",
+          "example": "She was absent for nine consecutive days",
+          "exampleVi": "",
+          "image": "images/b23_w20.jpg"
+        },
+        {
+          "id": "b23_w21",
+          "word": "Appointment",
+          "partOfSpeech": "n",
+          "pronunciation": "/əˈpɔɪntmənt/",
+          "meaning": "Cuộc hẹn",
+          "example": "an appointment for a blood test",
+          "exampleVi": "",
+          "image": "images/b23_w21.png"
+        },
+        {
+          "id": "b23_w22",
+          "word": "Colleague",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈkɑːliːɡ/",
+          "meaning": "Đồng nghiệp",
+          "example": "a colleague of mine from the office",
+          "exampleVi": "",
+          "image": "images/b23_w22.png"
+        },
+        {
+          "id": "b23_w23",
+          "word": "Basketball court",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈbæskɪtbɔːl/ /kɔːrt/",
+          "meaning": "Sân bóng rổ",
+          "example": "She is waiting for me on the basketball court",
+          "exampleVi": "",
+          "image": "images/b23_w23.png"
+        },
+        {
+          "id": "b23_w24",
+          "word": "Many of my players work",
+          "partOfSpeech": "",
+          "pronunciation": "",
+          "meaning": "Nhiều người trong số cầu thủ của tôi làm việc",
+          "example": "= Many of them have jobs",
+          "exampleVi": "",
+          "image": "images/b23_w24.png"
+        },
+        {
+          "id": "b23_w25",
+          "word": "Competition = contest",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌkɑːmpəˈtɪʃn/ /ˈkɑːntest/",
+          "meaning": "Cuộc thi",
+          "example": "She was awarded the first prize in an essay contest",
+          "exampleVi": "",
+          "image": "images/b23_w25.png"
+        },
+        {
+          "id": "b23_w26",
+          "word": "Congratulate",
+          "partOfSpeech": "v",
+          "pronunciation": "/kənˈɡrætʃəleɪt/",
+          "meaning": "Chúc mừng",
+          "example": "I congratulated them all on their results",
+          "exampleVi": "",
+          "image": "images/b23_w26.png"
+        },
+        {
+          "id": "b23_w27",
+          "word": "Schedule (n,v)",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈskedʒuːl/ /ˈʃedjuːl/",
+          "meaning": "Lên lịch, lịch trình",
+          "example": "We're working to a tight schedule",
+          "exampleVi": "",
+          "image": "images/b23_w27.png"
+        },
+        {
+          "id": "b23_w28",
+          "word": "Chance",
+          "partOfSpeech": "",
+          "pronunciation": "/tʃæns/ /ˌɑːpərˈtuːnəti/",
+          "meaning": "Cơ hội",
+          "example": "= opportunity (n)",
+          "exampleVi": "",
+          "image": "images/b23_w28.png"
+        },
+        {
+          "id": "b23_w29",
+          "word": "Doctor's appointment",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈdɑːktərzəˈpɔɪntmənt/",
+          "meaning": "Cuộc hẹn với bác sĩ = cuộc hẹn khám bệnh",
+          "example": "= a medical appointment (n)",
+          "exampleVi": "",
+          "image": "images/b23_w29.png"
+        },
+        {
+          "id": "b23_w30",
+          "word": "A letter of reference",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈletər/ /əv/ /ˈrefrəns/",
+          "meaning": "Thư giới thiệu",
+          "example": "My supervisor wrote a letter of reference for me",
+          "exampleVi": "",
+          "image": "images/b23_w30.png"
+        },
+        {
+          "id": "b23_w31",
+          "word": "Job description",
+          "partOfSpeech": "n",
+          "pronunciation": "/dʒɑːb/ /dɪˈskrɪpʃn/",
+          "meaning": "Mô tả công việc",
+          "example": "I need consider some aspects in this job description",
+          "exampleVi": "",
+          "image": "images/b23_w31.png"
+        },
+        {
+          "id": "b23_w32",
+          "word": "Urgent assignment",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈɜːrdʒənt/ /əˈsaɪnmənt/",
+          "meaning": "Nhiệm vụ khẩn cấp",
+          "example": "They are assigned an urgent assignment in this evening",
+          "exampleVi": "",
+          "image": "images/b23_w32.png"
+        },
+        {
+          "id": "b23_w33",
+          "word": "Candidate = applicant",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈkændɪdeɪt/ /ˈæplɪkənt/",
+          "meaning": "Ứng cử viên",
+          "example": "Successful applicants will receive notification within the week",
+          "exampleVi": "",
+          "image": "images/b23_w33.png"
+        },
+        {
+          "id": "b23_w34",
+          "word": "Stuck (v, adj)",
+          "partOfSpeech": "",
+          "pronunciation": "/stʌk/",
+          "meaning": "Mắc kẹt",
+          "example": "She got the key stuck in the lock",
+          "exampleVi": "",
+          "image": "images/b23_w34.png"
+        },
+        {
+          "id": "b23_w35",
+          "word": "Express (v, adj)",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪkˈspres/",
+          "meaning": "Bộc lộ, tốc hành",
+          "example": "Words cannot express how pleased I am",
+          "exampleVi": "",
+          "image": "images/b23_w35.png"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Bài 25",
+      "fileName": "TỪ VỰNG BÀI 25.pptx",
+      "wordCount": 35,
+      "words": [
+        {
+          "id": "b25_w01",
+          "word": "relevant",
+          "partOfSpeech": "a",
+          "pronunciation": "/ˈreləvənt/",
+          "meaning": "Có tính liên quan, thích hợp",
+          "example": "relevant information",
+          "exampleVi": "thông tin liên quan",
+          "image": "images/b25_w01.jpg"
+        },
+        {
+          "id": "b25_w02",
+          "word": "convenient",
+          "partOfSpeech": "a",
+          "pronunciation": "/kənˈviːniənt/",
+          "meaning": "Thuận tiện",
+          "example": "When would be convenient for a visit?",
+          "exampleVi": "Khi nào thì thuận tiện cho chuyến thăm?",
+          "image": "images/b25_w02.png"
+        },
+        {
+          "id": "b25_w03",
+          "word": "lack of",
+          "partOfSpeech": "n",
+          "pronunciation": "/læk əv/",
+          "meaning": "Thiếu",
+          "example": "to obtain information",
+          "exampleVi": "để có được thông tin",
+          "image": "images/b25_w03.jpg"
+        },
+        {
+          "id": "b25_w04",
+          "word": "access",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈækses/",
+          "meaning": "Truy cập, tiếp cận , đến gần với",
+          "example": "They are seeking increased access to markets overseas.",
+          "exampleVi": "Họ đang tìm cách tăng cường khả năng tiếp cận thị trường nước ngoài.",
+          "image": "images/b25_w04.jpg"
+        },
+        {
+          "id": "b25_w05",
+          "word": "enter",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈentər/",
+          "meaning": "Đi vào, tiến vào, nhập vào",
+          "example": "Knock before you enter.",
+          "exampleVi": "Gõ cửa trước khi bạn vào.",
+          "image": "images/b25_w05.jpg"
+        },
+        {
+          "id": "b25_w06",
+          "word": "launch",
+          "partOfSpeech": "",
+          "pronunciation": "/lɔːntʃ/",
+          "meaning": "Công bố, tung ra",
+          "example": "to release a statement",
+          "exampleVi": "đưa ra một tuyên bố",
+          "image": "images/b25_w06.jpg"
+        },
+        {
+          "id": "b25_w07",
+          "word": "reveal",
+          "partOfSpeech": "",
+          "pronunciation": "/rɪˈviːl/",
+          "meaning": "Tiết lộ",
+          "example": "I cannot disclose what we discussed.",
+          "exampleVi": "Tôi không thể tiết lộ những gì chúng tôi đã thảo luận.",
+          "image": "images/b25_w07.jpg"
+        },
+        {
+          "id": "b25_w08",
+          "word": "instead of",
+          "partOfSpeech": "",
+          "pronunciation": "/ɪnˈsted ʌv/",
+          "meaning": "Thay vì",
+          "example": "We just had soup instead of a full meal.",
+          "exampleVi": "Chúng tôi chỉ ăn súp thay vì một bữa ăn no.",
+          "image": "images/b25_w08.png"
+        },
+        {
+          "id": "b25_w09",
+          "word": "frequent",
+          "partOfSpeech": "a",
+          "pronunciation": "/ˈfriːkwənt/",
+          "meaning": "Thường xuyên",
+          "example": "He is a frequent visitor to",
+          "exampleVi": "Anh ấy là khách thường xuyên đến đất nước này.",
+          "image": "images/b25_w09.png"
+        },
+        {
+          "id": "b25_w10",
+          "word": "severe",
+          "partOfSpeech": "",
+          "pronunciation": "/sɪˈvɪr/",
+          "meaning": "Khốc liệt, dữ dội, nặng",
+          "example": "His injuries are severe.",
+          "exampleVi": "Vết thương của anh ấy rất nặng.",
+          "image": "images/b25_w10.jpg"
+        },
+        {
+          "id": "b25_w11",
+          "word": "nomination",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌnɑːmɪˈneɪʃn/",
+          "meaning": "Sự đề cử, sự bổ nhiệm",
+          "example": "He has had nine Oscar nominations.",
+          "exampleVi": "Anh đã có chín đề cử Oscar.",
+          "image": "images/b25_w11.png"
+        },
+        {
+          "id": "b25_w12",
+          "word": "delegation",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌdelɪˈɡeɪʃn/",
+          "meaning": "Đoàn đại biểu",
+          "example": "a delegation of teachers",
+          "exampleVi": "một đoàn giáo viên",
+          "image": "images/b25_w12.jpg"
+        },
+        {
+          "id": "b25_w13",
+          "word": "fairly common",
+          "partOfSpeech": "",
+          "pronunciation": "/ˈferli/ /ˈkɑːmən/",
+          "meaning": "Khá phổ biến",
+          "example": "This situation is",
+          "exampleVi": "Tình trạng này khá phổ biến.",
+          "image": "images/b25_w13.png"
+        },
+        {
+          "id": "b25_w14",
+          "word": "compensation",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˌkɑːmpenˈseɪʃn/",
+          "meaning": "Sự đền bù, sự bồi thường",
+          "example": "She received a cash sum",
+          "exampleVi": "Cô ấy nhận được một khoản tiền mặt như hình thức bồi thường.",
+          "image": "images/b25_w14.jpg"
+        },
+        {
+          "id": "b25_w15",
+          "word": "come up with",
+          "partOfSpeech": "",
+          "pronunciation": "/kʌm /",
+          "meaning": "Nảy ra/ nghĩ ra ý tưởng",
+          "example": "We have to come up with another idea.",
+          "exampleVi": "Chúng tôi phải đưa ra một ý tưởng khác.",
+          "image": "images/b25_w15.jpg"
+        },
+        {
+          "id": "b25_w16",
+          "word": "unique",
+          "partOfSpeech": "a",
+          "pronunciation": "/juˈniːk/",
+          "meaning": "Duy nhất, độc nhất, đặc sắc",
+          "example": "Everyone's fingerprints",
+          "exampleVi": "Dấu vân tay của mỗi người là duy nhất.",
+          "image": "images/b25_w16.jpg"
+        },
+        {
+          "id": "b25_w17",
+          "word": "customize",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈkʌstəmaɪz/",
+          "meaning": "Điều chỉnh cho phù hợp",
+          "example": "You can customize the software in several ways.",
+          "exampleVi": "Bạn có thể tùy chỉnh phần mềm theo một số cách.",
+          "image": "images/b25_w17.jpg"
+        },
+        {
+          "id": "b25_w18",
+          "word": "allocate",
+          "partOfSpeech": "v",
+          "pronunciation": "/ˈæləkeɪt/",
+          "meaning": "Chỉ định/ phân phối",
+          "example": "More resources are being allocated to the project.",
+          "exampleVi": "Nhiều nguồn lực hơn đang được phân bổ cho dự án.",
+          "image": "images/b25_w18.jpg"
+        },
+        {
+          "id": "b25_w19",
+          "word": "variety",
+          "partOfSpeech": "n",
+          "pronunciation": "/vəˈraɪəti/",
+          "meaning": "Sự đa dạng, nhiều",
+          "example": "He resigned for a variety",
+          "exampleVi": "Ông đã từ chức vì nhiều lý do.",
+          "image": "images/b25_w19.jpg"
+        },
+        {
+          "id": "b25_w20",
+          "word": "relatively",
+          "partOfSpeech": "adj",
+          "pronunciation": "/ˈrelətɪvli/",
+          "meaning": "Tương đối",
+          "example": "I found the test relatively easy.",
+          "exampleVi": "Tôi thấy bài kiểm tra tương đối dễ dàng.",
+          "image": "images/b25_w20.png"
+        },
+        {
+          "id": "b25_w21",
+          "word": "a variety of",
+          "partOfSpeech": "n",
+          "pronunciation": "/vəˈraɪəti/",
+          "meaning": "Nhiều",
+          "example": "This tool can be used in",
+          "exampleVi": "Công cụ này có thể được sử dụng theo nhiều cách khác nhau.",
+          "image": "images/b25_w21.jpg"
+        },
+        {
+          "id": "b25_w22",
+          "word": "supply store",
+          "partOfSpeech": "",
+          "pronunciation": "/səˈplaɪ/ /stɔːr/",
+          "meaning": "Cửa hàng cung ứng",
+          "example": "I bought this stapler at ABC",
+          "exampleVi": "Tôi đã mua kim bấm này tại",
+          "image": "images/b25_w22.jpg"
+        },
+        {
+          "id": "b25_w23",
+          "word": "belongings",
+          "partOfSpeech": "",
+          "pronunciation": "/bɪˈlɔːŋɪŋz/",
+          "meaning": "Đồ dùng cá nhân/ đồ đạc",
+          "example": "She packed her few belongings in",
+          "exampleVi": "Cô ấy gói ghém ít đồ đạc của mình vào một chiếc túi và rời đi.",
+          "image": "images/b25_w23.jpg"
+        },
+        {
+          "id": "b25_w24",
+          "word": "sun protection",
+          "partOfSpeech": "n",
+          "pronunciation": "/sʌn/ /prəˈtekʃn/",
+          "meaning": "Tránh nắng, chống nắng",
+          "example": "Remember to apply suncream for sun protection.",
+          "exampleVi": "Nhớ thoa kem chống nắng để chống nắng.",
+          "image": "images/b25_w24.jpg"
+        },
+        {
+          "id": "b25_w25",
+          "word": "sunglasses",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈsʌnɡlæsɪz/",
+          "meaning": "Kính mát, kính râm",
+          "example": "a pair of sunglasses",
+          "exampleVi": "một cặp kính râm",
+          "image": "images/b25_w25.jpg"
+        },
+        {
+          "id": "b25_w26",
+          "word": "flowerpot",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈflaʊərpɑːt/",
+          "meaning": "Chậu hoa",
+          "example": "Flowerpots are small containers for growing plants in.",
+          "exampleVi": "Chậu hoa là những thùng nhỏ để trồng cây",
+          "image": "images/b25_w26.jpg"
+        },
+        {
+          "id": "b25_w27",
+          "word": "salesperson",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈseɪlzpɜːrsn/",
+          "meaning": "Nhân viên bán hàng",
+          "example": "Salesperson a person whose job is to sell goods.",
+          "exampleVi": "Nhân viên bán hàng một người có công việc là bán hàng hóa.",
+          "image": "images/b25_w27.jpg"
+        },
+        {
+          "id": "b25_w28",
+          "word": "pick up",
+          "partOfSpeech": "v",
+          "pronunciation": "/pɪk/ /ʌp/",
+          "meaning": "Đón, nhặt, lấy",
+          "example": "I'll pick you up at five.",
+          "exampleVi": "Tôi sẽ đón bạn lúc 5 giờ.",
+          "image": "images/b25_w28.png"
+        },
+        {
+          "id": "b25_w29",
+          "word": "bilingual",
+          "partOfSpeech": "",
+          "pronunciation": "/ˌbaɪˈlɪŋɡwəl/",
+          "meaning": "Sử dụng 2 ngôn ngữ",
+          "example": "She is bilingual in",
+          "exampleVi": "Cô nói song ngữ",
+          "image": "images/b25_w29.jpg"
+        },
+        {
+          "id": "b25_w30",
+          "word": "stop by",
+          "partOfSpeech": "v",
+          "pronunciation": "/stɑːp/ /baɪ/ /stɒp/",
+          "meaning": "Tới/ ghé qua",
+          "example": "I'll stop by this evening",
+          "exampleVi": "Tôi sẽ ghé vào tối nay",
+          "image": "images/b25_w30.jpg"
+        },
+        {
+          "id": "b25_w31",
+          "word": "public speaking",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈpʌblɪk/ / ˌspiːkɪŋ/",
+          "meaning": "Nói chuyện trước công chúng",
+          "example": "My company is planning a public speaking event this week.",
+          "exampleVi": "Công ty của tôi đang lên kế hoạch cho một sự kiện diễn thuyết trước công chúng trong tuần này.",
+          "image": "images/b25_w31.jpg"
+        },
+        {
+          "id": "b25_w32",
+          "word": "available",
+          "partOfSpeech": "",
+          "pronunciation": "/əˈveɪləbl/",
+          "meaning": "Có sẵn",
+          "example": "We have plenty of office space available.",
+          "exampleVi": "Chúng tôi có rất nhiều không gian văn phòng có sẵn.",
+          "image": "images/b25_w32.png"
+        },
+        {
+          "id": "b25_w33",
+          "word": "marketing director",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈmɑːrkɪtɪŋ/ /dəˈrektər/",
+          "meaning": "Trưởng phòng tiếp thị",
+          "example": "He was promoted to a",
+          "exampleVi": "Anh được thăng chức",
+          "image": "images/b25_w33.jpg"
+        },
+        {
+          "id": "b25_w34",
+          "word": "real estate agency",
+          "partOfSpeech": "n",
+          "pronunciation": "/ˈriːəl/ /ɪˈsteɪt/ /ˈeɪdʒənsi/",
+          "meaning": "Công ty bất động sản",
+          "example": "I am working in a real estate agency.",
+          "exampleVi": "Tôi đang làm việc trong một công ty bất động sản.",
+          "image": "images/b25_w34.jpg"
+        },
+        {
+          "id": "b25_w35",
+          "word": "supervision",
+          "partOfSpeech": "",
+          "pronunciation": "/ˌsuːpərˈvɪʒn/",
+          "meaning": "Sự giám sát",
+          "example": "The drug should only be used under medical supervision.",
+          "exampleVi": "thuốc chỉ nên được sử dụng dưới",
+          "image": "images/b25_w35.jpg"
+        }
+      ]
+    }
+  ]
+}

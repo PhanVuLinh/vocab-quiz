@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VocabQuiz - Ứng dụng học từ vựng tiếng Anh qua flashcard và quiz tương tác">
+  <title>VocabQuiz - Học Từ Vựng Thông Minh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#/" class="logo" id="logo">
+        <span class="logo-icon">📚</span>
+        <span class="logo-text">Vocab<span class="logo-accent">Quiz</span></span>
+      </a>
+      <nav class="header-actions">
+        <button class="btn-icon" id="btn-starred" title="Từ đã đánh dấu" onclick="showStarred()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <span class="badge" id="starred-count" style="display:none">0</span>
+        </button>
+        <button class="btn-icon" id="btn-theme" title="Đổi giao diện" onclick="toggleTheme()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main" id="main">
+    <!-- Home Page -->
+    <section class="page page-home" id="page-home">
+      <div class="hero">
+        <h1 class="hero-title">Học Từ Vựng <span class="gradient-text">Thông Minh</span></h1>
+        <p class="hero-subtitle">519 từ vựng • 22 bài học • Flashcard & Quiz tương tác</p>
+      </div>
+
+      <div class="search-bar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="search-input" placeholder="Tìm bài học hoặc từ vựng..." oninput="filterLessons(this.value)">
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="stats-bar" id="stats-bar">
+        <div class="stat-card">
+          <div class="stat-value" id="stat-learned">0</div>
+          <div class="stat-label">Đã học</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-streak">0</div>
+          <div class="stat-label">Streak 🔥</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-accuracy">0%</div>
+          <div class="stat-label">Chính xác</div>
+        </div>
+      </div>
+
+      <!-- Lesson Grid -->
+      <div class="lesson-grid" id="lesson-grid"></div>
+    </section>
+
+    <!-- Lesson Detail Page -->
+    <section class="page page-lesson hidden" id="page-lesson">
+      <div class="lesson-header">
+        <button class="btn-back" onclick="goHome()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+          Quay lại
+        </button>
+        <h2 class="lesson-title" id="lesson-title"></h2>
+        <span class="lesson-word-count" id="lesson-word-count"></span>
+      </div>
+
+      <div class="mode-grid">
+        <button class="mode-card" onclick="startFlashcard()" id="mode-flashcard">
+          <div class="mode-icon">📖</div>
+          <div class="mode-name">Flashcard</div>
+          <div class="mode-desc">Lật thẻ học từ</div>
+        </button>
+        <button class="mode-card" onclick="startQuiz('en-vi')" id="mode-quiz-en">
+          <div class="mode-icon">🇬🇧→🇻🇳</div>
+          <div class="mode-name">Anh → Việt</div>
+          <div class="mode-desc">Trắc nghiệm 4 đáp án</div>
+        </button>
+        <button class="mode-card" onclick="startQuiz('vi-en')" id="mode-quiz-vi">
+          <div class="mode-icon">🇻🇳→🇬🇧</div>
+          <div class="mode-name">Việt → Anh</div>
+          <div class="mode-desc">Trắc nghiệm 4 đáp án</div>
+        </button>
+        <button class="mode-card" onclick="startTyping()" id="mode-typing">
+          <div class="mode-icon">⌨️</div>
+          <div class="mode-name">Điền Từ</div>
+          <div class="mode-desc">Gõ từ tiếng Anh</div>
+        </button>
+        <button class="mode-card" onclick="startMatching()" id="mode-matching">
+          <div class="mode-icon">🔗</div>
+          <div class="mode-name">Nối Từ</div>
+          <div class="mode-desc">Ghép cặp Anh-Việt</div>
+        </button>
+        <button class="mode-card" onclick="startQuiz('listen')" id="mode-listen">
+          <div class="mode-icon">🎧</div>
+          <div class="mode-name">Nghe & Chọn</div>
+          <div class="mode-desc">Nghe phát âm, chọn đáp án</div>
+        </button>
+      </div>
+    </section>
+
+    <!-- Flashcard Page -->
+    <section class="page page-flashcard hidden" id="page-flashcard">
+      <div class="flashcard-header">
+        <button class="btn-back" onclick="goToLesson()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+        </button>
+        <div class="flashcard-progress">
+          <span id="fc-current">1</span> / <span id="fc-total">10</span>
+        </div>
+        <div class="flashcard-actions-top">
+          <button class="btn-icon" id="fc-star" title="Đánh dấu từ khó" onclick="toggleStar()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="fc-progress-bar"></div>
+      </div>
+
+      <div class="flashcard-area" id="flashcard-area">
+        <div class="flashcard" id="flashcard" onclick="flipCard()">
+          <div class="flashcard-inner" id="flashcard-inner">
+            <div class="flashcard-front">
+              <div class="fc-image" id="fc-image"></div>
+              <div class="fc-word" id="fc-word"></div>
+              <div class="fc-pronunciation" id="fc-pronunciation"></div>
+              <button class="btn-speak" onclick="event.stopPropagation(); speakWord()" title="Phát âm">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+              </button>
+              <div class="fc-hint">Nhấn để lật thẻ</div>
+            </div>
+            <div class="flashcard-back">
+              <div class="fc-meaning" id="fc-meaning"></div>
+              <div class="fc-example" id="fc-example"></div>
+              <div class="fc-example-vi" id="fc-example-vi"></div>
+              <div class="fc-hint">Nhấn để xem từ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flashcard-nav">
+        <button class="btn-nav btn-prev" id="fc-prev" onclick="prevCard()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button class="btn-nav btn-next" id="fc-next" onclick="nextCard()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- Quiz Page -->
+    <section class="page page-quiz hidden" id="page-quiz">
+      <div class="quiz-header">
+        <button class="btn-back" onclick="goToLesson()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+        </button>
+        <div class="quiz-progress-text">
+          <span id="quiz-current">1</span> / <span id="quiz-total">10</span>
+        </div>
+        <div class="quiz-score-display">
+          <span id="quiz-score">0</span> điểm
+        </div>
+      </div>
+
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="quiz-progress-bar"></div>
+      </div>
+
+      <div class="quiz-area">
+        <div class="quiz-question" id="quiz-question">
+          <div class="quiz-prompt" id="quiz-prompt"></div>
+          <button class="btn-speak quiz-speak" id="quiz-speak-btn" onclick="speakQuizWord()" style="display:none">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+          </button>
+        </div>
+        <div class="quiz-options" id="quiz-options"></div>
+        <div class="quiz-feedback hidden" id="quiz-feedback">
+          <div class="feedback-icon" id="feedback-icon"></div>
+          <div class="feedback-text" id="feedback-text"></div>
+        </div>
+        <button class="btn-primary quiz-next-btn hidden" id="quiz-next-btn" onclick="nextQuestion()">Câu tiếp theo →</button>
+      </div>
+    </section>
+
+    <!-- Typing Page -->
+    <section class="page page-typing hidden" id="page-typing">
+      <div class="quiz-header">
+        <button class="btn-back" onclick="goToLesson()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+        </button>
+        <div class="quiz-progress-text">
+          <span id="typing-current">1</span> / <span id="typing-total">10</span>
+        </div>
+        <div class="quiz-score-display">
+          <span id="typing-score">0</span> điểm
+        </div>
+      </div>
+
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="typing-progress-bar"></div>
+      </div>
+
+      <div class="typing-area">
+        <div class="typing-prompt" id="typing-prompt"></div>
+        <div class="typing-hint" id="typing-hint"></div>
+        <div class="typing-input-container">
+          <input type="text" class="typing-input" id="typing-input" placeholder="Gõ từ tiếng Anh..." autocomplete="off" autocapitalize="off">
+          <button class="btn-primary" id="typing-check-btn" onclick="checkTyping()">Kiểm tra</button>
+        </div>
+        <div class="typing-feedback hidden" id="typing-feedback"></div>
+        <button class="btn-primary quiz-next-btn hidden" id="typing-next-btn" onclick="nextTypingQuestion()">Câu tiếp theo →</button>
+      </div>
+    </section>
+
+    <!-- Matching Page -->
+    <section class="page page-matching hidden" id="page-matching">
+      <div class="quiz-header">
+        <button class="btn-back" onclick="goToLesson()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+        </button>
+        <div class="quiz-progress-text">Nối từ</div>
+        <div class="matching-timer" id="matching-timer">⏱️ 0:00</div>
+      </div>
+      <div class="matching-area" id="matching-area">
+        <div class="matching-column" id="matching-left"></div>
+        <div class="matching-column" id="matching-right"></div>
+      </div>
+      <div class="matching-result hidden" id="matching-result"></div>
+    </section>
+
+    <!-- Results Page -->
+    <section class="page page-results hidden" id="page-results">
+      <div class="results-container">
+        <div class="results-icon" id="results-icon">🎉</div>
+        <h2 class="results-title" id="results-title">Hoàn thành!</h2>
+        <div class="results-score" id="results-score"></div>
+        <div class="results-details" id="results-details"></div>
+        <div class="results-actions">
+          <button class="btn-primary" onclick="retryQuiz()">Làm lại</button>
+          <button class="btn-secondary" onclick="goToLesson()">Quay lại bài</button>
+          <button class="btn-secondary" onclick="goHome()">Trang chủ</button>
+        </div>
+        <div class="results-wrong-list" id="results-wrong-list"></div>
+      </div>
+    </section>
+
+    <!-- Starred Words Page -->
+    <section class="page page-starred hidden" id="page-starred">
+      <div class="lesson-header">
+        <button class="btn-back" onclick="goHome()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+          Quay lại
+        </button>
+        <h2 class="lesson-title">⭐ Từ Đã Đánh Dấu</h2>
+      </div>
+      <div class="starred-list" id="starred-list"></div>
+    </section>
+  </main>
+
+  <!-- Toast notification -->
+  <div class="toast hidden" id="toast"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
