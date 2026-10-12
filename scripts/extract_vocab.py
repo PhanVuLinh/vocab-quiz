@@ -1,6 +1,6 @@
 """
 Extract vocabulary data from PPTX files → vocab.json + images/
-Unified parser: handles all PPTX formats by analyzing text content intelligently.
+Enhanced unified parser: extracts ALL words/synonyms without omitting any.
 """
 
 import os
@@ -8,6 +8,7 @@ import sys
 import io
 import json
 import re
+import glob
 from pptx import Presentation
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
@@ -17,12 +18,20 @@ OUTPUT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(OUTPUT_DIR, 'data')
 IMAGES_DIR = os.path.join(OUTPUT_DIR, 'images')
 
-# IPA pattern
-IPA_PATTERN = re.compile(r'/[^/]{2,}/')
-# Vietnamese chars
 VN_CHARS = set('àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđÀÁẠẢÃÂẦẤẬẨẪĂẰẮẶẲẴÈÉẸẺẼÊỀẾỆỂỄÌÍỊỈĨÒÓỌỎÕÔỒỐỘỔỖƠỜỚỢỞỠÙÚỤỦŨƯỪỨỰỬỮỲÝỴỶỸĐ')
-# Title keywords to skip
-TITLE_KEYWORDS = ['VOCABULARY', 'TỪ VỰNG', 'LESSON', 'LISTENING', 'READING', 'ĐỌC', 'NGHE', 'Phần', 'LUYỆN TẬP', 'PART']
+TITLE_KEYWORDS = {'VOCABULARY', 'TỪ VỰNG', 'LESSON', 'LISTENING', 'READING', 'ĐỌC', 'NGHE', 'PHẦN', 'LUYỆN TẬP', 'PART'}
+
+COMMON_EN_WORDS = {
+    'goods', 'happen', 'occur', 'rebate', 'promotional', 'cargo', 'contest',
+    'opportunity', 'applicant', 'finish', 'abstract', 'malfunctioning',
+    'figures', 'numbers', 'whole', 'entire', 'confirm', 'verify',
+    'generate', 'create', 'substitute', 'replace', 'shipping', 'delivery',
+    'mandatory', 'obligated', 'investigate', 'polite', 'courteous', 'predict',
+    'forecast', 'foresee', 'anticipate', 'obey', 'document', 'target', 'goal',
+    'purpose', 'objective', 'release', 'publish', 'launch', 'unveil', 'reveal',
+    'disclose', 'decline', 'decrease', 'reach', 'contact', 'invoice', 'bill',
+    'receipt', 'expense', 'cost', 'expenditure', 'submit', 'complete'
+}
 
 
 def ensure_dirs():
@@ -39,46 +48,23 @@ def has_vietnamese(text):
     return bool(set(text) & VN_CHARS)
 
 
+def clean_text(t):
+    return t.replace('\x0b', '\n').strip()
+
+
 def is_title_slide(texts):
-    """Check if this slide is a title/header slide (no vocab content)."""
     if not texts:
         return True
     combined = ' '.join(texts).upper().strip()
-    # Pure title slides: only contain lesson name/title keywords
     for kw in TITLE_KEYWORDS:
-        combined = combined.replace(kw.upper(), '').strip()
-    # Remove digits, whitespace, punctuation
+        combined = combined.replace(kw, '').strip()
     cleaned = re.sub(r'[\d\s,&\-–]+', '', combined)
-    # Remove "PART X" pattern
     cleaned = re.sub(r'PART\s*\d*', '', cleaned, flags=re.IGNORECASE)
-    return len(cleaned) < 3  # Nearly empty after removing keywords = title slide
-
-
-def save_image(shape, lesson_id, word_index):
-    try:
-        image = shape.image
-        ext = image.content_type.split('/')[-1]
-        if ext == 'jpeg':
-            ext = 'jpg'
-        filename = "b%02d_w%02d.%s" % (lesson_id, word_index, ext)
-        filepath = os.path.join(IMAGES_DIR, filename)
-        with open(filepath, 'wb') as f:
-            f.write(image.blob)
-        return "images/%s" % filename
-    except Exception:
-        return None
-
-
-def extract_ipa(text):
-    """Extract all IPA pronunciations from text."""
-    matches = IPA_PATTERN.findall(text)
-    return ' '.join(matches) if matches else ''
+    return len(cleaned) < 3
 
 
 def split_example(text):
-    """Split example into English and Vietnamese."""
     text = text.strip()
-    # Find Vietnamese translation in parentheses at end
     paren_match = re.search(r'\(([^)]*[' + ''.join(list(VN_CHARS)[:10]) + r'][^)]*)\)\s*\.?\s*$', text)
     if paren_match:
         vi = paren_match.group(1).strip()
@@ -87,182 +73,231 @@ def split_example(text):
     return text, ''
 
 
-def parse_slide_unified(slide, lesson_id, word_index):
-    """
-    Universal slide parser. Collects all text and images from a slide,
-    then intelligently extracts: word, part of speech, IPA, meaning, example.
-    """
+def is_pure_ipa(token):
+    token = token.strip()
+    if not (token.startswith('/') and token.endswith('/') and len(token) >= 2):
+        return False
+    inner = token.strip('/ \t\n')
+    if not inner:
+        return False
+    if inner.lower() in COMMON_EN_WORDS:
+        return False
+    words = [w for w in re.split(r'\s+', inner.lower()) if w]
+    if all(w in COMMON_EN_WORDS for w in words):
+        return False
+    return True
+
+
+def extract_true_ipas(text):
+    candidates = re.findall(r'/[^/\n]{2,}/', text)
+    result = []
+    for c in candidates:
+        if is_pure_ipa(c):
+            result.append(c.strip())
+    return result
+
+
+def clean_word(w):
+    w = re.sub(r'^\d+[\.\t\s]+', '', w)
+    w = re.sub(r'\([a-zA-Z,\s]+\)', '', w)
+    w = w.strip().rstrip(' ,;:-–/')
+    return w
+
+
+def parse_slide_thorough(slide, lesson_id, word_idx):
     text_blocks = []
-    images = []
+    image_shapes = []
     
     for shape in slide.shapes:
-        if shape.shape_type == 13:  # Picture
-            images.append(shape)
+        if shape.shape_type == 13: # Picture
+            image_shapes.append(shape)
         elif hasattr(shape, 'text'):
-            raw = shape.text.strip()
-            if raw:
-                # Replace vertical tab with newline
-                raw = raw.replace('\x0b', '\n')
-                # Skip slide number placeholders
-                cleaned = raw.replace('‹#›', '').strip()
-                if cleaned and not re.match(r'^\d{1,3}$', cleaned):
-                    text_blocks.append(cleaned)
-    
-    if not text_blocks:
+            raw = clean_text(shape.text)
+            cleaned = raw.replace('‹#›', '').strip()
+            if cleaned and not re.match(r'^\d{1,3}$', cleaned):
+                text_blocks.append(cleaned)
+                
+    if not text_blocks or is_title_slide(text_blocks):
         return None
-    
-    # Check if this is a title slide
-    if is_title_slide(text_blocks):
-        return None
-    
-    # Strategy: combine all text blocks, then parse lines
-    # Some slides have everything in 1 block, some in separate blocks
+        
     all_lines = []
-    for block in text_blocks:
-        lines = [l.strip() for l in block.split('\n') if l.strip()]
-        all_lines.extend(lines)
-    
+    for b in text_blocks:
+        for l in b.split('\n'):
+            l_str = l.strip()
+            if l_str:
+                all_lines.append(l_str)
+                
     if not all_lines:
         return None
+        
+    # Find boundary for Vietnamese meaning
+    meaning_idx = -1
+    for i, line in enumerate(all_lines):
+        if any(line.upper().startswith(kw) for kw in TITLE_KEYWORDS) and len(line) < 30:
+            continue
+        if has_vietnamese(line):
+            if line.lower().startswith(('ex:', 'example:')):
+                continue
+            if line.startswith('(') and line.endswith(')') and len(line) > 25:
+                continue
+            meaning_idx = i
+            break
+            
+    if meaning_idx == -1:
+        return None
+        
+    pre_meaning = [l for l in all_lines[:meaning_idx] if not any(l.upper().startswith(kw) for kw in TITLE_KEYWORDS)]
+    post_meaning = all_lines[meaning_idx:]
     
-    word = ''
-    pos = ''
-    pronunciation = ''
-    meaning = ''
+    if not pre_meaning:
+        return None
+        
+    # Meaning & Example
+    meaning = post_meaning[0]
     example_en = ''
     example_vi = ''
     
-    # ===== PASS 1: Find the word line (contains IPA or numbered entry) =====
-    word_line_idx = -1
-    
-    for i, line in enumerate(all_lines):
-        # Check for numbered word: "1. cash (n)" or "1. consider (v) /kənˈsɪdər/"
-        num_match = re.match(r'^(\d+)\.\s*(.+)', line)
-        if num_match:
-            word_line_idx = i
-            word_part = num_match.group(2).strip()
-            # Extract IPA if on same line
-            if IPA_PATTERN.search(word_part):
-                pronunciation = extract_ipa(word_part)
-                word_part = IPA_PATTERN.sub('', word_part).strip()
-            # Extract part of speech
-            pos_match = re.search(r'\(([nvadj]+p?)\)', word_part)
-            if not pos_match:
-                pos_match = re.search(r'\(([a-z]+)\)', word_part)
-            if pos_match:
-                candidate = pos_match.group(1)
-                if candidate in ['n', 'v', 'a', 'adj', 'adv', 'np', 'phr']:
-                    pos = candidate
-                    word_part = word_part[:pos_match.start()].strip()
-                elif len(candidate) <= 4:
-                    pos = candidate
-                    word_part = word_part[:pos_match.start()].strip()
-            # Clean remaining word
-            word = re.sub(r'\s+', ' ', word_part).strip()
-            # Remove trailing special chars
-            word = word.rstrip(' ,;:')
+    if 'Ex:' in meaning or 'ex:' in meaning:
+        parts = re.split(r'\n*[Ee]x:\s*', meaning, maxsplit=1)
+        meaning = parts[0].strip()
+        if len(parts) > 1:
+            example_en, example_vi = split_example(parts[1].strip())
+            
+    for l in post_meaning[1:]:
+        if l.lower().startswith(('ex:', 'example:')):
+            ex_content = re.sub(r'^(ex|example):\s*', '', l, flags=re.IGNORECASE).strip()
+            example_en, example_vi = split_example(ex_content)
             break
+        elif has_vietnamese(l) and l.startswith('(') and not example_vi:
+            example_vi = l.strip('()')
+        elif not has_vietnamese(l) and len(l) > 10 and not example_en:
+            example_en, example_vi = split_example(l)
+            
+    # Part of speech
+    pos = ''
+    full_pre_text = ' '.join(pre_meaning)
+    pos_matches = re.findall(r'\(([a-zA-Z,\s]+)\)', full_pre_text)
+    for p in pos_matches:
+        p_clean = p.strip().lower()
+        if p_clean in ['n', 'v', 'a', 'adj', 'adv', 'np', 'phr', 'phrasal verb', 'v,n', 'n,v']:
+            pos = p_clean
+            break
+
+    word_details = []
+    cleaned_lines = []
+    for l in pre_meaning:
+        l_no_num = re.sub(r'^\d+[\.\t\s]+', '', l).strip()
+        if l_no_num and not re.match(r'^\([a-zA-Z,\s]+\)$', l_no_num):
+            cleaned_lines.append(l_no_num)
+            
+    lines_with_ipa = []
+    for l in cleaned_lines:
+        ipas = extract_true_ipas(l)
+        if ipas:
+            w_text = l
+            for ipa in ipas:
+                w_text = w_text.replace(ipa, ' ')
+            w_text = clean_word(w_text)
+            if w_text:
+                lines_with_ipa.append((w_text, ipas))
+                
+    if len(lines_with_ipa) >= 2:
+        for w_text, ipas in lines_with_ipa:
+            if '=' in w_text:
+                for sub_w in w_text.split('='):
+                    sw = clean_word(sub_w)
+                    if sw:
+                        word_details.append({'word': sw, 'ipa': ' '.join(ipas)})
+            elif '/' in w_text and not ('http' in w_text):
+                for sub_w in w_text.split('/'):
+                    sw = clean_word(sub_w)
+                    if sw:
+                        word_details.append({'word': sw, 'ipa': ' '.join(ipas)})
+            else:
+                sw = clean_word(w_text)
+                if sw:
+                    word_details.append({'word': sw, 'ipa': ' '.join(ipas)})
+    else:
+        all_ipas = []
+        for l in pre_meaning:
+            all_ipas.extend(extract_true_ipas(l))
+            
+        text_for_words = full_pre_text
+        for ipa in all_ipas:
+            text_for_words = text_for_words.replace(ipa, ' ')
+            
+        text_for_words = re.sub(r'^\s*\d+[\.\t\s]+', '', text_for_words)
+        text_for_words = re.sub(r'\([a-zA-Z,\s]+\)', '', text_for_words)
+        colloc_match = re.search(r'\([a-zA-Z\s,]+\)', text_for_words)
+        if colloc_match:
+            text_for_words = text_for_words[:colloc_match.start()] + text_for_words[colloc_match.end():]
+            
+        text_for_words = text_for_words.strip()
         
-        # Non-numbered but has IPA: "paint /peɪnt/" or "fishing /ˈfɪʃɪŋ/"
-        if IPA_PATTERN.search(line) and not has_vietnamese(line):
-            word_line_idx = i
-            pronunciation = extract_ipa(line)
-            word_part = IPA_PATTERN.sub('', line).strip()
-            # Extract POS
-            pos_match = re.search(r'\(([nvadj]+p?)\)', word_part)
-            if pos_match:
-                pos = pos_match.group(1)
-                word_part = word_part[:pos_match.start()].strip()
-            word = re.sub(r'\s+', ' ', word_part).strip().rstrip(' ,;:')
-            break
-    
-    # If no word found yet, try the first non-Vietnamese line
-    if not word and all_lines:
-        for i, line in enumerate(all_lines):
-            if not has_vietnamese(line) and not line.upper().startswith(tuple(kw.upper() for kw in TITLE_KEYWORDS)):
-                word_line_idx = i
-                if IPA_PATTERN.search(line):
-                    pronunciation = extract_ipa(line)
-                    line = IPA_PATTERN.sub('', line).strip()
-                pos_match = re.search(r'\(([nvadj]+p?)\)', line)
-                if pos_match:
-                    pos = pos_match.group(1)
-                    line = line[:pos_match.start()].strip()
-                word = line.strip().rstrip(' ,;:')
-                break
-    
-    if not word:
+        if '=' in text_for_words:
+            parts = [clean_word(p) for p in text_for_words.split('=') if clean_word(p)]
+            for idx, p in enumerate(parts):
+                ipa = all_ipas[idx] if idx < len(all_ipas) else (all_ipas[0] if all_ipas else '')
+                word_details.append({'word': p, 'ipa': ipa})
+        elif '><' in text_for_words:
+            parts = [clean_word(p) for p in text_for_words.split('><') if clean_word(p)]
+            for idx, p in enumerate(parts):
+                ipa = all_ipas[idx] if idx < len(all_ipas) else (all_ipas[0] if all_ipas else '')
+                word_details.append({'word': p, 'ipa': ipa})
+        elif '/' in text_for_words:
+            parts = [clean_word(p) for p in text_for_words.split('/') if clean_word(p)]
+            if len(parts) >= 2 and all(len(p) > 1 for p in parts):
+                for idx, p in enumerate(parts):
+                    ipa = all_ipas[idx] if idx < len(all_ipas) else (all_ipas[0] if all_ipas else '')
+                    word_details.append({'word': p, 'ipa': ipa})
+            else:
+                w = clean_word(text_for_words)
+                if w:
+                    word_details.append({'word': w, 'ipa': ' '.join(all_ipas)})
+        else:
+            w = clean_word(text_for_words)
+            if w:
+                word_details.append({'word': w, 'ipa': ' '.join(all_ipas)})
+
+    if not word_details:
         return None
+        
+    all_words = [wd['word'] for wd in word_details]
     
-    # ===== PASS 2: Find IPA if not already found =====
-    if not pronunciation:
-        for i, line in enumerate(all_lines):
-            if i == word_line_idx:
-                continue
-            ipa = extract_ipa(line)
-            if ipa:
-                pronunciation = ipa
-                break
+    if '><' in full_pre_text:
+        display_word = ' >< '.join(all_words)
+    elif len(all_words) > 1:
+        display_word = ' = '.join(all_words)
+    else:
+        display_word = all_words[0]
+        
+    all_ipas_clean = []
+    for wd in word_details:
+        if wd['ipa'] and wd['ipa'] not in all_ipas_clean:
+            all_ipas_clean.append(wd['ipa'])
+    display_ipa = ' • '.join(all_ipas_clean) if all_ipas_clean else ''
     
-    # ===== PASS 3: Find meaning (Vietnamese text) =====
-    for i, line in enumerate(all_lines):
-        if i == word_line_idx:
-            continue
-        if has_vietnamese(line) and not line.lower().startswith('ex:'):
-            # Check it's not an example translation in parentheses
-            if not re.match(r'^\(.*\)$', line.strip()):
-                meaning = line.strip()
-                # Remove "Ex:" part if meaning and example are combined
-                if 'Ex:' in meaning or 'ex:' in meaning:
-                    parts = re.split(r'\n*[Ee]x:\s*', meaning, maxsplit=1)
-                    meaning = parts[0].strip()
-                    if len(parts) > 1:
-                        example_en, example_vi = split_example(parts[1].strip())
-                break
-    
-    # ===== PASS 4: Find example =====
-    if not example_en:
-        for i, line in enumerate(all_lines):
-            if i == word_line_idx:
-                continue
-            # Explicit "Ex:" prefix
-            if line.lower().startswith('ex:'):
-                ex_text = line[3:].strip()
-                example_en, example_vi = split_example(ex_text)
-                break
-            # English sentence (no Vietnamese, not the word line, not IPA, not meaning)
-            if (not has_vietnamese(line) and i != word_line_idx 
-                and not IPA_PATTERN.search(line) and line != meaning
-                and len(line) > 10 and not line.startswith('(')):
-                # Likely an example sentence
-                example_en, example_vi = split_example(line)
-                break
-    
-    # Also look for Vietnamese translation of example in remaining lines
-    if example_en and not example_vi:
-        for i, line in enumerate(all_lines):
-            if i == word_line_idx:
-                continue
-            if has_vietnamese(line) and line != meaning and line.startswith('('):
-                example_vi = line.strip('()')
-                break
-    
-    # ===== Save best image =====
     image_path = None
-    if images:
-        best_img = max(images, key=lambda s: s.width * s.height if hasattr(s, 'width') else 0)
-        image_path = save_image(best_img, lesson_id, word_index)
-    
-    # Clean up word - remove parenthetical usage notes like "(painting a house, a wall)"
-    word = re.sub(r'\((?!n\b|v\b|adj\b|adv\b|np\b|a\b)[^)]*\)\s*$', '', word).strip()
-    # Remove leading "To " if it's just an infinitive marker added to examples
-    # But keep it if it's the actual word form
-    
+    if image_shapes:
+        try:
+            img = image_shapes[0].image
+            ext = img.content_type.split('/')[-1]
+            if ext == 'jpeg': ext = 'jpg'
+            fname = "b%02d_w%02d.%s" % (lesson_id, word_idx, ext)
+            fpath = os.path.join(IMAGES_DIR, fname)
+            with open(fpath, 'wb') as f:
+                f.write(img.blob)
+            image_path = "images/%s" % fname
+        except Exception:
+            pass
+
     return {
-        'id': 'b%02d_w%02d' % (lesson_id, word_index),
-        'word': word,
+        'id': f"b{lesson_id:02d}_w{word_idx:02d}",
+        'word': display_word,
+        'allWords': all_words,
+        'wordDetails': word_details,
+        'pronunciation': display_ipa,
         'partOfSpeech': pos,
-        'pronunciation': pronunciation,
         'meaning': meaning,
         'example': example_en,
         'exampleVi': example_vi,
@@ -270,92 +305,56 @@ def parse_slide_unified(slide, lesson_id, word_index):
     }
 
 
-def process_pptx(filepath):
-    filename = os.path.basename(filepath)
-    lesson_id = extract_lesson_number(filename)
-    
-    print("\n  Processing: %s (Lesson %d)" % (filename, lesson_id))
-    
-    prs = Presentation(filepath)
-    words = []
-    word_index = 0
-    
-    for slide in prs.slides:
-        word_index += 1
-        result = parse_slide_unified(slide, lesson_id, word_index)
-        if result:
-            words.append(result)
-        else:
-            word_index -= 1
-    
-    print("    Extracted %d words" % len(words))
-    
-    # Show first word as sample
-    if words:
-        w = words[0]
-        status = []
-        if not w['pronunciation']:
-            status.append('no-ipa')
-        if not w['meaning']:
-            status.append('no-meaning')
-        status_str = ' [%s]' % ', '.join(status) if status else ''
-        print("    Sample: %s %s %s%s" % (w['word'][:20], w['pronunciation'][:20], w['meaning'][:20], status_str))
-    
-    return {
-        'id': lesson_id,
-        'name': 'Bài %d' % lesson_id,
-        'fileName': filename,
-        'wordCount': len(words),
-        'words': words
-    }
-
-
 def main():
     ensure_dirs()
-    
-    print("=" * 60)
-    print("  VOCAB EXTRACTOR - PPTX to JSON + Images")
-    print("=" * 60)
-    
-    pptx_files = sorted(
-        [f for f in os.listdir(PPTX_DIR) if f.endswith('.pptx')],
-        key=extract_lesson_number
-    )
-    
-    print("\n  Found %d PPTX files in %s" % (len(pptx_files), PPTX_DIR))
+    pptx_files = sorted(glob.glob(os.path.join(PPTX_DIR, '*.pptx')))
+    print(f"Found {len(pptx_files)} PPTX files.")
     
     lessons = []
     total_words = 0
+    multi_count = 0
     
-    for fname in pptx_files:
-        filepath = os.path.join(PPTX_DIR, fname)
-        try:
-            lesson = process_pptx(filepath)
-            if lesson['words']:
-                lessons.append(lesson)
-                total_words += len(lesson['words'])
-        except Exception as e:
-            print("    ERROR processing %s: %s" % (fname, e))
-            import traceback
-            traceback.print_exc()
-    
+    for fpath in pptx_files:
+        filename = os.path.basename(fpath)
+        lesson_id = extract_lesson_number(filename)
+        print(f"\nProcessing: {filename} (Lesson {lesson_id})...")
+        
+        prs = Presentation(fpath)
+        words = []
+        word_idx = 1
+        
+        for slide in prs.slides:
+            parsed = parse_slide_thorough(slide, lesson_id, word_idx)
+            if parsed:
+                words.append(parsed)
+                if len(parsed['allWords']) > 1:
+                    multi_count += 1
+                word_idx += 1
+                
+        print(f"  → Extracted {len(words)} words.")
+        total_words += len(words)
+        
+        lessons.append({
+            'id': lesson_id,
+            'name': f"Bài {lesson_id}",
+            'filename': filename,
+            'wordCount': len(words),
+            'words': words
+        })
+        
     lessons.sort(key=lambda x: x['id'])
     
-    output_data = {
-        'totalLessons': len(lessons),
-        'totalWords': total_words,
-        'lessons': lessons
-    }
-    
-    json_path = os.path.join(DATA_DIR, 'vocab.json')
-    with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=2)
-    
-    print("\n" + "=" * 60)
-    print("  DONE!")
-    print("  JSON: %s (%d words in %d lessons)" % (json_path, total_words, len(lessons)))
-    print("  Images: %s (%d files)" % (IMAGES_DIR, len(os.listdir(IMAGES_DIR))))
-    print("=" * 60)
+    output_path = os.path.join(DATA_DIR, 'vocab.json')
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump({'lessons': lessons}, f, ensure_ascii=False, indent=2)
+        
+    print(f"\n" + "=" * 50)
+    print(f"SUCCESS!")
+    print(f"Total Lessons: {len(lessons)}")
+    print(f"Total Entries: {total_words}")
+    print(f"Total Multi-word (Synonym/Antonym) Entries: {multi_count}")
+    print(f"Saved to: {output_path}")
+    print("=" * 50)
 
 
 if __name__ == '__main__':

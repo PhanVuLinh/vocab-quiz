@@ -689,6 +689,57 @@ body::before {
   font-size: 32px;
   font-weight: 800;
   text-align: center;
+  max-width: 100%;
+}
+
+.fc-word-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.fc-word-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 10px;
+}
+
+.fc-syn-item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  background: var(--bg-glass);
+  padding: 6px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition);
+}
+
+.fc-syn-item:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-1);
+}
+
+.fc-syn-w {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.fc-syn-ipa {
+  font-size: 13px;
+  color: var(--accent-1);
+  font-weight: 500;
+}
+
+.fc-syn-sep {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--accent-2);
 }
 
 .fc-pronunciation {

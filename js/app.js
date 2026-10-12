@@ -321,8 +321,26 @@ function renderFlashcard() {
     imgContainer.style.display = 'none';
   }
   
-  document.getElementById('fc-word').textContent = word.word;
-  document.getElementById('fc-pronunciation').textContent = word.pronunciation || '';
+  const wordEl = document.getElementById('fc-word');
+  const pronEl = document.getElementById('fc-pronunciation');
+  
+  if (word.allWords && word.allWords.length > 1) {
+    const isAntonym = word.word.includes('><');
+    const sep = isAntonym ? ' >< ' : ' = ';
+    
+    if (word.wordDetails && word.wordDetails.length > 1) {
+      wordEl.innerHTML = `<div class="fc-word-group"><div class="fc-word-items">${word.wordDetails.map(wd => 
+        `<span class="fc-syn-item"><span class="fc-syn-w">${escapeHtml(wd.word)}</span>${wd.ipa ? `<span class="fc-syn-ipa">${escapeHtml(wd.ipa)}</span>` : ''}</span>`
+      ).join(`<span class="fc-syn-sep">${escapeHtml(sep)}</span>`)}</div></div>`;
+      pronEl.textContent = word.partOfSpeech ? `(${word.partOfSpeech})` : '';
+    } else {
+      wordEl.textContent = word.word;
+      pronEl.textContent = (word.pronunciation ? word.pronunciation + ' ' : '') + (word.partOfSpeech ? `(${word.partOfSpeech})` : '');
+    }
+  } else {
+    wordEl.textContent = word.word;
+    pronEl.textContent = (word.pronunciation ? word.pronunciation + ' ' : '') + (word.partOfSpeech ? `(${word.partOfSpeech})` : '');
+  }
   
   // Back side
   document.getElementById('fc-meaning').textContent = word.meaning || '—';
@@ -357,7 +375,12 @@ function prevCard() {
 
 function speakWord() {
   const word = fcWords[fcIndex];
-  if (word) speak(word.word);
+  if (word) {
+    const text = (word.allWords && word.allWords.length > 1)
+      ? word.allWords.join(', ')
+      : word.word;
+    speak(text);
+  }
 }
 
 function toggleStar() {
@@ -454,7 +477,8 @@ function renderQuizQuestion() {
     correctAnswer = word.word;
     options = generateOptions(correctAnswer, allWords.map(w => w.word), 4);
     // Auto speak
-    setTimeout(() => speak(word.word), 500);
+    const textToSpeak = (word.allWords && word.allWords.length > 1) ? word.allWords.join(', ') : word.word;
+    setTimeout(() => speak(textToSpeak), 500);
   }
   
   // Render options
@@ -462,6 +486,14 @@ function renderQuizQuestion() {
   optionsEl.innerHTML = options.map((opt, i) => 
     `<button class="quiz-option" data-index="${i}" data-value="${escapeHtml(opt)}" onclick="selectQuizOption(this)">${escapeHtml(opt)}</button>`
   ).join('');
+}
+
+function speakQuizWord() {
+  const word = quizWords[quizIndex];
+  if (word) {
+    const textToSpeak = (word.allWords && word.allWords.length > 1) ? word.allWords.join(', ') : word.word;
+    speak(textToSpeak);
+  }
 }
 
 function generateOptions(correct, pool, count) {
@@ -626,27 +658,52 @@ function checkTyping() {
   
   const word = typingWords[typingIndex];
   const input = document.getElementById('typing-input');
-  const userAnswer = input.value.trim().toLowerCase();
-  const correctAnswer = word.word.toLowerCase();
+  const userAns = input.value.trim().toLowerCase();
   
-  // Check for exact match or close match (Levenshtein distance ≤ 1 for words > 4 chars)
-  const isCorrect = userAnswer === correctAnswer;
-  const isClose = !isCorrect && levenshtein(userAnswer, correctAnswer) <= 1 && correctAnswer.length > 4;
+  // Accept user answer if it matches ANY word in allWords OR the combined word string
+  const validAnswers = (word.allWords && word.allWords.length > 0)
+    ? [...word.allWords.map(w => w.toLowerCase()), word.word.toLowerCase()]
+    : [word.word.toLowerCase()];
+    
+  let matchedWord = null;
+  let isClose = false;
+  let closeTarget = null;
   
+  for (const ans of validAnswers) {
+    if (userAns === ans) {
+      matchedWord = ans;
+      break;
+    }
+    if (!isClose && ans.length > 4 && levenshtein(userAns, ans) <= 1) {
+      isClose = true;
+      closeTarget = ans;
+    }
+  }
+  
+  const isCorrect = matchedWord !== null;
   const feedback = document.getElementById('typing-feedback');
   feedback.classList.remove('hidden', 'correct', 'wrong');
   
   if (isCorrect) {
     input.classList.add('correct');
     feedback.classList.add('correct');
-    feedback.textContent = '✅ Chính xác!';
+    if (word.allWords && word.allWords.length > 1) {
+      const others = word.allWords.filter(w => w.toLowerCase() !== matchedWord);
+      if (others.length > 0) {
+        feedback.innerHTML = `✅ Chính xác! Các từ đồng nghĩa khác: <strong>${escapeHtml(others.join(', '))}</strong>`;
+      } else {
+        feedback.textContent = '✅ Chính xác!';
+      }
+    } else {
+      feedback.textContent = '✅ Chính xác!';
+    }
     typingScore++;
     document.getElementById('typing-score').textContent = typingScore;
     recordWordResult(word.id, true);
   } else if (isClose) {
     input.classList.add('correct');
     feedback.classList.add('correct');
-    feedback.innerHTML = `✅ Gần đúng! Đáp án chính xác: <strong>${escapeHtml(word.word)}</strong>`;
+    feedback.innerHTML = `✅ Gần đúng! Đáp án: <strong>${escapeHtml(word.word)}</strong>`;
     typingScore++;
     document.getElementById('typing-score').textContent = typingScore;
     recordWordResult(word.id, true);
