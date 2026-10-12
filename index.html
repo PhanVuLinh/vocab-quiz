@@ -107,6 +107,15 @@
           <div class="mode-desc">Nghe phát âm, chọn đáp án</div>
         </button>
       </div>
+
+      <!-- Vocabulary List in Lesson -->
+      <div class="lesson-vocab-section">
+        <div class="lesson-vocab-header">
+          <h3 class="lesson-vocab-title">📋 Danh Sách Từ Vựng Trong Bài</h3>
+          <span class="lesson-vocab-badge" id="lesson-vocab-badge"></span>
+        </div>
+        <div class="lesson-vocab-list" id="lesson-vocab-list"></div>
+      </div>
     </section>
 
     <!-- Flashcard Page -->
@@ -136,6 +145,7 @@
               <div class="fc-image" id="fc-image"></div>
               <div class="fc-word" id="fc-word"></div>
               <div class="fc-pronunciation" id="fc-pronunciation"></div>
+              <div class="fc-synonyms-container" id="fc-synonyms-container"></div>
               <button class="btn-speak" onclick="event.stopPropagation(); speakWord()" title="Phát âm">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
               </button>
@@ -143,6 +153,7 @@
             </div>
             <div class="flashcard-back">
               <div class="fc-meaning" id="fc-meaning"></div>
+              <div class="fc-back-synonyms" id="fc-back-synonyms"></div>
               <div class="fc-example" id="fc-example"></div>
               <div class="fc-example-vi" id="fc-example-vi"></div>
               <div class="fc-hint">Nhấn để xem từ</div>

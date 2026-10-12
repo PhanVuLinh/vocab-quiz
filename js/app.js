@@ -287,7 +287,66 @@ function renderLesson(lessonId) {
   document.getElementById('lesson-title').textContent = lesson.name;
   document.getElementById('lesson-word-count').textContent = lesson.wordCount + ' từ';
   
+  renderLessonVocabList(lesson.words);
   showPage('page-lesson');
+}
+
+function renderLessonVocabList(words) {
+  const badgeEl = document.getElementById('lesson-vocab-badge');
+  if (badgeEl) badgeEl.textContent = `${words.length} từ vựng`;
+  
+  const listEl = document.getElementById('lesson-vocab-list');
+  if (!listEl) return;
+  
+  listEl.innerHTML = words.map((w, idx) => {
+    let synonymsHtml = '';
+    if (w.synonyms && w.synonyms.length > 0) {
+      synonymsHtml += `
+        <div class="vocab-card-synonyms">
+          <span class="fc-syn-label">🔗 Đồng nghĩa:</span>
+          ${w.synonyms.map(s => `<span class="fc-syn-tag">${escapeHtml(s)}</span>`).join('')}
+        </div>
+      `;
+    }
+    if (w.antonyms && w.antonyms.length > 0) {
+      synonymsHtml += `
+        <div class="vocab-card-synonyms">
+          <span class="fc-ant-label">⚡ Trái nghĩa:</span>
+          ${w.antonyms.map(a => `<span class="fc-ant-tag">${escapeHtml(a)}</span>`).join('')}
+        </div>
+      `;
+    }
+    
+    let exampleHtml = '';
+    if (w.example) {
+      const trans = w.exampleVi ? ` (${escapeHtml(w.exampleVi)})` : '';
+      exampleHtml = `<div class="vocab-card-example">${escapeHtml(w.example)}${trans}</div>`;
+    }
+    
+    return `
+      <div class="lesson-vocab-card">
+        <div class="vocab-card-left">
+          <div class="vocab-card-top">
+            <span class="vocab-card-idx">#${idx + 1}</span>
+            <span class="vocab-card-word">${escapeHtml(w.word)}</span>
+            ${w.pronunciation ? `<span class="vocab-card-ipa">${escapeHtml(w.pronunciation)}</span>` : ''}
+            ${w.pos ? `<span class="vocab-card-pos">${escapeHtml(w.pos)}</span>` : ''}
+            <button class="vocab-card-speak-btn" onclick="speak('${escapeHtml(w.word).replace(/'/g, "\\'")}')" title="Phát âm">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+            </button>
+          </div>
+          ${synonymsHtml}
+          <div class="vocab-card-meaning">${escapeHtml(w.meaning || '—')}</div>
+          ${exampleHtml}
+        </div>
+        ${w.image ? `
+          <div class="vocab-card-right">
+            <img src="${w.image}" alt="${escapeHtml(w.word)}" class="vocab-card-thumb" onerror="this.parentElement.style.display='none'">
+          </div>
+        ` : ''}
+      </div>
+    `;
+  }).join('');
 }
 
 // ===== FLASHCARD =====
@@ -314,7 +373,7 @@ function renderFlashcard() {
   // Front side
   const imgContainer = document.getElementById('fc-image');
   if (word.image) {
-    imgContainer.innerHTML = `<img src="${word.image}" alt="${word.word}" onerror="this.parentElement.style.display='none'">`;
+    imgContainer.innerHTML = `<img src="${word.image}" alt="${escapeHtml(word.word)}" onerror="this.parentElement.style.display='none'">`;
     imgContainer.style.display = 'block';
   } else {
     imgContainer.innerHTML = '';
@@ -323,29 +382,45 @@ function renderFlashcard() {
   
   const wordEl = document.getElementById('fc-word');
   const pronEl = document.getElementById('fc-pronunciation');
+  const synContainer = document.getElementById('fc-synonyms-container');
   
-  if (word.allWords && word.allWords.length > 1) {
-    const isAntonym = word.word.includes('><');
-    const sep = isAntonym ? ' >< ' : ' = ';
-    
-    if (word.wordDetails && word.wordDetails.length > 1) {
-      wordEl.innerHTML = `<div class="fc-word-group"><div class="fc-word-items">${word.wordDetails.map(wd => 
-        `<span class="fc-syn-item"><span class="fc-syn-w">${escapeHtml(wd.word)}</span>${wd.ipa ? `<span class="fc-syn-ipa">${escapeHtml(wd.ipa)}</span>` : ''}</span>`
-      ).join(`<span class="fc-syn-sep">${escapeHtml(sep)}</span>`)}</div></div>`;
-      pronEl.textContent = word.partOfSpeech ? `(${word.partOfSpeech})` : '';
-    } else {
-      wordEl.textContent = word.word;
-      pronEl.textContent = (word.pronunciation ? word.pronunciation + ' ' : '') + (word.partOfSpeech ? `(${word.partOfSpeech})` : '');
-    }
-  } else {
-    wordEl.textContent = word.word;
-    pronEl.textContent = (word.pronunciation ? word.pronunciation + ' ' : '') + (word.partOfSpeech ? `(${word.partOfSpeech})` : '');
+  wordEl.textContent = word.word;
+  
+  let pronText = '';
+  if (word.pronunciation) pronText += word.pronunciation;
+  if (word.pos) pronText += (pronText ? ' ' : '') + `(${word.pos})`;
+  pronEl.textContent = pronText;
+  
+  // Synonyms & Antonyms Badges
+  let synHtml = '';
+  if (word.synonyms && word.synonyms.length > 0) {
+    synHtml += `
+      <div class="fc-synonyms-row">
+        <span class="fc-syn-label">🔗 Đồng nghĩa:</span>
+        ${word.synonyms.map(s => `<span class="fc-syn-tag">${escapeHtml(s)}</span>`).join('')}
+      </div>
+    `;
+  }
+  if (word.antonyms && word.antonyms.length > 0) {
+    synHtml += `
+      <div class="fc-antonyms-row">
+        <span class="fc-ant-label">⚡ Trái nghĩa:</span>
+        ${word.antonyms.map(a => `<span class="fc-ant-tag">${escapeHtml(a)}</span>`).join('')}
+      </div>
+    `;
+  }
+  if (synContainer) {
+    synContainer.innerHTML = synHtml;
   }
   
   // Back side
   document.getElementById('fc-meaning').textContent = word.meaning || '—';
+  const backSyn = document.getElementById('fc-back-synonyms');
+  if (backSyn) {
+    backSyn.innerHTML = synHtml;
+  }
   document.getElementById('fc-example').textContent = word.example || '';
-  document.getElementById('fc-example-vi').textContent = word.exampleVi ? `(${word.exampleVi})` : '';
+  document.getElementById('fc-example-vi').textContent = word.exampleVi || '';
   
   // Star state
   updateStarButton();
@@ -376,10 +451,7 @@ function prevCard() {
 function speakWord() {
   const word = fcWords[fcIndex];
   if (word) {
-    const text = (word.allWords && word.allWords.length > 1)
-      ? word.allWords.join(', ')
-      : word.word;
-    speak(text);
+    speak(word.word);
   }
 }
 
@@ -462,7 +534,11 @@ function renderQuizQuestion() {
   let correctAnswer, options;
   
   if (quizMode === 'en-vi') {
-    promptEl.textContent = word.word;
+    let promptHtml = `<span class="quiz-headword">${escapeHtml(word.word)}</span>`;
+    if (word.synonyms && word.synonyms.length > 0) {
+      promptHtml += `<span class="quiz-syn-hint">(= ${escapeHtml(word.synonyms.join(' = '))})</span>`;
+    }
+    promptEl.innerHTML = promptHtml;
     speakBtn.style.display = 'none';
     correctAnswer = word.meaning || '—';
     options = generateOptions(correctAnswer, allWords.map(w => w.meaning).filter(m => m), 4);
@@ -477,8 +553,7 @@ function renderQuizQuestion() {
     correctAnswer = word.word;
     options = generateOptions(correctAnswer, allWords.map(w => w.word), 4);
     // Auto speak
-    const textToSpeak = (word.allWords && word.allWords.length > 1) ? word.allWords.join(', ') : word.word;
-    setTimeout(() => speak(textToSpeak), 500);
+    setTimeout(() => speak(word.word), 500);
   }
   
   // Render options
@@ -491,8 +566,7 @@ function renderQuizQuestion() {
 function speakQuizWord() {
   const word = quizWords[quizIndex];
   if (word) {
-    const textToSpeak = (word.allWords && word.allWords.length > 1) ? word.allWords.join(', ') : word.word;
-    speak(textToSpeak);
+    speak(word.word);
   }
 }
 
@@ -550,12 +624,6 @@ function selectQuizOption(btn) {
   
   // Show next button
   document.getElementById('quiz-next-btn').classList.remove('hidden');
-}
-
-function speakQuizWord() {
-  if (quizWords[quizIndex]) {
-    speak(quizWords[quizIndex].word);
-  }
 }
 
 function nextQuestion() {
@@ -660,11 +728,10 @@ function checkTyping() {
   const input = document.getElementById('typing-input');
   const userAns = input.value.trim().toLowerCase();
   
-  // Accept user answer if it matches ANY word in allWords OR the combined word string
-  const validAnswers = (word.allWords && word.allWords.length > 0)
-    ? [...word.allWords.map(w => w.toLowerCase()), word.word.toLowerCase()]
-    : [word.word.toLowerCase()];
-    
+  const headword = (word.word || '').toLowerCase().trim();
+  const validSynonyms = (word.synonyms || []).map(s => s.toLowerCase().trim()).filter(Boolean);
+  const validAnswers = [headword, ...validSynonyms];
+  
   let matchedWord = null;
   let isClose = false;
   let closeTarget = null;
@@ -687,13 +754,10 @@ function checkTyping() {
   if (isCorrect) {
     input.classList.add('correct');
     feedback.classList.add('correct');
-    if (word.allWords && word.allWords.length > 1) {
-      const others = word.allWords.filter(w => w.toLowerCase() !== matchedWord);
-      if (others.length > 0) {
-        feedback.innerHTML = `✅ Chính xác! Các từ đồng nghĩa khác: <strong>${escapeHtml(others.join(', '))}</strong>`;
-      } else {
-        feedback.textContent = '✅ Chính xác!';
-      }
+    if (matchedWord !== headword) {
+      feedback.innerHTML = `✅ Chính xác! Bạn đã dùng từ đồng nghĩa: <strong>${escapeHtml(matchedWord)}</strong>. (Từ chính: <strong>${escapeHtml(word.word)}</strong>)`;
+    } else if (validSynonyms.length > 0) {
+      feedback.innerHTML = `✅ Chính xác! Từ đồng nghĩa: <strong>${escapeHtml(word.synonyms.join(', '))}</strong>`;
     } else {
       feedback.textContent = '✅ Chính xác!';
     }
@@ -710,7 +774,11 @@ function checkTyping() {
   } else {
     input.classList.add('wrong');
     feedback.classList.add('wrong');
-    feedback.innerHTML = `❌ Sai! Đáp án đúng: <strong>${escapeHtml(word.word)}</strong>`;
+    let extra = '';
+    if (validSynonyms.length > 0) {
+      extra = ` (đồng nghĩa: ${escapeHtml(word.synonyms.join(', '))})`;
+    }
+    feedback.innerHTML = `❌ Sai! Đáp án đúng: <strong>${escapeHtml(word.word)}</strong>${extra}`;
     typingWrongWords.push(word);
     recordWordResult(word.id, false);
   }
@@ -921,7 +989,7 @@ async function init() {
   updateStarredBadge();
   
   try {
-    const response = await fetch('data/vocab.json');
+    const response = await fetch('data/vocab.json?v=' + Date.now());
     vocabData = await response.json();
     
     // Update hero subtitle dynamically
